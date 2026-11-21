@@ -3,7 +3,7 @@
 A single-file, offline build planner for Wizard101 gear. Pick your school and
 level, set a priority order, and it ranks every item and searches whole builds.
 
-**Live:** https://YOUR-USERNAME.github.io/YOUR-REPO/
+**Live:** https://Auggy-Bear.github.io/W101-Planner/
 
 ## What it does
 
@@ -31,8 +31,3 @@ tool and is not affiliated with or endorsed by KingsIsle or Wizard101 Central.
 - Sockets/gems and set bonuses are not modelled (no source data yet)
 - Pets are not modelled, so in-game totals can be higher than the planner's
 - Best viewed on desktop; the item table needs horizontal scrolling on phones
-
-## Deploying
-
-GitHub Pages: Settings -> Pages -> Deploy from a branch -> `main` / `(root)`.
-The site is served from `index.html` at the repository root.
