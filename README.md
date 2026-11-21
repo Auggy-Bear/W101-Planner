@@ -106,6 +106,7 @@ to their wiki page.
 - Sockets/gems, set bonuses and pets are not modelled, so in-game totals can be
   higher than the planner's.
 - Best viewed on desktop; the item table needs horizontal scrolling on phones.
+- This only covers to Level 180. Level 190 will be updated hopefully by year end.
 
 ## Data credits
 
