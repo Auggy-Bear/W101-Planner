@@ -1,0 +1,1563 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wizard101 Build Planner</title>
+<style>
+:root{
+  --hh:56px;
+  --bg:#0f1218; --panel:#171c26; --panel2:#1e2431; --line:#2b3446;
+  --text:#e7eaf0; --muted:#8d97aa; --accent:#7dd3a0; --accent2:#8ab4f8;
+  --warn:#f0b46b; --bad:#e07a7a;
+  --fire:#ff6b4a; --ice:#6bc6ff; --myth:#e8c95a; --storm:#b48cff;
+  --life:#6ee7a0; --death:#b9c1cc; --balance:#d9b38c; --shadow:#8b5cf6;
+}
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;min-height:100%}
+body{background:var(--bg);color:var(--text);font:13.5px/1.45 "Segoe UI",system-ui,-apple-system,sans-serif}
+header{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;padding:10px 16px;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+header h1{font-size:15px;margin:0 10px 2px 0;letter-spacing:.4px;font-weight:600}
+label.f{display:flex;flex-direction:column;gap:2px;font-size:10.5px;letter-spacing:.7px;color:var(--muted);text-transform:uppercase}
+select,input[type=range],input[type=number],button{font:inherit;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:5px 8px}
+input[type=number]{width:88px}
+button{cursor:pointer}
+button:hover{border-color:#3f4c66}
+button.primary{background:#1d3a2c;border-color:#2f6b4f;color:#bdf0d0}
+button.ghost{background:transparent}
+.spacer{flex:1}
+.page{display:flex;flex-direction:column;gap:14px;padding:14px}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:14px;align-items:start}
+@media(max-width:1150px){.wrap{grid-template-columns:1fr}.wrap>section:nth-child(2){order:-1}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.card h2{font-size:11px;letter-spacing:.9px;text-transform:uppercase;color:var(--muted);margin:0;padding:10px 12px;border-bottom:1px solid var(--line);font-weight:600}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
+.tabs button{padding:4px 10px;font-size:12px;border-radius:999px;background:transparent;border:1px solid var(--line)}
+.tabs button.on{background:#22304a;border-color:#3d5a8a;color:#cfe0ff}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;text-align:right;border-bottom:1px solid #202838;white-space:nowrap}
+th{font-size:10.5px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);position:sticky;top:0;background:var(--panel);z-index:2}
+td.l,th.l{text-align:left}
+tbody tr:hover{background:#1b2230}
+.scroll{max-height:calc(100vh - 220px);overflow:auto}
+.tier{font-weight:700;font-size:11px}
+.S{color:#7dd3a0}.A{color:#8ab4f8}.B{color:#c9b47a}.C{color:#a08fb8}.D{color:#7d8597}
+.name{white-space:normal;max-width:320px}
+.muted{color:var(--muted)}
+.ret{color:var(--warn);font-size:10.5px;margin-left:5px}
+.eq{border:1px solid #2f6b4f;background:#1d3a2c;color:#bdf0d0;border-radius:5px;padding:2px 7px;font-size:11px}
+.pop{display:none;position:fixed;top:calc(var(--hh) + 4px);right:250px;z-index:60;background:var(--panel);
+  border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-width:250px;
+  box-shadow:0 12px 34px #0009}
+.pop.on{display:block}
+.pophead{display:flex;justify-content:space-between;align-items:center;gap:14px;
+  margin-bottom:6px;font-size:10.5px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted)}
+.pophead button{padding:0 6px;font-size:10px}
+.srow{display:flex;align-items:center;gap:7px;font-size:12px;padding:2px 0}
+.srow .muted{margin-left:auto;font-size:10.5px}
+.src{color:var(--muted);font-size:10.5px}
+.drawer{display:none;padding:12px 16px;background:var(--panel);border-bottom:1px solid var(--line);
+  position:sticky;top:var(--hh);z-index:40;max-height:calc(100vh - var(--hh) - 8px);overflow:auto}
+.drawer.on{display:block}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.sec h3{font-size:10.5px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:0 0 8px;font-weight:600}
+.wrow{display:grid;grid-template-columns:92px 1fr 42px;gap:8px;align-items:center;font-size:12px;margin-bottom:4px}
+.prow{display:grid;grid-template-columns:14px 20px 1fr 20px 20px;gap:6px;align-items:center;font-size:12px;padding:3px 0;border-bottom:1px solid #202838;cursor:grab}
+.prow.dragging{opacity:.35}
+.prow.drop{outline:1px dashed var(--accent);outline-offset:-1px}
+.pghandle{color:var(--muted);font-size:12px;letter-spacing:-2px;cursor:grab}
+.pghandle:active{cursor:grabbing}
+.prow.off{opacity:.4}
+.prank{color:var(--muted);font-size:10px;text-align:right}
+.pname{display:flex;align-items:center;gap:5px}
+.pbtn{padding:0 3px;line-height:1.1;font-size:10px;background:transparent}
+.lock{display:flex;align-items:center;gap:3px;font-size:10px;color:var(--muted);white-space:nowrap}
+.ex{background:transparent;border:1px solid #5a3a3a;color:#c98a8a;border-radius:4px;padding:0 5px;font-size:10px}
+.wrow input[type=range]{width:100%;padding:0}
+.wval{text-align:right;color:var(--accent)}
+.frow{display:grid;grid-template-columns:1fr 92px;gap:8px;align-items:center;font-size:12px;margin-bottom:5px}
+.frow input{width:92px}
+.hint{color:var(--muted);font-size:11px;margin-top:6px;line-height:1.4}
+.slot{display:grid;grid-template-columns:62px minmax(0,1fr) auto auto;gap:8px;align-items:center;padding:5px 12px;border-bottom:1px solid #202838}
+.slotval{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.itemlink{color:var(--accent2);text-decoration:none}
+.itemlink:hover{text-decoration:underline}
+.fchk{display:flex;align-items:center;gap:7px;font-size:12px;padding:3px 0}
+.sev{color:#c9a0e0;font-size:10px;margin-left:5px;text-transform:uppercase;letter-spacing:.4px}
+.cardhead{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.cardhead h2{border-bottom:none;padding:10px 12px}
+.cardhead button{margin-right:12px}
+.deep{border-top:1px solid var(--line)}
+.deep summary{cursor:pointer;padding:8px 12px;font-size:11px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted)}
+.deep[open] summary{color:var(--text)}
+#deepbody{padding:0 12px 10px;font-size:11.5px}
+#deepbody table{width:100%}
+#deepbody td,#deepbody th{padding:3px 5px}
+.searchbar{padding:8px 12px;border-bottom:1px solid var(--line)}
+.searchbar input{width:100%;background:#0e1117;border:1px solid var(--line);border-radius:6px;padding:6px 9px;color:var(--text);font:inherit}
+.row-off{opacity:.4}
+.row-off:hover{background:transparent}
+tr.sep td{background:#151a24;color:var(--muted);font-size:11px;text-align:left;letter-spacing:.5px;padding:6px 10px}
+.slot b{font-size:10.5px;letter-spacing:.6px;text-transform:uppercase;color:var(--muted);font-weight:600}
+.slot select{width:100%;font-size:12px;padding:3px 6px}
+
+/* ---- character sheet ---- */
+.sheet{padding:10px 12px}
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:8px;margin-bottom:12px}
+.blocks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 16px}
+@media(max-width:1200px){.hero{grid-template-columns:repeat(4,minmax(0,1fr))}.blocks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.hero{grid-template-columns:repeat(2,minmax(0,1fr))}.blocks{grid-template-columns:1fr}}
+.h{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+.h span{display:block;font-size:10px;letter-spacing:.7px;text-transform:uppercase;color:var(--muted)}
+.h b{font-size:19px;color:var(--accent);font-variant-numeric:tabular-nums}
+.h small{display:block;font-size:10.5px;color:var(--muted)}
+.bar{height:5px;background:#0d1118;border-radius:3px;margin:4px 0 3px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#3f8f6a,#7dd3a0)}
+.bar.over i{background:linear-gradient(90deg,#a06060,#e07a7a)}
+.block{margin-bottom:8px}
+.block h3{font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--muted);margin:0 0 4px;font-weight:600}
+.block h3 em{font-style:normal;color:#5f6b80}
+.chips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px}
+.chip{background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:4px 8px;display:flex;align-items:center;gap:6px;font-size:11.5px;min-width:0}
+.chip .cname{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chip .v{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.chip.over{border-color:#7a3a3a}
+.chip.over .v{color:var(--bad)}
+.chip.sch-Fire{background:rgba(255,107,74,.16);border-color:rgba(255,107,74,.5)}
+.chip.sch-Ice{background:rgba(107,198,255,.16);border-color:rgba(107,198,255,.5)}
+.chip.sch-Myth{background:rgba(232,201,90,.16);border-color:rgba(232,201,90,.5)}
+.chip.sch-Storm{background:rgba(180,140,255,.16);border-color:rgba(180,140,255,.5)}
+.chip.sch-Life{background:rgba(110,231,160,.16);border-color:rgba(110,231,160,.5)}
+.chip.sch-Death{background:rgba(185,193,204,.16);border-color:rgba(185,193,204,.5)}
+.chip.sch-Balance{background:rgba(217,179,140,.16);border-color:rgba(217,179,140,.5)}
+.chip.sch-Shadow{background:rgba(139,92,246,.16);border-color:rgba(139,92,246,.5)}
+.reqs{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:6px;margin-bottom:10px}
+.req{display:flex;align-items:center;gap:6px;font-size:11.5px;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:4px 7px}
+.req span{color:var(--muted);text-transform:uppercase;font-size:10px;letter-spacing:.5px}
+.req b{margin-left:auto;font-variant-numeric:tabular-nums}
+.req small{color:var(--muted)}
+.req.ok{border-color:#2f6b4f}.req.ok b{color:var(--accent)}
+.req.bad{border-color:#7a3a3a}.req.bad b{color:var(--bad)}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+.foot{padding:8px 12px;color:var(--muted);font-size:11px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Wizard101 Build Planner</h1>
+  <label class="f">School<select id="school"></select></label>
+  <label class="f">Level<input type="number" id="lvl" min="1" max="180" value="170"></label>
+  <label class="f">Goal<select id="goal">
+    <option value="score">Balanced (weights)</option>
+    <option value="damage">Max damage</option>
+    <option value="resist">Max resist (one school)</option>
+    <option value="resistglobal">Max total resist (all schools)</option>
+    <option value="critical">Max critical</option>
+    <option value="block">Max block</option>
+    <option value="pierce">Max pierce</option>
+    <option value="accuracy">Max accuracy</option>
+    <option value="health">Max health</option>
+    <option value="healout">Max healing out</option>
+    <option value="healin">Max healing in</option>
+    <option value="powerpips">Max power pips</option>
+    <option value="shadowpip">Max shadow pip</option>
+  </select></label>
+  <label class="f">Optimiser<select id="opt">
+    <option value="set">Set search — thorough</option>
+    <option value="greedy">Greedy — fast</option>
+  </select></label>
+  <label class="f">Picks<select id="keep">
+    <option value="0">Replace all</option>
+    <option value="1">Keep my picks</option>
+  </select></label>
+  <button id="srcbtn">Sources</button>
+  <button id="wbtn">Setup</button>
+  <div class="spacer"></div>
+  <button class="primary" id="bis">Best in slot</button>
+  <button class="ghost" id="clear">Clear build</button>
+</header>
+
+<div class="pop" id="srcpop">
+  <div class="pophead"><span>Include sources</span>
+    <span><button id="srcAll">all</button> <button id="srcNone">none</button></span></div>
+  <div id="srcgrid"></div>
+  <div class="hint">An item is kept if any of its sources is ticked, so excluding
+    Card Pack hides pack-only gear but keeps items that also drop or craft.</div>
+</div>
+
+<div class="drawer" id="drawer">
+  <div class="cols">
+    <div class="sec">
+      <h3>Priority order - top matters most</h3>
+      <div id="wgrid"></div>
+      <div class="hint">Drag a row anywhere in the list, or use the arrows for fine tuning.
+        Top stat outweighs everything below it; untick to ignore it entirely.</div>
+    </div>
+    <div class="sec">
+      <h3>Caps - stop valuing a stat past this</h3>
+      <div id="cgrid"></div>
+      <div class="hint">Blank = no cap. Power pip is the classic case: past 100% it does nothing, so Best in slot stops chasing it.</div>
+    </div>
+    <div class="sec">
+      <h3>Minimums - must-have totals</h3>
+      <div id="mgrid"></div>
+      <div class="hint">Hard requirements. <b>Best in slot</b> will sacrifice score to hit these first, then optimise. Leave at 0 to ignore.</div>
+    </div>
+    <div class="sec">
+      <h3>Filters</h3>
+      <div id="fgrid"></div>
+      <div class="hint">Seasonal detection is name-based (Deckathlete, Yuletide,
+        Hallowe'en, Spooky Carnival, holidays, birthdays, festivals, Midsummer,
+        Autumn) - a heuristic, not a wiki category.</div>
+    </div>
+    <div class="sec">
+      <h3>Saved settings</h3>
+      <div class="hint">School, level, priority order, caps, minimums, sources,
+        locks, exclusions and the equipped build are all remembered and restored
+        when you reopen this page.</div>
+      <button id="resetSaved" style="margin-top:8px">Clear saved settings</button>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <section class="card">
+    <h2>Build - total stats</h2>
+    <div class="sheet" id="totals"></div>
+  </section>
+
+  <div class="wrap">
+    <section class="card">
+      <div class="tabs" id="tabs"></div>
+      <div class="searchbar"><input id="q" type="search" placeholder="Search all items by name..."></div>
+      <div class="scroll" id="list"></div>
+      <div class="foot" id="listfoot"></div>
+    </section>
+
+    <section class="card">
+      <div class="cardhead"><h2>Equipped</h2><button id="copyBuild" class="eq">Copy build</button></div>
+      <div id="slots"></div>
+      <details class="deep" id="deep">
+        <summary>Replacement levels (deep dive)</summary>
+        <div id="deepbody"></div>
+      </details>
+    </section>
+  </div>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const SCHOOLS = DATA.schools, TYPES = DATA.types, ITEMS = DATA.items;
+const ITEMS_BY_LEVEL = [];
+ITEMS.forEach((it, i) => { (ITEMS_BY_LEVEL[it.l] = ITEMS_BY_LEVEL[it.l] || []).push(i); });
+const MAX_ITEM_LEVEL = ITEMS.reduce((m, it) => Math.max(m, it.l || 0), 0);
+const ZERO = [0,0,0,0,0,0,0,0];
+const $ = id => document.getElementById(id);
+const BASE_CFG = DATA.base || {};
+const SOURCES = DATA.sources || [];
+const SRC_SHORT = ['CP','Drop','Craft','Vendor','Quest','Fish','Gift','Chest','Promo','?'];
+const SRC_COUNTS = SOURCES.map((_, b) => ITEMS.reduce((n, it) => n + ((it.src >> b) & 1 ? 1 : 0), 0));
+const SAVE_KEY = 'w101planner.v2';
+const OLD_SCHOOLS = ['Fire','Ice','Myth','Storm','Life','Death','Balance','Shadow'];
+const OLD_TYPES = ['Hat','Robe','Boots','Wand','Athame','Ring','Amulet','Deck'];
+const NAME_INDEX = new Map(ITEMS.map((it, i) => [it.n, i]));
+
+const PRIORITY_DEFS = [
+  ['d','Damage %'],['r','Resist %'],['c','Critical'],['b','Block'],
+  ['p','Pierce %'],['hp','Health'],['a','Accuracy %'],['deck','Deck size'],
+  ['f','Flat damage'],['sp','Shadow pip'],['st','Stun resist'],
+  ['ho','Healing out %'],['hi','Healing in %'],
+  ['pp','Power pips'],['pc','Pip conversion']
+];
+const CAPDEFS = [['pp','Power pips %'],['a','Accuracy %'],['r','Resist %'],['st','Stun resist %']];
+const MINDEFS = [
+  ['d','Damage %'],['r','Resist %'],['a','Accuracy %'],['c','Critical'],
+  ['b','Block'],['p','Pierce %'],['hp','Health'],['pp','Power pips %'],
+  ['sp','Shadow pip rating'],['st','Stun resist %'],['ho','Healing out %'],
+  ['hi','Healing in %'],['pc','Pip conversion']
+];
+
+const state = {
+  schoolIndex: SCHOOLS.indexOf('Life'),
+  typeIndex: 0,
+  level: 170,
+  weights: {},
+  order: PRIORITY_DEFS.map(x => x[0]),
+  enabled: {},
+  locked: {},
+  excluded: new Set(),
+  query: '',
+  filters: {hideRetired:false, tradeable:false, auctionable:false, seasonalOff:false, world:''},
+  slotRanges: null,
+  listLimit: 250,
+  listKey: '',
+  srcOn: (DATA.sources || []).map(() => true),
+  srcMask: (1 << (DATA.sources || []).length) - 1,
+  caps: {pp:100, a:100, r:100, st:100},
+  mins: {d:0, r:0, a:0, c:0, b:0, p:0, hp:0, pp:0, sp:0, st:0, ho:0, hi:0, pc:0},
+  base: {hp:0, mn:0, pp:0, en:0, sp:0, am:0},
+  build: {},
+  optimizer: 'set',
+  goal: 'score',
+  keepPicks: false
+};
+
+function refreshWeights(){
+  const w = {};
+  let rank = 0;
+  for (const k of state.order){
+    if (state.enabled[k] === false){ w[k] = 0; continue; }
+    w[k] = Math.pow(0.8, rank++);
+  }
+  state.weights = w;
+}
+refreshWeights();
+
+const BY_TYPE = TYPES.map(() => []);
+ITEMS.forEach((it, i) => { if (it.t >= 0 && BY_TYPE[it.t]) BY_TYPE[it.t].push(i); });
+function usable(it, s){ return it.s < 0 || it.s === s; }
+function dsum(a, b, c){
+  let total = 0;
+  if (a) total += a;
+  if (b && b !== a) total += b;
+  if (c && c !== a && c !== b) total += c;
+  return total;
+}
+function eff(it, s){
+  const a = it.sch[SCHOOLS[s]] || ZERO;
+  return {d:dsum(a[0], it.gd), f:a[1], c:dsum(a[2], it.gc),
+          b:dsum(a[3], it.gcb, it.acb), p:dsum(a[4], it.gpa, it.pa),
+          r:dsum(a[5], it.gr), acc:dsum(a[6], it.ga),
+          pc:s === SCHOOLS.indexOf('Shadow') ? 0 : dsum(a[7], it.gpc, it.pc)};
+}
+function comps(it, s){
+  const e = eff(it, s);
+  let rsum = 0;
+  for (const sc of SCHOOLS){
+    const a = it.sch[sc] || ZERO;
+    rsum += dsum(a[5], it.gr);
+  }
+  return {d:e.d, f:e.f, r:e.r, c:e.c, b:e.b, p:e.p, a:e.acc,
+          hp:it.hp, sp:it.sp, deck:it.ds + 3*it.mc + it.sb,
+          st:it.st, ho:it.ho, hi:it.hi, pp:it.pp, pc:e.pc, rsum};
+}
+function percentile(vals){
+  const n = vals.length;
+  const order = vals.map((v,i)=>i).sort((x,y)=>vals[x]-vals[y]);
+  const out = new Array(n);
+  let i = 0;
+  while (i < n){
+    let j = i+1;
+    while (j < n && vals[order[j]] === vals[order[i]]) j++;
+    const p = 100*j/n;
+    for (let k=i;k<j;k++) out[order[k]] = p;
+    i = j;
+  }
+  return out;
+}
+function rankRows(ids, sIdx, W){
+  const w = W || state.weights;
+  const rows = ids.map(i => ({i, c: comps(ITEMS[i], sIdx)}));
+  const keys = Object.keys(w).filter(k => w[k] > 0);
+  const active = [], pct = {};
+  for (const k of keys){
+    const vals = rows.map(r => r.c[k] || 0);
+    let mn = Infinity, mx = -Infinity;
+    for (const v of vals){ if (v < mn) mn = v; if (v > mx) mx = v; }
+    if (rows.length < 3 || mx - mn <= 1e-9) continue;
+    active.push(k); pct[k] = percentile(vals);
+  }
+  const wsum = active.reduce((s,k)=>s+w[k],0) || 1;
+  rows.forEach((r,idx)=>{
+    if (!active.length){ r.score = null; return; }
+    let s = 0;
+    for (const k of active) s += w[k] * pct[k][idx];
+    r.score = s / wsum;
+  });
+  const gk = goalKey();
+  const gv = c => {
+    if (!gk) return 0;
+    const cap = capFor(gk);
+    const v = c[gk] || 0;
+    return cap != null ? Math.min(v, cap) : v;
+  };
+  const ranked = rows.filter(r => r.score !== null)
+    .sort((a,b)=>{
+      if (gk){
+        const d = gv(b.c) - gv(a.c);
+        if (Math.abs(d) > 1e-9) return d;
+      }
+      return b.score - a.score || ITEMS[b.i].l - ITEMS[a.i].l ||
+             ITEMS[a.i].n.localeCompare(ITEMS[b.i].n);
+    });
+  const n = ranked.length;
+  ranked.forEach((r,idx)=>{
+    r.rank = idx+1;
+    const frac = 1 - idx/Math.max(n,1);
+    r.tier = frac>=.9?'S':frac>=.7?'A':frac>=.4?'B':frac>=.15?'C':'D';
+  });
+  return ranked;
+}
+function passesFilters(it){
+  const f = state.filters;
+  if (f.hideRetired && it.r) return false;
+  if (f.tradeable && !it.tr) return false;
+  if (f.auctionable && !it.au) return false;
+  if (f.seasonalOff && it.seas) return false;
+  if (f.world && !(it.w || []).includes(f.world)) return false;
+  return true;
+}
+function typeIds(t, sIdx){
+  const lvl = state.level;
+  return BY_TYPE[t].filter(i =>
+    ITEMS[i].l <= lvl &&
+    usable(ITEMS[i], sIdx) && !state.excluded.has(i) &&
+    (!SOURCES.length || (ITEMS[i].src & state.srcMask)) && passesFilters(ITEMS[i]));
+}
+
+function renderFiltersUI(){
+  const f = state.filters;
+  const worlds = DATA.worlds || [];
+  $('fgrid').innerHTML =
+    `<label class="fchk"><input type="checkbox" data-f="hideRetired"${f.hideRetired?' checked':''}> Hide retired</label>
+     <label class="fchk"><input type="checkbox" data-f="tradeable"${f.tradeable?' checked':''}> Tradeable only</label>
+     <label class="fchk"><input type="checkbox" data-f="auctionable"${f.auctionable?' checked':''}> Auctionable only</label>
+     <label class="fchk"><input type="checkbox" data-f="seasonalOff"${f.seasonalOff?' checked':''}> Exclude seasonal / event gear</label>
+     <div class="frow"><span>World</span><select id="f_world"><option value="">Any world</option>` +
+     worlds.map(w => `<option${f.world === w ? ' selected' : ''}>${w}</option>`).join('') + `</select></div>`;
+  $('fgrid').querySelectorAll('input[type=checkbox]').forEach(cb=>{
+    cb.onchange = ()=>{ state.filters[cb.dataset.f] = cb.checked; applyFilters(); };
+  });
+  $('f_world').onchange = e => { state.filters.world = e.target.value; applyFilters(); };
+}
+function applyFilters(){
+  bumpRank();
+  state.setScore = null;
+  state.buildRange = null;
+  state.slotRanges = null;
+  renderList(); renderSlots(); renderTotals();
+}
+
+let rankRev = 0;
+const rankMemo = new Map();
+function bumpRank(){ rankRev++; rankMemo.clear(); }
+function getRanked(t){
+  const key = t + '|' + state.schoolIndex + '|' + rankRev;
+  if (!rankMemo.has(key)) rankMemo.set(key, rankRows(typeIds(t, state.schoolIndex), state.schoolIndex));
+  return rankMemo.get(key);
+}
+
+function setLevel(v){
+  state.level = Math.max(1, Math.min(180, Math.round(v) || 1));
+  const lv = $('lvl'); if (lv) lv.value = state.level;
+  syncBase();
+  bumpRank();
+  state.setScore = null;
+  renderList(); renderSlots(); renderTotals();
+}
+
+function interp(table, level){
+  const levels = Object.keys(table || {}).map(Number).sort((a,b)=>a-b);
+  if (!levels.length) return 0;
+  if (level <= levels[0]) return table[levels[0]];
+  const last = levels[levels.length-1];
+  if (level >= last){
+    if (levels.length < 2) return table[last];
+    const a = levels[levels.length-2], b = last;
+    const slope = (table[b] - table[a]) / (b - a);
+    return Math.round(table[b] + slope * (level - b));
+  }
+  for (let i=0;i<levels.length-1;i++){
+    const a = levels[i], b = levels[i+1];
+    if (level >= a && level <= b){
+      const t = (level - a) / (b - a);
+      return Math.round(table[a] + t * (table[b] - table[a]));
+    }
+  }
+  return 0;
+}
+function baseHealth(school, level){
+  return interp((BASE_CFG.health || {})[school] || {}, level);
+}
+function baseGlobal(kind, level){
+  return interp(BASE_CFG[kind] || {}, level);
+}
+function syncBase(){
+  const s = SCHOOLS[state.schoolIndex];
+  state.base.hp = baseHealth(s, state.level);
+  state.base.mn = baseGlobal('mana', state.level);
+  state.base.pp = baseGlobal('power_pips', state.level);
+  state.base.en = baseGlobal('energy', state.level);
+  state.base.sp = baseGlobal('shadow_pip', state.level);
+  state.base.am = baseGlobal('archmastery', state.level);
+}
+
+let saveTimer = null;
+function scheduleSave(){
+  if (saveTimer) clearTimeout(saveTimer);
+  saveTimer = setTimeout(saveState, 250);
+}
+function saveState(){
+  try {
+    if (typeof localStorage === 'undefined') return;
+    const build = {};
+    for (const t in state.build){
+      const it = ITEMS[state.build[t]];
+      if (it) build[t] = it.n;
+    }
+    const excluded = [...state.excluded].map(i => ITEMS[i] && ITEMS[i].n).filter(Boolean);
+    localStorage.setItem(SAVE_KEY, JSON.stringify({
+      school: SCHOOLS[state.schoolIndex], type: TYPES[state.typeIndex],
+      schoolIndex: state.schoolIndex, typeIndex: state.typeIndex,
+      level: state.level, order: state.order, enabled: state.enabled,
+      locked: Object.fromEntries(Object.entries(state.locked)
+        .filter(([k, v]) => v).map(([k]) => [TYPES[+k], true])),
+      caps: state.caps, mins: state.mins, base: state.base,
+      optimizer: state.optimizer, goal: state.goal, keepPicks: state.keepPicks,
+      build, excluded, srcOn: state.srcOn, query: state.query, filters: state.filters
+    }));
+  } catch (e) { /* storage unavailable: run without persistence */ }
+}
+function restoreState(){
+  let d = null;
+  try {
+    if (typeof localStorage === 'undefined') return;
+    d = JSON.parse(localStorage.getItem(SAVE_KEY) || 'null');
+  } catch (e) { return; }
+  if (!d || typeof d !== 'object') return;
+
+  if (typeof d.school === 'string' && SCHOOLS.includes(d.school)){
+    state.schoolIndex = SCHOOLS.indexOf(d.school);
+  } else if (typeof d.schoolIndex === 'number' && d.schoolIndex >= 0 && d.schoolIndex < SCHOOLS.length){
+    const oldName = OLD_SCHOOLS[d.schoolIndex];
+    state.schoolIndex = SCHOOLS.includes(oldName) ? SCHOOLS.indexOf(oldName) : d.schoolIndex;
+  }
+  if (typeof d.type === 'string' && TYPES.includes(d.type)){
+    state.typeIndex = TYPES.indexOf(d.type);
+  } else if (typeof d.typeIndex === 'number' && d.typeIndex >= 0 && d.typeIndex < TYPES.length){
+    const oldType = OLD_TYPES[d.typeIndex];
+    state.typeIndex = TYPES.includes(oldType) ? TYPES.indexOf(oldType) : d.typeIndex;
+  }
+  if (typeof d.level === 'number') state.level = d.level;
+
+  if (Array.isArray(d.order)){
+    const known = PRIORITY_DEFS.map(x => x[0]);
+    const arr = d.order.filter(k => known.includes(k));
+    for (const k of known) if (!arr.includes(k)) arr.push(k);
+    state.order = arr;
+  }
+  if (d.enabled && typeof d.enabled === 'object') state.enabled = d.enabled;
+  if (d.locked && typeof d.locked === 'object'){
+    const nl = {};
+    for (const k in d.locked){
+      let ni = TYPES.indexOf(k);
+      if (ni < 0) ni = TYPES.indexOf(OLD_TYPES[+k]);
+      if (ni >= 0) nl[ni] = d.locked[k];
+    }
+    state.locked = nl;
+  }
+  if (d.caps && typeof d.caps === 'object') Object.assign(state.caps, d.caps);
+  if (d.mins && typeof d.mins === 'object') Object.assign(state.mins, d.mins);
+  if (d.optimizer === 'greedy' || d.optimizer === 'set') state.optimizer = d.optimizer;
+  if (typeof d.goal === 'string') state.goal = d.goal;
+  if (typeof d.keepPicks === 'boolean') state.keepPicks = d.keepPicks;
+
+  if (Array.isArray(d.srcOn) && d.srcOn.length === SOURCES.length) state.srcOn = d.srcOn;
+
+  state.build = {};
+  if (d.build && typeof d.build === 'object'){
+    for (const t in d.build){
+      const i = NAME_INDEX.get(d.build[t]);
+      if (i != null) state.build[ITEMS[i].t] = i;
+    }
+  }
+  if (typeof d.query === 'string') state.query = d.query;
+  if (d.filters && typeof d.filters === 'object') Object.assign(state.filters, d.filters);
+  state.excluded = new Set();
+  if (Array.isArray(d.excluded)){
+    for (const n of d.excluded){
+      const i = NAME_INDEX.get(n);
+      if (i != null) state.excluded.add(i);
+    }
+  }
+  refreshWeights();
+  bumpRank();
+  let m = 0;
+  state.srcOn.forEach((v, i) => { if (v) m |= 1 << i; });
+  state.srcMask = m;
+}
+
+function buildHeader(){
+  $('school').innerHTML = SCHOOLS.map((s,i)=>`<option value="${i}">${s}</option>`).join('');
+  $('school').value = state.schoolIndex;
+  $('lvl').value = state.level;
+
+  $('tabs').innerHTML = TYPES.map((t,i)=>
+    `<button data-t="${i}" class="${i===state.typeIndex?'on':''}">${t}</button>`).join('');
+  $('tabs').querySelectorAll('button').forEach(b=>{
+    b.onclick = ()=>{ state.typeIndex = +b.dataset.t; syncTabs(); renderList(); };
+  });
+
+  $('q').value = state.query || '';
+  let searchTimer = null;
+  $('q').oninput = e => {
+    state.query = e.target.value;
+    if (searchTimer) clearTimeout(searchTimer);
+    searchTimer = setTimeout(renderList, 120);
+  };
+
+  renderPriorityUI();
+  renderSrcUI();
+  renderFiltersUI();
+
+  $('cgrid').innerHTML = CAPDEFS.map(([k,label])=>`
+    <div class="frow"><span>${label}</span>
+      <input type="number" id="cap_${k}" min="0" max="500" value="${state.caps[k] ?? ''}"></div>`).join('');
+  $('cgrid').querySelectorAll('input').forEach(inp=>{
+    inp.oninput = ()=>{
+      const k = inp.id.slice(4);
+      state.caps[k] = inp.value === '' ? null : +inp.value;
+      renderSlots(); renderTotals();
+    };
+  });
+
+  $('mgrid').innerHTML = MINDEFS.map(([k,label])=>`
+    <div class="frow"><span>${label}</span>
+      <input type="number" id="min_${k}" min="0" value="${state.mins[k] || 0}"></div>`).join('');
+  $('mgrid').querySelectorAll('input').forEach(inp=>{
+    inp.oninput = ()=>{
+      const k = inp.id.slice(4);
+      state.mins[k] = +inp.value || 0;
+      state.setScore = null;
+      renderTotals();
+    };
+  });
+
+  syncBase();
+}
+function syncTabs(){
+  $('tabs').querySelectorAll('button').forEach(b=>
+    b.classList.toggle('on', +b.dataset.t === state.typeIndex));
+}
+
+function srcTags(it){
+  const out = [];
+  for (let b = 0; b < SOURCES.length; b++) if (it.src & (1 << b)) out.push(SRC_SHORT[b] || '?');
+  return out.join(' ');
+}
+function renderSrcUI(){
+  $('srcgrid').innerHTML = SOURCES.map((name, i) =>
+    `<label class="srow"><input type="checkbox" data-s="${i}"${state.srcOn[i] ? ' checked' : ''}>
+      ${name}<span class="muted">${SRC_COUNTS[i].toLocaleString()}</span></label>`).join('');
+  $('srcgrid').querySelectorAll('input').forEach(cb => {
+    cb.onchange = () => {
+      state.srcOn[+cb.dataset.s] = cb.checked;
+      applySources();
+    };
+  });
+  const on = state.srcOn.filter(Boolean).length;
+  $('srcbtn').textContent = `Sources (${on}/${SOURCES.length})`;
+}
+function applySources(){
+  let m = 0;
+  state.srcOn.forEach((v, i) => { if (v) m |= 1 << i; });
+  state.srcMask = m;
+  bumpRank();
+  state.setScore = null;
+  renderSrcUI();
+  renderList();
+  renderSlots();
+}
+
+function renderPriorityUI(){
+  $('wgrid').innerHTML = state.order.map((k, idx) => {
+    const def = PRIORITY_DEFS.find(d => d[0] === k) || [k, k];
+    const on = state.enabled[k] !== false;
+    return `<div class="prow${on ? '' : ' off'}" draggable="true" data-idx="${idx}">
+      <span class="pghandle" title="drag to reorder">&#8942;&#8942;</span>
+      <span class="prank">${idx + 1}</span>
+      <label class="pname"><input type="checkbox" data-k="${k}"${on ? ' checked' : ''}> ${def[1]}</label>
+      <button class="pbtn" data-move="${k}" data-dir="-1">&#9650;</button>
+      <button class="pbtn" data-move="${k}" data-dir="1">&#9660;</button>
+    </div>`;
+  }).join('');
+  $('wgrid').querySelectorAll('input[type=checkbox]').forEach(cb => {
+    cb.onchange = () => {
+      state.enabled[cb.dataset.k] = cb.checked;
+      refreshWeights(); bumpRank(); state.setScore = null;
+      renderPriorityUI(); renderList(); renderSlots();
+    };
+  });
+  $('wgrid').querySelectorAll('button.pbtn').forEach(b => {
+    b.onclick = () => {
+      const k = b.dataset.move, dir = +b.dataset.dir;
+      const i = state.order.indexOf(k), j = i + dir;
+      if (i < 0 || j < 0 || j >= state.order.length) return;
+      const tmp = state.order[i];
+      state.order[i] = state.order[j];
+      state.order[j] = tmp;
+      refreshWeights(); bumpRank(); state.setScore = null;
+      renderPriorityUI(); renderList(); renderSlots();
+    };
+  });
+
+  const rows = [...$('wgrid').querySelectorAll('.prow')];
+  let dragIdx = null;
+  const clearDrop = () => rows.forEach(r => r.classList.remove('drop'));
+  rows.forEach(row => {
+    row.addEventListener('dragstart', e => {
+      dragIdx = +row.dataset.idx;
+      row.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      try { e.dataTransfer.setData('text/plain', String(dragIdx)); } catch (err) {}
+    });
+    row.addEventListener('dragend', () => {
+      dragIdx = null;
+      row.classList.remove('dragging');
+      clearDrop();
+    });
+    row.addEventListener('dragover', e => {
+      e.preventDefault();
+      e.dataTransfer.dropEffect = 'move';
+      row.classList.add('drop');
+    });
+    row.addEventListener('dragleave', () => row.classList.remove('drop'));
+    row.addEventListener('drop', e => {
+      e.preventDefault();
+      const to = +row.dataset.idx;
+      clearDrop();
+      movePriority(dragIdx, to);
+    });
+  });
+}
+
+function movePriority(from, to){
+  if (from == null || to == null || from === to) return;
+  if (from < 0 || to < 0 || from >= state.order.length || to >= state.order.length) return;
+  const k = state.order.splice(from, 1)[0];
+  state.order.splice(to, 0, k);
+  refreshWeights();
+  bumpRank();
+  state.setScore = null;
+  renderPriorityUI();
+  renderList();
+  renderSlots();
+}
+
+function renderList(){
+  scheduleSave();
+  const t = state.typeIndex;
+  const sIdx = state.schoolIndex;
+  const q = (state.query || '').trim().toLowerCase();
+  const hit = name => !q || String(name).toLowerCase().includes(q);
+
+  const PAGE = 250;
+  const listKey = [t, sIdx, state.level, q, state.srcMask, state.excluded.size,
+                   rankRev, JSON.stringify(state.filters)].join('|');
+  const keyChanged = listKey !== state.listKey;
+  if (keyChanged){
+    state.listKey = listKey;
+    state.listLimit = PAGE;
+  }
+
+  const allRanked = getRanked(t).filter(r => hit(ITEMS[r.i].n));
+  const allAbove = BY_TYPE[t]
+    .filter(i => ITEMS[i].l > state.level && usable(ITEMS[i], sIdx)
+      && !state.excluded.has(i) && (!SOURCES.length || (ITEMS[i].src & state.srcMask))
+      && passesFilters(ITEMS[i]) && hit(ITEMS[i].n))
+    .sort((a, b) => ITEMS[a].l - ITEMS[b].l || ITEMS[a].n.localeCompare(ITEMS[b].n));
+  const ranked = allRanked.slice(0, state.listLimit);
+  const above = allAbove.slice(0, state.listLimit);
+
+  if (!allRanked.length && !allAbove.length){
+    $('list').innerHTML = '<div class="empty">No items match this search.</div>';
+    $('listfoot').textContent = '';
+    return;
+  }
+
+  const cell = c => `<td>${c || ''}</td>`;
+  let html = `<table><thead><tr>
+    <th>#</th><th>Tier</th><th>Score</th><th class="l">Item</th><th>Src</th><th>Lvl</th>
+    <th>Dmg</th><th>Res</th><th>Crit</th><th>Block</th><th>Pierce</th>
+    <th>Acc</th><th>HP</th><th>Shadow</th><th></th></tr></thead><tbody>`;
+  for (const r of ranked){
+    const it = ITEMS[r.i], c = r.c;
+    const ret = (it.r ? '<span class="ret">retired</span>' : '') + (it.seas ? '<span class="sev">event</span>' : '');
+    html += `<tr>
+      <td>${r.rank}</td><td class="tier ${r.tier}">${r.tier}</td>
+      <td>${r.score.toFixed(1)}</td>
+      <td class="l name">${it.n}${ret}</td><td class="src">${srcTags(it)}</td><td>${it.l}</td>
+      ${cell(c.d)}${cell(c.r)}${cell(c.c)}${cell(c.b)}${cell(c.p)}${cell(c.a)}${cell(c.hp)}${cell(c.sp)}
+      <td><button class="eq" data-i="${r.i}">equip</button>
+          <button class="ex" data-x="${r.i}" title="remove from search">x</button></td></tr>`;
+  }
+  if (above.length){
+    html += `<tr class="sep"><td colspan="15">Above your level (${above.length}) - not equippable at level ${state.level}</td></tr>`;
+    for (const i of above){
+      const it = ITEMS[i], c = comps(it, sIdx);
+      const ret = (it.r ? '<span class="ret">retired</span>' : '') + (it.seas ? '<span class="sev">event</span>' : '');
+      html += `<tr class="row-off">
+        <td>-</td><td class="tier">-</td><td>-</td>
+        <td class="l name">${it.n}${ret}</td><td class="src">${srcTags(it)}</td><td>${it.l}</td>
+        ${cell(c.d)}${cell(c.r)}${cell(c.c)}${cell(c.b)}${cell(c.p)}${cell(c.a)}${cell(c.hp)}${cell(c.sp)}
+        <td><button class="ex" data-x="${i}" title="remove from search">x</button></td></tr>`;
+    }
+  }
+  const moreRanked = allRanked.length - ranked.length;
+  const moreAbove = allAbove.length - above.length;
+  if (moreRanked > 0 || moreAbove > 0){
+    const step = Math.min(PAGE, Math.max(moreRanked, moreAbove));
+    const label = moreRanked > 0
+      ? `Show ${step} more of ${allRanked.length} (${moreRanked} left)`
+      : `Show ${step} more above-level items (${moreAbove} left)`;
+    html += `<tr class="sep"><td colspan="15"><button id="moreRows">${label}</button></td></tr>`;
+  }
+  html += '</tbody></table>';
+
+  const sc = $('list');
+  const keepTop = keyChanged ? 0 : sc.scrollTop;
+  sc.innerHTML = html;
+  sc.scrollTop = keepTop;
+
+  let lastMore = 0;
+  sc.onscroll = () => {
+    if (!document.getElementById('moreRows')) return;
+    const now = Date.now();
+    if (now - lastMore < 250) return;
+    if (sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 300){
+      lastMore = now;
+      state.listLimit += 250;
+      renderList();
+    }
+  };
+
+  const rawCount = BY_TYPE[t].filter(i => ITEMS[i].l <= state.level && usable(ITEMS[i], sIdx)).length;
+  const hiddenSources = state.srcOn.filter(v => !v).length;
+  let foot = `${allRanked.length} equippable ${TYPES[t]} for ${SCHOOLS[sIdx]} at level ${state.level}`;
+  if (allAbove.length) foot += ` - ${allAbove.length} above level shown greyed`;
+  if (ranked.length < allRanked.length) foot += ` - showing ${ranked.length}`;
+  if (ranked.length < rawCount){
+    const why = [];
+    if (state.excluded.size) why.push(`${state.excluded.size} excluded`);
+    if (hiddenSources) why.push(`${hiddenSources} source${hiddenSources === 1 ? '' : 's'} hidden`);
+    if (q) why.push(`search "${state.query.trim()}"`);
+    foot += ` - ${why.join(', ')}`;
+  }
+  $('listfoot').textContent = foot;
+
+  const moreBtn = $('moreRows');
+  if (moreBtn) moreBtn.onclick = () => { state.listLimit += 250; renderList(); };
+  $('list').querySelectorAll('button.eq').forEach(b=>{
+    b.onclick = ()=>{
+      state.build[t] = +b.dataset.i;
+      state.setScore = null;
+      state.buildRange = null;
+      state.slotRanges = null;
+      renderSlots(); renderTotals();
+    };
+  });
+  $('list').querySelectorAll('button.ex').forEach(b=>{
+    b.onclick = ()=>{
+      state.excluded.add(+b.dataset.x);
+      bumpRank();
+      state.setScore = null;
+      renderList(); renderSlots(); renderTotals();
+    };
+  });
+  if (ranked.length < rawCount){
+    const btn = document.createElement('button');
+    btn.className = 'eq';
+    btn.textContent = 'clear filters';
+    btn.onclick = ()=>{
+      state.excluded.clear();
+      state.srcOn = SOURCES.map(() => true);
+      state.query = '';
+      const qEl = $('q'); if (qEl) qEl.value = '';
+      applySources();
+    };
+    $('listfoot').appendChild(document.createTextNode('  '));
+    $('listfoot').appendChild(btn);
+  }
+}
+
+function wikiUrl(name){
+  return 'https://wiki.wizard101central.com/wiki/Item:' +
+    encodeURIComponent(String(name).replace(/ /g, '_'));
+}
+function renderSlots(){
+  scheduleSave();
+  let html = '';
+  for (let t = 0; t < TYPES.length; t++){
+    const idx = state.build[t];
+    const it = idx != null ? ITEMS[idx] : null;
+    const val = it
+      ? `<a class="itemlink" href="${wikiUrl(it.n)}" target="_blank" rel="noopener" title="Open this item on Wizard101 Central">${it.n}</a>`
+      : '<span class="muted">not set</span>';
+    html += `<div class="slot"><b>${TYPES[t]}</b>
+      <div class="slotval">${val}</div>
+      <label class="lock"><input type="checkbox" data-lock="${t}"${state.locked[t] ? ' checked' : ''}> lock</label>
+      <button class="ex" data-clear="${t}" title="clear slot"${it ? '' : ' style="visibility:hidden"'}>x</button></div>`;
+  }
+  $('slots').innerHTML = html;
+  $('slots').querySelectorAll('button[data-clear]').forEach(b=>{
+    b.onclick = ()=>{
+      delete state.build[+b.dataset.clear];
+      state.setScore = null;
+      state.buildRange = null;
+      state.slotRanges = null;
+      renderSlots(); renderTotals();
+    };
+  });
+  $('slots').querySelectorAll('input[data-lock]').forEach(cb=>{
+    cb.onchange = ()=>{
+      state.locked[+cb.dataset.lock] = cb.checked;
+      state.setScore = null;
+    };
+  });
+  renderDeep();
+}
+
+function renderDeep(){
+  const el = $('deepbody');
+  if (!el) return;
+  if (!state.build || !Object.keys(state.build).length){
+    el.innerHTML = '<div class="hint">Equip a build to see replacement levels.</div>';
+    return;
+  }
+  if (!state.slotRanges){
+    el.innerHTML = '<div class="hint">Run Best in slot to compute when each piece is replaced.</div>';
+    return;
+  }
+  let html = '<table><thead><tr><th class="l">Slot</th><th class="l">Item</th><th>Lvl</th><th>Better at</th></tr></thead><tbody>';
+  for (let t = 0; t < TYPES.length; t++){
+    const idx = state.build[t];
+    if (idx == null) continue;
+    const it = ITEMS[idx];
+    const rep = state.slotRanges[t];
+    html += `<tr><td class="l">${TYPES[t]}</td><td class="l name">${it.n}</td><td>${it.l}</td>` +
+      `<td>${rep == null ? 'none in data' : 'level ' + rep}</td></tr>`;
+  }
+  html += '</tbody></table>';
+  el.innerHTML = html;
+}
+
+function totalsFor(build){
+  const nS = SCHOOLS.length;
+  const rows = {d:Array(nS).fill(0), f:Array(nS).fill(0), r:Array(nS).fill(0),
+                acc:Array(nS).fill(0), c:Array(nS).fill(0), b:Array(nS).fill(0),
+                p:Array(nS).fill(0), pc:Array(nS).fill(0)};
+  const scal = {hp:0, mn:0, pp:0, sp:0, am:0, ho:0, hi:0, st:0, ds:0};
+  let count = 0;
+  for (const t in build){
+    const it = ITEMS[build[t]];
+    if (!it) continue;
+    count++;
+    for (let s=0;s<nS;s++){
+      const a = it.sch[SCHOOLS[s]] || ZERO;
+      rows.d[s]+=dsum(a[0], it.gd); rows.f[s]+=a[1];
+      rows.c[s]+=dsum(a[2], it.gc); rows.b[s]+=dsum(a[3], it.gcb, it.acb);
+      rows.p[s]+=dsum(a[4], it.gpa, it.pa); rows.r[s]+=dsum(a[5], it.gr);
+      rows.acc[s]+=dsum(a[6], it.ga);
+      if (SCHOOLS[s] !== 'Shadow') rows.pc[s]+=dsum(a[7], it.gpc, it.pc);
+    }
+    scal.hp+=it.hp; scal.mn+=it.mn; scal.pp+=it.pp; scal.sp+=it.sp;
+    scal.am+=it.am; scal.ho+=it.ho; scal.hi+=it.hi; scal.st+=it.st; scal.ds+=it.ds;
+  }
+  if (state.level >= 110){
+    const tbl = (BASE_CFG.pip_conversion || {})[SCHOOLS[state.schoolIndex]] || {};
+    if (Object.keys(tbl).length) rows.pc[state.schoolIndex] += interp(tbl, state.level);
+  }
+  const s = state.schoolIndex;
+  const comp = {d:rows.d[s], f:rows.f[s], r:rows.r[s], a:rows.acc[s], c:rows.c[s],
+                b:rows.b[s], p:rows.p[s], pc:rows.pc[s],
+                hp:scal.hp+state.base.hp, pp:scal.pp+state.base.pp,
+                sp:scal.sp + state.base.sp, st:scal.st, ho:scal.ho, hi:scal.hi,
+                am:scal.am + state.base.am, mn:scal.mn + state.base.mn,
+                en:state.base.en};
+  return {rows, scal, count, comp};
+}
+function quickComp(build){
+  const s = SCHOOLS[state.schoolIndex];
+  const c = {d:0,f:0,r:0,a:0,c:0,b:0,p:0,pc:0,
+             hp:state.base.hp, pp:state.base.pp, sp:0, st:0};
+  for (const t in build){
+    const it = ITEMS[build[t]];
+    if (!it) continue;
+    const a = it.sch[s] || ZERO;
+    c.d+=dsum(a[0], it.gd); c.f+=a[1]; c.c+=dsum(a[2], it.gc);
+    c.b+=dsum(a[3], it.gcb, it.acb); c.p+=dsum(a[4], it.gpa, it.pa);
+    c.r+=dsum(a[5], it.gr); c.a+=dsum(a[6], it.ga);
+    if (s !== 'Shadow') c.pc+=dsum(a[7], it.gpc, it.pc);
+    c.hp+=it.hp; c.pp+=it.pp; c.sp+=it.sp; c.st+=it.st;
+  }
+  return c;
+}
+function shortfallOf(c){
+  let s = 0;
+  for (const k in state.mins){
+    const need = state.mins[k] || 0;
+    if (!need) continue;
+    const have = c[k] || 0;
+    if (have < need) s += (need - have) / need;
+  }
+  return s;
+}
+function minsSet(){
+  return Object.keys(state.mins).some(k => (state.mins[k] || 0) > 0);
+}
+
+function escAttr(s){
+  return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/\n/g, '&#10;');
+}
+const BLOCK_LABELS = {d:'Damage', f:'Flat damage', r:'Resistance', a:'Accuracy',
+  c:'Critical rating', b:'Block rating', p:'Armor piercing', pc:'Pip conversion'};
+function blockTip(key, si){
+  const lines = [];
+  if (key === 'pc' && si === state.schoolIndex){
+    const tbl = (BASE_CFG.pip_conversion || {})[SCHOOLS[si]] || {};
+    const base = Object.keys(tbl).length ? interp(tbl, state.level) : 0;
+    if (base) lines.push(`+${base} (base)`);
+  }
+  for (const t in state.build){
+    const it = ITEMS[state.build[t]];
+    if (!it) continue;
+    const v = comps(it, si)[key] || 0;
+    if (v) lines.push(`+${v} (${it.n})`);
+  }
+  const head = `${BLOCK_LABELS[key]} - ${SCHOOLS[si]}`;
+  return head + '\n' + (lines.length ? lines.join('\n') : 'No item contributes');
+}
+function scalarTip(key, baseVal, label){
+  const lines = [];
+  if (baseVal) lines.push(`+${baseVal} (base)`);
+  for (const t in state.build){
+    const it = ITEMS[state.build[t]];
+    if (!it) continue;
+    const v = it[key] || 0;
+    if (v) lines.push(`+${v} (${it.n})`);
+  }
+  return label + '\n' + (lines.length ? lines.join('\n') : 'No item contributes');
+}
+function chip(school, value, cap, suffix, showZero, tip){
+  const over = cap != null && value > cap;
+  const txt = value === 0 ? (showZero ? '0' + (suffix||'') : '') : value + (suffix||'');
+  return `<div class="chip sch-${school}${over?' over':''}"${tip?` title="${escAttr(tip)}"`:''}>
+    <span class="cname">${school}</span><span class="v">${txt}</span></div>`;
+}
+function block(title, note, values, cap, suffix, idx, force, showZero, key){
+  const use = idx || SCHOOLS.map((_, i) => i);
+  const any = force || use.some(i => values[i]);
+  if (!any) return '';
+  return `<div class="block"><h3>${title}${note?` <em>${note}</em>`:''}</h3>
+    <div class="chips">${use.map(i => chip(SCHOOLS[i], values[i], cap, suffix, showZero,
+      key ? blockTip(key, i) : '')).join('')}</div></div>`;
+}
+function hero(label, value, sub, capInfo, tip){
+  return `<div class="h"${tip?` title="${escAttr(tip)}"`:''}><span>${label}</span><b>${value}</b>${capInfo||''}
+    ${sub?`<small>${sub}</small>`:''}</div>`;
+}
+
+function rangeSentence(br){
+  if (!br) return '';
+  if (br.capped) return `Recommended for level ${br.low} and up - nothing stronger exists in the current data.`;
+  if (br.high > br.low)
+    return `Recommended from level ${br.low} to ${br.high} - at level ${br.high + 1} a better item becomes available.`;
+  return `Recommended at level ${br.low} only - at level ${br.low + 1} a better item becomes available.`;
+}
+function requirementsHtml(comp){
+  if (!minsSet()) return '';
+  const rows = [];
+  for (const [k,label] of MINDEFS){
+    const need = state.mins[k] || 0;
+    if (!need) continue;
+    const have = Math.round(comp[k] || 0);
+    const ok = have >= need;
+    rows.push(`<div class="req ${ok?'ok':'bad'}"><span>${label}</span>` +
+      `<b>${have.toLocaleString()}</b><small>/ ${need.toLocaleString()}</small></div>`);
+  }
+  return `<div class="reqs">${rows.join('')}</div>`;
+}
+
+function renderTotals(){
+  scheduleSave();
+  const {rows, scal, count, comp} = totalsFor(state.build);
+  if (!count){
+    $('totals').innerHTML = '<div class="empty">Pick items above, or press "Best in slot".</div>';
+    return;
+  }
+  const hp = scal.hp + state.base.hp;
+  const mn = scal.mn + state.base.mn;
+  const pp = scal.pp + state.base.pp;
+  const capP = state.caps.pp;
+  const ppOver = capP != null && pp > capP;
+  const pct = capP ? Math.min(100, pp/capP*100) : 100;
+  const ppBar = `<div class="bar${ppOver?' over':''}"><i style="width:${pct}%"></i></div>` +
+    `<small>${state.base.pp}% base + ${scal.pp}% gear - cap ${capP ?? '-'}` +
+    (ppOver ? ` - <b style="color:var(--bad)">${pp-capP}% over</b>` : '') + `</small>`;
+
+  const accCap = state.caps.a, resCap = state.caps.r, stCap = state.caps.st;
+  const rangeLine = state.buildRange
+    ? `<div class="hint" style="margin-bottom:6px">${rangeSentence(state.buildRange)}</div>`
+    : '';
+  const optimized = state.setScore != null
+    ? `<div class="hint" style="margin-bottom:6px">${state.goal !== 'score' ? 'Optimised for ' + GOALS[state.goal][1].toLowerCase() : 'Optimised as a set'} - score ${state.setScore}` +
+      (state.searchInfo ? ` - ${state.searchInfo.starts} starts, ${state.searchInfo.passes} passes, ${state.searchInfo.swaps} swaps` : '') + `</div>` : '';
+  const modeLine = state.keepPicks
+    ? `<div class="hint" style="margin-bottom:6px">Keeping your picks - only empty slots are chosen.</div>` : '';
+  let html = modeLine + optimized + rangeLine + requirementsHtml(comp) + `<div class="hero">
+    ${hero('Health', hp.toLocaleString(), `${state.base.hp.toLocaleString()} base + ${scal.hp.toLocaleString()} gear`, '', scalarTip('hp', state.base.hp, 'Health'))}
+    ${hero('Mana', mn.toLocaleString(), `${state.base.mn.toLocaleString()} base + ${scal.mn.toLocaleString()} gear`, '', scalarTip('mn', state.base.mn, 'Mana'))}
+    ${hero('Power pips', pp+'%', '', ppBar, scalarTip('pp', state.base.pp, 'Power pips'))}
+    ${hero('Energy', state.base.en, '', '', 'Energy\n+' + state.base.en + ' (base)')}
+    ${hero('Shadow pip rating', comp.sp, '', '', scalarTip('sp', state.base.sp, 'Shadow pip rating'))}
+    ${hero('Archmastery', comp.am, '', '', scalarTip('am', state.base.am, 'Archmastery'))}
+    ${hero('Healing out', scal.ho+'%', '', '', scalarTip('ho', 0, 'Healing out'))}
+    ${hero('Healing in', scal.hi+'%', '', '', scalarTip('hi', 0, 'Healing in'))}
+    ${hero('Stun resist', scal.st+'%', stCap!=null?`cap ${stCap}%`:'', '', scalarTip('st', 0, 'Stun resist'))}
+    ${hero('Deck size', scal.ds, '', '', scalarTip('ds', 0, 'Deck size'))}
+  </div>`;
+  let blocks = '';
+  blocks += block('Damage', '%', rows.d, null, '%', null, false, false, 'd');
+  blocks += block('Flat damage', '+', rows.f, null, '', null, false, false, 'f');
+  const rAvg = Math.round(rows.r.reduce((a, b) => a + b, 0) / (rows.r.length || 1));
+  blocks += block('Resistance', `% - avg ${rAvg}%`, rows.r, resCap, '%', null, false, false, 'r');
+  blocks += block('Accuracy', '%', rows.acc, accCap, '%', null, true, true, 'a');
+  blocks += block('Critical rating', '', rows.c, null, '', null, false, false, 'c');
+  blocks += block('Block rating', '', rows.b, null, '', null, false, false, 'b');
+  blocks += block('Armor piercing', '%', rows.p, null, '%', null, false, false, 'p');
+  const seven = SCHOOLS.map((_, i) => i).filter(i => SCHOOLS[i] !== 'Shadow');
+  blocks += block('Pip conversion', '', rows.pc, null, '', seven, false, false, 'pc');
+  $('totals').innerHTML = html + `<div class="blocks">${blocks}</div>`;
+}
+
+const STAT_KEYS = ['d','f','r','a','c','b','p','pc','hp','pp','sp','st','deck','ho','hi','rsum'];
+
+function baseTotals(){
+  const t = {};
+  for (const k of STAT_KEYS) t[k] = 0;
+  t.hp = state.base.hp;
+  t.pp = state.base.pp;
+  return t;
+}
+function addTotals(t, c){
+  const o = {};
+  for (const k of STAT_KEYS) o[k] = (t[k] || 0) + (c[k] || 0);
+  return o;
+}
+function subTotals(t, c){
+  const o = {};
+  for (const k of STAT_KEYS) o[k] = (t[k] || 0) - (c[k] || 0);
+  return o;
+}
+function capFor(k){
+  if (k === 'pp') return state.caps.pp;
+  if (k === 'a') return state.caps.a;
+  if (k === 'r') return state.caps.r;
+  if (k === 'st') return state.caps.st;
+  return null;
+}
+function shortfallTot(t){
+  let s = 0;
+  for (const k in state.mins){
+    const need = state.mins[k] || 0;
+    if (!need) continue;
+    const have = t[k] || 0;
+    if (have < need) s += (need - have) / need;
+  }
+  return s;
+}
+// Set quality = weighted sum of the build's totals, each normalised against the
+// best any single item could contribute in that slot. Capped stats stop adding.
+function setScoreTot(t, ref){
+  let num = 0, den = 0;
+  for (const k in state.weights){
+    const w = state.weights[k];
+    if (!w) continue;
+    const r = ref[k];
+    if (!r) continue;
+    let v = t[k] || 0;
+    const cap = capFor(k);
+    if (cap != null) v = Math.min(v, cap);
+    num += w * (v / r);
+    den += w;
+  }
+  return den ? (num / den) * 100 : 0;
+}
+
+const GOALS = {
+  damage: ['d', 'Max damage'],
+  resist: ['r', 'Max resist (one school)'],
+  resistglobal: ['rsum', 'Max total resist'],
+  critical: ['c', 'Max critical'],
+  block: ['b', 'Max block'],
+  pierce: ['p', 'Max pierce'],
+  accuracy: ['a', 'Max accuracy'],
+  health: ['hp', 'Max health'],
+  healout: ['ho', 'Max healing out'],
+  healin: ['hi', 'Max healing in'],
+  powerpips: ['pp', 'Max power pips'],
+  shadowpip: ['sp', 'Max shadow pip']
+};
+function goalKey(){ return GOALS[state.goal] ? GOALS[state.goal][0] : null; }
+function goalValue(tot){
+  const k = goalKey();
+  if (!k) return 0;
+  let v = tot[k] || 0;
+  const cap = capFor(k);
+  if (cap != null) v = Math.min(v, cap);
+  return v;
+}
+// Returns > 0 when build a is better than build b.
+// Order: minimums met -> smallest shortfall -> goal value -> weighted score.
+function cmpBuild(a, b){
+  const af = a.sf <= 1e-9 ? 1 : 0, bf = b.sf <= 1e-9 ? 1 : 0;
+  if (af !== bf) return af - bf;
+  if (!af && Math.abs(a.sf - b.sf) > 1e-9) return b.sf - a.sf;
+  const k = goalKey();
+  if (k){
+    const ga = goalValue(a.tot), gb = goalValue(b.tot);
+    if (Math.abs(ga - gb) > 1e-9) return ga - gb;
+  }
+  return a.sc - b.sc;
+}
+
+// Single scalar used to sort beam partials without recomputing the comparison.
+function buildKey(e){
+  const feasible = e.sf <= 1e-9 ? 1 : 0;
+  if (feasible) return 1e12 + goalValue(e.tot) * 1e6 + e.sc * 1e3;
+  return -e.sf * 1e9 + goalValue(e.tot) * 1e3 + e.sc;
+}
+
+function bestInSlot(){
+  bumpRank();
+  const sIdx = state.schoolIndex;
+
+  const fixed = {};
+  for (let t = 0; t < TYPES.length; t++){
+    if ((state.keepPicks || state.locked[t]) && state.build[t] != null) fixed[t] = state.build[t];
+  }
+  const skipEmpty = new Set();
+  for (let t = 0; t < TYPES.length; t++){
+    if (state.locked[t] && state.build[t] == null) skipEmpty.add(t);
+  }
+  const open = TYPES.map((_, i) => i).filter(t => !(t in fixed) && !skipEmpty.has(t));
+
+  const cache = new Map();
+  const getC = i => {
+    if (!cache.has(i)) cache.set(i, comps(ITEMS[i], sIdx));
+    return cache.get(i);
+  };
+  const idsByType = TYPES.map((_, t) => typeIds(t, sIdx));
+  let searchPasses = 0, searchSwaps = 0;
+  const rankedByType = TYPES.map((_, t) => rankRows(idsByType[t], sIdx, state.weights));
+
+  const pools = TYPES.map((_, t) => {
+    const ids = idsByType[t];
+    const chosen = new Map();
+    rankedByType[t].slice(0, 90).forEach(r => chosen.set(r.i, getC(r.i)));
+    for (const k of STAT_KEYS){
+      const top = ids.map(i => [i, getC(i)[k] || 0]).sort((a, b) => b[1] - a[1]).slice(0, 12);
+      for (const [i] of top) if (!chosen.has(i)) chosen.set(i, getC(i));
+    }
+    return [...chosen.entries()].map(([i, c]) => ({i, c}));
+  });
+
+  const ref = {};
+  for (const k of STAT_KEYS){
+    let sum = 0;
+    for (const pool of pools){
+      let mx = 0;
+      for (const c of pool) if ((c.c[k] || 0) > mx) mx = c.c[k];
+      sum += mx;
+    }
+    ref[k] = sum;
+  }
+
+  const start = baseTotals();
+  for (const t in fixed){
+    const c = getC(fixed[t]);
+    for (const k of STAT_KEYS) start[k] = (start[k] || 0) + (c[k] || 0);
+  }
+
+  const evalTot = tot => ({tot, sf: shortfallTot(tot), sc: setScoreTot(tot, ref)});
+  const evalBuild = build => {
+    const tot = baseTotals();
+    for (const t in build){
+      const c = getC(build[t]);
+      for (const k of STAT_KEYS) tot[k] = (tot[k] || 0) + (c[k] || 0);
+    }
+    const e = evalTot(tot);
+    e.build = Object.assign({}, build);
+    return e;
+  };
+  const finish = e => {
+    state.searchInfo = {passes: searchPasses, swaps: searchSwaps, starts: starts.length};
+    state.searchRef = ref;
+    state.build = e.build;
+    state.setScore = Math.round(e.sc * 10) / 10;
+    renderSlots(); renderTotals();
+  };
+
+  // A greedy left-to-right pass, used as a starting point and as fast mode.
+  const greedyFill = () => {
+    const build = Object.assign({}, fixed);
+    let gt = Object.assign({}, start);
+    for (const t of open){
+      let pick = null, bestE = null;
+      for (const i of idsByType[t]){
+        const c = getC(i);
+        const e = evalTot(addTotals(gt, c));
+        if (!bestE || cmpBuild(e, bestE) > 0){ bestE = e; pick = {i, c}; }
+      }
+      if (pick){ build[t] = pick.i; gt = addTotals(gt, pick.c); }
+    }
+    return build;
+  };
+
+  if (state.optimizer === 'greedy'){ finish(evalBuild(greedyFill())); return; }
+
+  // Thorough mode. Several starting points, then repeated coordinate ascent
+  // until no single-slot change improves the result, then pairwise swaps.
+  const starts = [];
+
+  const rank1 = Object.assign({}, fixed);
+  for (const t of open){ const rows = rankedByType[t]; if (rows.length) rank1[t] = rows[0].i; }
+  starts.push(rank1);
+
+  starts.push(greedyFill());
+
+  const K = 400;
+  let beam = [Object.assign(evalTot(Object.assign({}, start)),
+                            {picks: Object.entries(fixed).map(([t, i]) => [+t, +i])})];
+  for (const t of open){
+    const pool = pools[t];
+    if (!pool.length) continue;
+    const next = [];
+    for (const b of beam){
+      for (const cand of pool){
+        next.push(Object.assign(evalTot(addTotals(b.tot, cand.c)),
+                                {picks: b.picks.concat([[t, cand.i]])}));
+      }
+    }
+    for (const n of next) n.key = buildKey(n);
+    next.sort((a, b) => b.key - a.key);
+    beam = next.slice(0, K);
+  }
+  let bestBeam = null;
+  for (const b of beam){
+    const build = Object.assign({}, fixed);
+    for (const [t, id] of b.picks) build[t] = id;
+    const e = evalBuild(build);
+    if (!bestBeam || cmpBuild(e, bestBeam) > 0) bestBeam = e;
+  }
+  if (bestBeam) starts.push(bestBeam.build);
+
+  const climb = seed => {
+    const build = Object.assign({}, seed);
+    let cur = evalBuild(build);
+    for (let pass = 0; pass < 8; pass++){
+      searchPasses++;
+      let improved = false;
+      for (const t of open){
+        const curC = build[t] != null ? getC(build[t]) : null;
+        const base = curC ? subTotals(cur.tot, curC) : cur.tot;
+        let bestI = build[t], bestE = cur;
+        for (const i of idsByType[t]){
+          if (i === build[t]) continue;
+          const tot = addTotals(base, getC(i));
+          const e = {tot, sf: shortfallTot(tot), sc: setScoreTot(tot, ref)};
+          if (cmpBuild(e, bestE) > 0){ bestE = e; bestI = i; }
+        }
+        if (bestI !== build[t]){
+          build[t] = bestI;
+          cur = bestE;
+          searchSwaps++;
+          improved = true;
+        }
+      }
+      if (!improved) break;
+    }
+    // Pairwise refinement over the strongest candidates in each slot.
+    const top = {};
+    for (const t of open){
+      const ids = rankedByType[t].slice(0, 6).map(r => r.i);
+      top[t] = ids.length ? ids : (build[t] != null ? [build[t]] : []);
+    }
+    let moved = true, guard = 0;
+    while (moved && guard++ < 2){
+      moved = false;
+      for (let a = 0; a < open.length; a++){
+        for (let b = a + 1; b < open.length; b++){
+          const ta = open[a], tb = open[b];
+          for (const ia of top[ta]){
+            for (const ib of top[tb]){
+              if (ia === build[ta] && ib === build[tb]) continue;
+              const e = evalBuild(Object.assign({}, build, {[ta]: ia, [tb]: ib}));
+              if (cmpBuild(e, cur) > 0){
+                build[ta] = ia; build[tb] = ib; cur = e;
+                searchSwaps++;
+                moved = true;
+              }
+            }
+          }
+        }
+      }
+    }
+    return evalBuild(build);
+  };
+
+  let best = null;
+  for (const s of starts){
+    const e = climb(s);
+    if (!best || cmpBuild(e, best) > 0) best = e;
+  }
+
+  // How long does this exact set stay the best one?  It becomes wearable at the
+  // highest item level in it, and stops being best at the first higher level
+  // where some newly unlocked single piece would improve the set.
+  const chosen = Object.keys(best.build).map(Number);
+  const low = chosen.length ? Math.max(...chosen.map(t => ITEMS[best.build[t]].l)) : 1;
+  let high = low, capped = false;
+  if (low >= MAX_ITEM_LEVEL){
+    capped = true;
+  } else {
+    let stop = false;
+    for (let lv = low + 1; lv <= MAX_ITEM_LEVEL && !stop; lv++){
+      for (const i of (ITEMS_BY_LEVEL[lv] || [])){
+        const it = ITEMS[i];
+        if (best.build[it.t] == null) continue;
+        if (!usable(it, sIdx)) continue;
+        if (state.excluded.has(i)) continue;
+        if (SOURCES.length && !(it.src & state.srcMask)) continue;
+        if (!passesFilters(it)) continue;
+        const e = evalBuild(Object.assign({}, best.build, {[it.t]: i}));
+        if (cmpBuild(e, best) > 0){ high = lv - 1; stop = true; break; }
+      }
+      if (!stop) high = lv;
+    }
+    if (high >= MAX_ITEM_LEVEL) capped = true;
+  }
+  state.buildRange = {low, high, capped};
+
+  state.slotRanges = {};
+  for (const t of chosen){
+    const it = ITEMS[best.build[t]];
+    let rep = null;
+    for (let lv = it.l + 1; lv <= MAX_ITEM_LEVEL && rep === null; lv++){
+      for (const i of (ITEMS_BY_LEVEL[lv] || [])){
+        const cand = ITEMS[i];
+        if (cand.t !== t || !usable(cand, sIdx)) continue;
+        if (state.excluded.has(i) || !passesFilters(cand)) continue;
+        if (SOURCES.length && !(cand.src & state.srcMask)) continue;
+        const e = evalBuild(Object.assign({}, best.build, {[t]: i}));
+        if (cmpBuild(e, best) > 0){ rep = lv; break; }
+      }
+    }
+    state.slotRanges[t] = rep;
+  }
+  finish(best);
+}
+
+$('school').onchange = e => {
+  state.schoolIndex = +e.target.value;
+  bumpRank();
+  syncBase(); renderList(); renderSlots(); renderTotals();
+};
+$('lvl').oninput = e => setLevel(+e.target.value);
+$('opt').value = state.optimizer;
+$('opt').onchange = e => { state.optimizer = e.target.value; };
+$('goal').value = state.goal;
+$('goal').onchange = e => { state.goal = e.target.value; bumpRank(); state.setScore = null; renderList(); renderSlots(); renderTotals(); };
+$('keep').value = state.keepPicks ? '1' : '0';
+$('keep').onchange = e => {
+  state.keepPicks = e.target.value === '1';
+  state.setScore = null;
+  renderTotals();
+};
+$('wbtn').onclick = () => $('drawer').classList.toggle('on');
+$('srcbtn').onclick = e => { e.stopPropagation(); $('srcpop').classList.toggle('on'); };
+$('srcAll').onclick = () => { state.srcOn = SOURCES.map(() => true); applySources(); };
+$('srcNone').onclick = () => { state.srcOn = SOURCES.map(() => false); applySources(); };
+if (document.addEventListener) {
+  document.addEventListener('click', e => {
+    const pop = $('srcpop');
+    if (pop.classList.contains('on') && !pop.contains(e.target) && e.target !== $('srcbtn')) {
+      pop.classList.remove('on');
+    }
+  });
+}
+$('bis').onclick = () => {
+  const btn = $('bis');
+  const label = btn.textContent;
+  btn.textContent = 'Searching...';
+  btn.disabled = true;
+  setTimeout(() => {
+    try { bestInSlot(); }
+    finally { btn.textContent = label; btn.disabled = false; }
+  }, 30);
+};
+function buildText(){
+  const s = SCHOOLS[state.schoolIndex];
+  const goal = state.goal === 'score' ? 'Balanced' : (GOALS[state.goal] ? GOALS[state.goal][1] : state.goal);
+  const lines = [`Wizard101 build - ${s} level ${state.level} (${goal})`];
+  if (state.buildRange) lines.push(rangeSentence(state.buildRange));
+  lines.push('');
+  for (let t = 0; t < TYPES.length; t++){
+    const idx = state.build[t];
+    lines.push(`${TYPES[t]}: ${idx != null ? ITEMS[idx].n : '-'}`);
+  }
+  const tot = totalsFor(state.build);
+  lines.push('');
+  lines.push(`Damage ${Math.round(tot.comp.d)}% | Resist ${Math.round(tot.comp.r)}% | ` +
+             `Health ${Math.round(tot.comp.hp).toLocaleString()} | Power pips ${Math.round(tot.comp.pp)}% | ` +
+             `Shadow pip ${Math.round(tot.comp.sp)} | Archmastery ${Math.round(tot.comp.am)} | ` +
+             `Energy ${Math.round(tot.comp.en)}`);
+  return lines.join('\n');
+}
+$('copyBuild').onclick = async () => {
+  const btn = $('copyBuild');
+  const text = buildText();
+  try {
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      await navigator.clipboard.writeText(text);
+    } else {
+      throw new Error('no clipboard');
+    }
+    btn.textContent = 'Copied';
+  } catch (e) {
+    btn.textContent = 'Copy failed';
+  }
+  setTimeout(() => { btn.textContent = 'Copy build'; }, 1500);
+};
+
+$('clear').onclick = () => {
+  state.build = {}; state.buildRange = null; state.setScore = null;
+  renderSlots(); renderTotals();
+};
+$('resetSaved').onclick = () => {
+  try { localStorage.removeItem(SAVE_KEY); } catch (e) {}
+  if (typeof location !== 'undefined') location.reload();
+};
+
+function setHeaderHeight(){
+  if (typeof document === 'undefined' || !document.querySelector) return;
+  const h = document.querySelector('header');
+  if (!h) return;
+  document.documentElement.style.setProperty('--hh', h.offsetHeight + 'px');
+}
+
+restoreState();
+buildHeader();
+setHeaderHeight();
+if (typeof window !== 'undefined' && window.addEventListener) {
+  window.addEventListener('resize', setHeaderHeight);
+  window.addEventListener('load', setHeaderHeight);
+}
+renderList();
+renderSlots();
+renderTotals();
+</script>
+</body>
+</html>

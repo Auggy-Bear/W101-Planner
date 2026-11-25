@@ -1,115 +1,98 @@
-# Wizard101 Gear Planner
+# Wizard101 Build Planner
 
-A single-file, offline build planner for Wizard101 gear. Pick your school and
-level, set a priority order, and it ranks every item and searches whole builds.
+Two standalone, single-file build planners for Wizard101 gear:
 
-**Live:** https://Auggy-Bear.github.io/W101-Planner/
+- **v2** — current planner with gems, pins, normalized 0–100 scoring, duplicate
+  detection, raid filtering and setup sharing.
+- **v1** — the original gear-only planner, kept for comparison and history.
 
-## What it does
+Everything runs locally in the browser from one HTML file. No server, no build
+step for the user, no network calls.
 
-- 51,697 items, all eight gear slots, levels 1-180
-- Per-school percentile ranking and a set optimiser (Best in slot)
-- Goals: balanced score, max damage, resist, health, healing, power/shadow pips
-- Caps, minimums, per-slot locks, source filters, seasonal exclusion
-- Base stats and class-only base pip conversion from the level table
-- Hover any stat chip for a base + per-item breakdown
-- Copy build as plain text; runs entirely in your browser, no account, no tracking
+## Quick start
 
-## Running locally
+Open:
 
-Download `index.html` and open it. Everything is embedded - no server, no build
-step, no network calls.
+- `versions/v2/dist/wizard101_build_v2.html` — current
+- `versions/v1/dist/wizard101_build.html` — legacy
 
-## First build in 30 seconds
+## Repository layout
 
-1. Pick your **School** and **Level** in the header.
-2. Leave **Goal** on *Balanced* (or choose the stat you care about).
-3. Press **Best in slot**.
-4. Read the totals, hover any number for its breakdown, then copy or tweak.
+```
+versions/
+  v1/
+    app_template.html
+    build_app.py
+    db_reader.py
+    priority.py
+    base_stats.json
+    dist/wizard101_build.html
+  v2/
+    app_template.html
+    build_app.py
+    build_gem_catalog.py
+    build_pin_catalog.py
+    config.py
+    db_reader.py
+    dist/wizard101_build_v2.html
+    V2_NON_GEM_FIXES.md
+data/
+  items/             8 gzipped per-item-type database parts + manifest
+  raw/               saved wiki captures
+  processed/         gems.json, pins.json, base_stats.json, CSVs
+  reports/           anomaly and jewel/pin workbooks
+  reference/         query definitions and capture notes
+tools/
+  split_database.py  splits a full SQLite DB into the per-type parts
+```
 
-That is enough to get a usable build. Everything else is optional tuning.
+## Rebuild v2
 
-## Header
+```powershell
+cd versions/v2
+python build_app.py
+```
 
-| Control | What it does |
-|---|---|
-| **School** | Which wizard you are building for. |
-| **Level** | Maximum item level. Items above it are shown greyed at the bottom of the list. |
-| **Goal** | *Balanced* uses the weighted score. The other options maximise one stat first. |
-| **Optimiser** | *Set search* tries whole builds (slower, better). *Greedy* fills slots one at a time (fast). |
-| **Picks** | *Replace all* searches every slot. *Keep my picks* leaves your equipped items alone and only fills empty slots. |
-| **Sources** | Tick where gear can come from (packs, drops, crafting, vendors...). An item is kept if **any** of its sources is ticked. |
-| **Setup** | Opens the tuning panel: priority order, caps, minimums, filters, saved settings. |
-| **Best in slot** | Runs the search and fills the build. |
-| **Clear build** | Empties every slot. |
+The builder defaults to `data/items` and the processed gem/pin/base files. It
+accepts `--db`, `--gems`, `--pins`, `--base`, `--template` and `--out`.
 
-## Setup panel
+For v1:
 
-**Priority order** - the stats the score cares about, top = most important. Drag
-rows or use the arrows. Untick a stat to ignore it completely. Order matters more
-than the numbers: the top stat outweighs everything below it.
+```powershell
+cd versions/v1
+python build_app.py
+```
 
-**Caps** - stop valuing a stat past a threshold. Power pip is the usual one: above
-100% it does nothing, so the optimiser stops chasing it. Blank means no cap.
+## Data upload
 
-**Minimums** - hard requirements. The search gives up score to hit these first,
-then optimises normally. Leave at 0 to ignore.
+The full database is split into **eight compressed per-type parts** under
+`data/items/`:
 
-**Filters** - hide retired gear, restrict to tradeable/auctionable, exclude
-seasonal/event pieces, or limit to one world. These apply to the list, the slots
-and the search.
+| Part | Size |
+|---|---:|
+| hat.db.gz | 9.2 MB |
+| robe.db.gz | 9.1 MB |
+| boots.db.gz | 9.0 MB |
+| wand.db.gz | 8.2 MB |
+| athame.db.gz | 3.7 MB |
+| ring.db.gz | 3.6 MB |
+| amulet.db.gz | 3.3 MB |
+| deck.db.gz | 3.2 MB |
 
-**Saved settings** - school, level, priority, caps, minimums, filters, locks and
-the equipped build are kept in this browser. *Clear saved settings* resets them.
+All are under 10 MB, so every file can be uploaded through GitHub's web UI. The
+builders read them directly; the original 376 MB SQLite file is optional.
 
-## Item list
+See [data/README.md](data/README.md).
 
-Tabs switch slot type: Hat, Robe, Boots, Wand, Athame, Amulet, Ring, Deck.
+## GitHub Pages
 
-- **Search** filters the current tab by name.
-- Columns show tier, score, damage, resist, crit, block, pierce, accuracy, health
-  and shadow pip rating.
-- **equip** puts the item straight into its slot.
-- **x** excludes that item from all future searches.
-- Items **above your level** appear greyed at the bottom; they cannot be equipped
-  yet but you can still see what is coming.
-- The list renders 250 rows at a time and loads more as you scroll (or with the
-  **Show more** button). Counts at the bottom always reflect the full pool.
+`index.html` redirects to the v2 build, so the Pages URL stays stable:
 
-## Totals
+`https://auggy-bear.github.io/W101-Planner/`
 
-The top card is the build's real totals: Health, Mana, Power pips, Energy, Shadow
-pip rating, Archmastery, healing, stun resist and deck size, followed by a block
-per stat with one chip per school.
+Pages should serve from `main` / `/ (root)`.
 
-- **Hover any chip or hero card** for the base value plus every item feeding it.
-- A capped stat that goes over shows red with the excess.
-- Damage, resist, crit, block, pierce and accuracy show all eight positions so you
-  can see how the build behaves on another wizard. Pip Conversion shows the seven
-  playable schools, since Shadow has no conversion stat.
+## Version differences
 
-## Equipped
-
-Each slot shows the item, a **lock** checkbox and a clear **x**. Item names link
-to their wiki page.
-
-- **Lock** a slot to keep it fixed while Best in slot fills the rest.
-- **Copy build** puts a plain-text summary on the clipboard for Discord or a forum.
-- **Replacement levels (deep dive)** expands to show, per slot, the level at which
-  a better single piece becomes available.
-
-## Good to know
-
-- The score is percentile-based within the current tab, so "90" means "top of the
-  items available to you", not a universal rating.
-- With a goal selected, the list sorts by that goal first, then by weighted score.
-- Sockets/gems, set bonuses and pets are not modelled, so in-game totals can be
-  higher than the planner's.
-- Best viewed on desktop; the item table needs horizontal scrolling on phones.
-- This only covers to Level 180. Level 190 will be updated hopefully by year end.
-
-## Data credits
-
-Item data was compiled from the Wizard101 Central wiki on 2026-11-17. Wizard101
-and its item data belong to KingsIsle Entertainment. This is an unofficial fan
-tool and is not affiliated with or endorsed by KingsIsle or Wizard101 Central.
+See [versions/v2/V2_NON_GEM_FIXES.md](versions/v2/V2_NON_GEM_FIXES.md) for the
+non-gem/non-pin changes in v2.

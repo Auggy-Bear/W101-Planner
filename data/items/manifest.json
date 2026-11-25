@@ -1,0 +1,61 @@
+{
+  "source": "wizard101_items.db",
+  "parts": {
+    "Amulet": {
+      "file": "amulet.db.gz",
+      "rows": 3601,
+      "raw_bytes": 25772032,
+      "gz_bytes": 3439712,
+      "sha256": "b9cfcacca855ade7587c1a260faffbf793e407221bf035085b26ab22cba39125"
+    },
+    "Athame": {
+      "file": "athame.db.gz",
+      "rows": 3955,
+      "raw_bytes": 28598272,
+      "gz_bytes": 3835781,
+      "sha256": "12fd26a4b5a22d9a5c3d39aac5044353b0698d1f0224718205d46334980d42ab"
+    },
+    "Boots": {
+      "file": "boots.db.gz",
+      "rows": 9356,
+      "raw_bytes": 71172096,
+      "gz_bytes": 9482270,
+      "sha256": "455b0ed984e51098030d81bb00dabe656acda0dd96b258670a2f89bdd9770ddc"
+    },
+    "Deck": {
+      "file": "deck.db.gz",
+      "rows": 3449,
+      "raw_bytes": 24932352,
+      "gz_bytes": 3327316,
+      "sha256": "348a639f28f37fdca855fc1cf833f177895d56df8d0eac61a14e4307f8b1d902"
+    },
+    "Hat": {
+      "file": "hat.db.gz",
+      "rows": 9477,
+      "raw_bytes": 71929856,
+      "gz_bytes": 9609440,
+      "sha256": "70e87078c71b683fe43f615098bd75a793c41da22dfccbf52c8846c4ba0425b4"
+    },
+    "Ring": {
+      "file": "ring.db.gz",
+      "rows": 3947,
+      "raw_bytes": 28495872,
+      "gz_bytes": 3822064,
+      "sha256": "2fed92cf87c91f0aac431a57fbe336ab6261055738c895bc5cb1e9dda471de93"
+    },
+    "Robe": {
+      "file": "robe.db.gz",
+      "rows": 9449,
+      "raw_bytes": 71610368,
+      "gz_bytes": 9564561,
+      "sha256": "75ed20f3eb07a3d13d5db2923e89c0cd0e432bea8b18ee63821673fc08f095be"
+    },
+    "Wand": {
+      "file": "wand.db.gz",
+      "rows": 8463,
+      "raw_bytes": 64094208,
+      "gz_bytes": 8603418,
+      "sha256": "6bf13a98460b0ff54eea69a69338d1d03558d7f575a743b6d2cb751b21106f89"
+    }
+  }
+}

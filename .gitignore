@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.ask-profile/
+tools/
+
+# The 376 MB database is a local build input / release asset, not a repo file.
+*.db
+*.db.bak*
+*.sqlite
+
+*.zip
+.DS_Store

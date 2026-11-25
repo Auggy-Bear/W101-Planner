@@ -1,0 +1,221 @@
+Wizard101 Central - Pin property queries
+=======================================
+
+Base metadata for every query:
+  ?Level  ?School  ?PowerPins  ?SwordPins  ?ShieldPins
+
+Use format=csv and limit=5000. Save one page per effect.
+
+
+1) Damage-Boosting Pins
+-----------------------
+[[Category:Pins]][[Category:Damage-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?GlobalDamage
+|?BalanceDamage
+|?DeathDamage
+|?FireDamage
+|?IceDamage
+|?LifeDamage
+|?MythDamage
+|?StormDamage
+|?ShadowDamage
+|?GlobalFlatDamage
+|?BalanceFlatDamage
+|?DeathFlatDamage
+|?FireFlatDamage
+|?IceFlatDamage
+|?LifeFlatDamage
+|?MythFlatDamage
+|?StormFlatDamage
+|?ShadowFlatDamage
+|format=csv
+|limit=5000
+
+
+2) Resistance-Boosting Pins
+---------------------------
+[[Category:Pins]][[Category:Resistance-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?GlobalResist
+|?BalanceResist
+|?DeathResist
+|?FireResist
+|?IceResist
+|?LifeResist
+|?MythResist
+|?StormResist
+|?ShadowResist
+|?GlobalFlatResist
+|?BalanceFlatResist
+|?DeathFlatResist
+|?FireFlatResist
+|?IceFlatResist
+|?LifeFlatResist
+|?MythFlatResist
+|?StormFlatResist
+|?ShadowFlatResist
+|format=csv
+|limit=5000
+
+
+3) Armor Piercing-Boosting Pins
+-------------------------------
+[[Category:Pins]][[Category:Armor Piercing-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?ArmorPiercing
+|?GlobalArmorPiercing
+|?BalanceArmorPiercing
+|?DeathArmorPiercing
+|?FireArmorPiercing
+|?IceArmorPiercing
+|?LifeArmorPiercing
+|?MythArmorPiercing
+|?StormArmorPiercing
+|?ShadowArmorPiercing
+|format=csv
+|limit=5000
+
+
+4) Critical-Boosting Pins
+-------------------------
+[[Category:Pins]][[Category:Critical-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?GlobalCritical
+|?BalanceCritical
+|?DeathCritical
+|?FireCritical
+|?IceCritical
+|?LifeCritical
+|?MythCritical
+|?StormCritical
+|?ShadowCritical
+|format=csv
+|limit=5000
+
+
+5) Critical Block-Boosting Pins
+-------------------------------
+[[Category:Pins]][[Category:Critical Block-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?GlobalCriticalBlock
+|?BalanceCriticalBlock
+|?DeathCriticalBlock
+|?FireCriticalBlock
+|?IceCriticalBlock
+|?LifeCriticalBlock
+|?MythCriticalBlock
+|?StormCriticalBlock
+|?ShadowCriticalBlock
+|format=csv
+|limit=5000
+
+
+6) Pip Conversion-Boosting Pins
+-------------------------------
+[[Category:Pins]][[Category:Pip Conversion-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?PipConversion
+|?GlobalPipConversion
+|?BalancePipConversion
+|?DeathPipConversion
+|?FirePipConversion
+|?IcePipConversion
+|?LifePipConversion
+|?MythPipConversion
+|?StormPipConversion
+|?ShadowPipConversion
+|format=csv
+|limit=5000
+
+
+7) Accuracy-Boosting Pins  (property NOT in your list - test first)
+-------------------------------------------------------------------
+Try these in this order; keep whichever columns are not red:
+
+[[Category:Pins]][[Category:Accuracy-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?Accuracy
+|?GlobalAccuracy
+|?BalanceAccuracy
+|?DeathAccuracy
+|?FireAccuracy
+|?IceAccuracy
+|?LifeAccuracy
+|?MythAccuracy
+|?StormAccuracy
+|?ShadowAccuracy
+|format=csv
+|limit=5000
+
+If all accuracy columns are red, capture ?Text and read the number from the page
+body.
+
+
+8) Outgoing Healing-Boosting Pins  (property NOT in your list - test first)
+---------------------------------------------------------------------------
+Try these:
+
+[[Category:Pins]][[Category:Outgoing Healing-Boosting Pins]]
+|?Level
+|?School
+|?PowerPins
+|?SwordPins
+|?ShieldPins
+|?OutgoingHealing
+|?HealingOut
+|?GlobalHealingOut
+|?BalanceHealingOut
+|?DeathHealingOut
+|?FireHealingOut
+|?IceHealingOut
+|?LifeHealingOut
+|?MythHealingOut
+|?StormHealingOut
+|?ShadowHealingOut
+|format=csv
+|limit=5000
+
+If all healing columns are red, capture ?Text and read the number from the page
+body.
+
+
+Notes
+-----
+- There is no plain ?Critical, ?Damage, ?Resist, ?FlatDamage, ?FlatResist or
+  ?CriticalBlock in your property list. Use the Global* and per-school forms.
+- ?ArmorPiercing and ?PipConversion do exist as plain properties.
+- ?PowerPins / ?SwordPins / ?ShieldPins identify pin shape; ?Level and ?School
+  give the pin's school.
+- Pin names alone do not carry school for universal pins; the School property is
+  the reliable source.
+- Accuracy and Outgoing Healing are the two gaps: no property with those names
+  appears in the list, so those two need the test above or page-text parsing.

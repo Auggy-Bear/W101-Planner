@@ -1,0 +1,2128 @@
+﻿Name,Shape,School,Level,Effect,Stat,Value,Percent,No Auction,Sources
+Amazing Critical Opal +11,Circle,Any,145,Critical,c,11.0,,yes,Bought
+Amazing Damage Opal +16,Circle,Any,145,Flat Damage,f,16.0,,,Bought; Dropped
+Blemished Damage Opal +4,Circle,Any,45,Flat Damage,f,4.0,,,Unknown
+Blemished Damage Opal +4 (PvP),Circle,Any,45,Flat Damage,f,4.0,,yes,Bought; Crafted
+Blemished Damage Opal +6,Circle,Any,45,Flat Damage,f,6.0,,,Bought; Dropped
+Chipped Damage Opal +2,Circle,Any,25,Flat Damage,f,2.0,,,Unknown
+Chipped Damage Opal +2 (PvP),Circle,Any,25,Flat Damage,f,2.0,,yes,Bought
+Chipped Damage Opal +4,Circle,Any,25,Flat Damage,f,4.0,,yes,Dropped
+Clear Critical Opal +5,Circle,Any,85,Critical,c,5.0,,yes,Bought; Dropped
+Clear Damage Opal +10,Circle,Any,85,Flat Damage,f,10.0,,yes,Dropped
+Clear Damage Opal +8,Circle,Any,85,Flat Damage,f,8.0,,,Unknown
+Clear Damage Opal +8 (PvP),Circle,Any,85,Flat Damage,f,8.0,,yes,Bought
+Cracked Damage Opal +1,Circle,Any,15,Flat Damage,f,1.0,,yes,Dropped
+Cracked Damage Opal +1 (PvP),Circle,Any,15,Flat Damage,f,1.0,,yes,Bought
+Cracked Damage Opal +2,Circle,Any,15,Flat Damage,f,2.0,,,Bought; Dropped
+Cracked Damage Opal +3,Circle,Any,15,Flat Damage,f,3.0,,,Dropped
+Cracked Mending Opal +1%,Circle,Any,15,Outgoing Heal,ho,1.0,yes,yes,Bought; Dropped; Gardened
+Dazzling Critical Opal +10,Circle,Any,135,Critical,c,10.0,,,Bought; Dropped
+Dazzling Damage Opal +13,Circle,Any,135,Flat Damage,f,13.0,,,Unknown
+Dazzling Damage Opal +13 (PvP),Circle,Any,135,Flat Damage,f,13.0,,yes,Bought; Crafted
+Dazzling Damage Opal +15,Circle,Any,135,Flat Damage,f,15.0,,,Dropped
+Dazzling Mending Opal +7%,Circle,Any,135,Outgoing Heal,ho,7.0,yes,,Bought; Dropped
+Dull Critical Opal +1,Circle,Any,55,Critical,c,1.0,,,Bought; Dropped
+Dull Critical Opal +2,Circle,Any,55,Critical,c,2.0,,,Dropped
+Dull Damage Opal +5,Circle,Any,55,Flat Damage,f,5.0,,,Unknown
+Dull Damage Opal +5 (PvP),Circle,Any,55,Flat Damage,f,5.0,,yes,Bought
+Dull Damage Opal +7,Circle,Any,55,Flat Damage,f,7.0,,,Dropped
+Dull Mending Opal +3%,Circle,Any,55,Outgoing Heal,ho,3.0,yes,,Bought; Dropped
+Dull Piercing Opal +1%,Circle,Any,55,Armor Piercing,p,1.0,yes,yes,Dropped
+Flawed Damage Opal +3,Circle,Any,35,Flat Damage,f,3.0,,,Unknown
+Flawed Damage Opal +3 (PvP),Circle,Any,35,Flat Damage,f,3.0,,yes,Bought
+Flawed Damage Opal +5,Circle,Any,35,Flat Damage,f,5.0,,,Dropped
+Flawed Mending Opal +2%,Circle,Any,35,Outgoing Heal,ho,2.0,yes,yes,Bought; Dropped
+Flawless Mending Opal +8%,Circle,Any,155,Outgoing Heal,ho,8.0,yes,yes,Dropped
+Lustrous Critical Opal +7,Circle,Any,105,Critical,c,7.0,,,Bought; Dropped
+Lustrous Damage Opal +10,Circle,Any,105,Flat Damage,f,10.0,,,Unknown
+Lustrous Damage Opal +10 (PvP),Circle,Any,105,Flat Damage,f,10.0,,yes,Bought; Crafted
+Lustrous Damage Opal +12,Circle,Any,105,Flat Damage,f,12.0,,,Bought; Dropped
+Opaque Critical Opal +4,Circle,Any,75,Critical,c,4.0,,,Dropped
+Opaque Damage Opal +7,Circle,Any,75,Flat Damage,f,7.0,,,Unknown
+Opaque Damage Opal +7 (PvP),Circle,Any,75,Flat Damage,f,7.0,,yes,Bought
+Opaque Damage Opal +9,Circle,Any,75,Flat Damage,f,9.0,,,Bought; Dropped
+Opaque Mending Opal +4%,Circle,Any,75,Outgoing Heal,ho,4.0,yes,,Bought; Dropped
+Opaque Piercing Opal +2%,Circle,Any,75,Armor Piercing,p,2.0,yes,,Bought; Dropped
+Plain Critical Opal +3,Circle,Any,65,Critical,c,3.0,,,Dropped
+Plain Damage Opal +6,Circle,Any,65,Flat Damage,f,6.0,,,Unknown
+Plain Damage Opal +6 (PvP),Circle,Any,65,Flat Damage,f,6.0,,yes,Bought; Crafted
+Plain Damage Opal +8,Circle,Any,65,Flat Damage,f,8.0,,,Bought; Dropped
+Polished Critical Opal +6,Circle,Any,95,Critical,c,6.0,,yes,Bought; Dropped
+Polished Damage Opal +11,Circle,Any,95,Flat Damage,f,11.0,,yes,Bought; Dropped
+Polished Damage Opal +9,Circle,Any,95,Flat Damage,f,9.0,,,Unknown
+Polished Damage Opal +9 (PvP),Circle,Any,95,Flat Damage,f,9.0,,yes,Bought
+Polished Mending Opal +5%,Circle,Any,95,Outgoing Heal,ho,5.0,yes,yes,Bought; Dropped
+Polished Piercing Opal +3%,Circle,Any,95,Armor Piercing,p,3.0,yes,,Bought; Dropped
+Shiny Critical Opal +8,Circle,Any,115,Critical,c,8.0,,,Bought; Dropped
+Shiny Damage Opal +11,Circle,Any,115,Flat Damage,f,11.0,,,Unknown
+Shiny Damage Opal +11 (PvP),Circle,Any,115,Flat Damage,f,11.0,,yes,Bought
+Shiny Damage Opal +13,Circle,Any,115,Flat Damage,f,13.0,,yes,Bought; Dropped
+Shiny Mending Opal +6%,Circle,Any,115,Outgoing Heal,ho,6.0,yes,yes,Bought; Dropped
+Sparkling Critical Opal +9,Circle,Any,125,Critical,c,9.0,,,Dropped
+Sparkling Damage Opal +12,Circle,Any,125,Flat Damage,f,12.0,,,Unknown
+Sparkling Damage Opal +12 (PvP),Circle,Any,125,Flat Damage,f,12.0,,yes,Bought
+Sparkling Damage Opal +14,Circle,Any,125,Flat Damage,f,14.0,,yes,Dropped
+Amazing Critical Citrine +21,Circle,Balance,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Citrine +22,Circle,Balance,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Citrine +31,Circle,Balance,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Citrine +32,Circle,Balance,145,Flat Damage,f,32.0,,,Bought; Dropped
+Blemished Damage Citrine +11,Circle,Balance,45,Flat Damage,f,11.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Damage Citrine +12,Circle,Balance,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Citrine +44 (Ice),Circle,Balance,180,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Bright Critical Citrine +52 (Death),Circle,Balance,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Citrine +54 (Balance),Circle,Balance,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Citrine +56 (Myth),Circle,Balance,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Citrine +57 (Fire),Circle,Balance,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Citrine +63 (Storm),Circle,Balance,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Citrine +11% (Balance),Circle,Balance,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Citrine +11% (Death),Circle,Balance,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Citrine +11% (Fire),Circle,Balance,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Citrine +11% (Myth),Circle,Balance,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Citrine +11% (Storm),Circle,Balance,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Chipped Damage Citrine +7,Circle,Balance,25,Flat Damage,f,7.0,,,Bought; Crafted; Dropped; Gardened
+Chipped Damage Citrine +8,Circle,Balance,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Citrine +10,Circle,Balance,85,Critical,c,10.0,,,Dropped; Gardened
+Clear Critical Citrine +9,Circle,Balance,85,Critical,c,9.0,,,Bought; Crafted; Dropped
+Clear Damage Citrine +19,Circle,Balance,85,Flat Damage,f,19.0,,,Bought; Crafted; Dropped
+Clear Damage Citrine +20,Circle,Balance,85,Flat Damage,f,20.0,,,Bought; Dropped; Gardened
+Clear Piercing Citrine +5%,Circle,Balance,85,Armor Piercing,p,5.0,yes,,Bought; Dropped; Gardened
+Cracked Damage Citrine +1,Circle,Balance,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Citrine +2,Circle,Balance,15,Flat Damage,f,2.0,,,Bought; Crafted; Dropped; Gardened
+Cracked Damage Citrine +3,Circle,Balance,15,Flat Damage,f,3.0,,,Bought; Crafted; Dropped; Gardened
+Cracked Damage Citrine +4,Circle,Balance,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Citrine +5,Circle,Balance,15,Flat Damage,f,5.0,,,Bought; Crafted; Dropped
+Cracked Damage Citrine +6,Circle,Balance,15,Flat Damage,f,6.0,,,Crafted; Dropped
+Dazzling Critical Citrine +19,Circle,Balance,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Citrine +20,Circle,Balance,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Citrine +29,Circle,Balance,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Citrine +30,Circle,Balance,135,Flat Damage,f,30.0,,,Bought; Dropped
+Drought Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Drought Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Drought Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Drought Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Drought Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Drought Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Dull Critical Citrine +2,Circle,Balance,55,Critical,c,2.0,,,Bought; Dropped; Gardened
+Dull Critical Citrine +3,Circle,Balance,55,Critical,c,3.0,,,Dropped; Gardened
+Dull Critical Citrine +4,Circle,Balance,55,Critical,c,4.0,,,Crafted; Dropped
+Dull Damage Citrine +13,Circle,Balance,55,Flat Damage,f,13.0,,,Crafted; Dropped; Gardened
+Dull Damage Citrine +14,Circle,Balance,55,Flat Damage,f,14.0,,,Crafted; Dropped; Gardened; Item Granted
+Dull Piercing Citrine +1%,Circle,Balance,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped
+Dull Piercing Citrine +2%,Circle,Balance,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Dust Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Dust Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Dust Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Dust Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Dust Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Dust Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Flawed Damage Citrine +10,Circle,Balance,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Citrine +9,Circle,Balance,35,Flat Damage,f,9.0,,,Bought; Crafted; Dropped; Gardened
+Flawless Critical Citrine +23,Circle,Balance,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Citrine +24,Circle,Balance,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Citrine +33,Circle,Balance,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Citrine +34,Circle,Balance,155,Flat Damage,f,34.0,,,Dropped
+Heat Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Heat Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Heat Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Heat Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Heat Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Heat Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lustrous Critical Citrine +13,Circle,Balance,105,Critical,c,13.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Critical Citrine +14,Circle,Balance,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Citrine +23,Circle,Balance,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Citrine +24,Circle,Balance,105,Flat Damage,f,24.0,,,Crafted; Dropped; Gardened
+Oasis Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Oasis Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Oasis Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Oasis Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Oasis Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Oasis Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Opaque Critical Citrine +7,Circle,Balance,75,Critical,c,7.0,,,Bought; Dropped
+Opaque Critical Citrine +8,Circle,Balance,75,Critical,c,8.0,,,Crafted; Dropped; Gardened
+Opaque Damage Citrine +17,Circle,Balance,75,Flat Damage,f,17.0,,,Bought; Dropped
+Opaque Damage Citrine +18,Circle,Balance,75,Flat Damage,f,18.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Piercing Citrine +4%,Circle,Balance,75,Armor Piercing,p,4.0,yes,,Bought; Dropped; Gardened
+Plain Critical Citrine +5,Circle,Balance,65,Critical,c,5.0,,,Crafted; Dropped; Gardened
+Plain Critical Citrine +6,Circle,Balance,65,Critical,c,6.0,,,Crafted; Dropped; Gardened
+Plain Damage Citrine +15,Circle,Balance,65,Flat Damage,f,15.0,,,Crafted; Dropped
+Plain Damage Citrine +16,Circle,Balance,65,Flat Damage,f,16.0,,,Crafted; Dropped; Gardened
+Plain Piercing Citrine +3%,Circle,Balance,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Citrine +11,Circle,Balance,95,Critical,c,11.0,,,Bought; Dropped; Gardened
+Polished Critical Citrine +12,Circle,Balance,95,Critical,c,12.0,,,Bought; Dropped; Gardened; Item Granted
+Polished Damage Citrine +21,Circle,Balance,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Citrine +22,Circle,Balance,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped; Gardened
+Polished Piercing Citrine +6%,Circle,Balance,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shade Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Shade Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Shade Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Shade Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Shade Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Shade Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Shiny Critical Citrine +15,Circle,Balance,115,Critical,c,15.0,,,Crafted; Dropped; Gardened
+Shiny Critical Citrine +16,Circle,Balance,115,Critical,c,16.0,,,Dropped; Gardened
+Shiny Damage Citrine +25,Circle,Balance,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Damage Citrine +26,Circle,Balance,115,Flat Damage,f,26.0,,,Dropped; Gardened; Item Granted
+Sparkling Critical Citrine +17,Circle,Balance,125,Critical,c,17.0,,,Dropped; Gardened
+Sparkling Critical Citrine +18,Circle,Balance,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Citrine +27,Circle,Balance,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Citrine +28,Circle,Balance,125,Flat Damage,f,28.0,,,Dropped
+Story Piercing Jewel +1%,Circle,Balance,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Story Piercing Jewel +2%,Circle,Balance,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Story Piercing Jewel +3%,Circle,Balance,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Story Piercing Jewel +4%,Circle,Balance,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Story Piercing Jewel +5%,Circle,Balance,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Story Piercing Jewel +6%,Circle,Balance,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Unearthly Critical Citrine +42 (Ice),Circle,Balance,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +44 (Life),Circle,Balance,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +46 (Death),Circle,Balance,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +48 (Balance),Circle,Balance,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +50 (Fire),Circle,Balance,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +51 (Myth),Circle,Balance,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Citrine +54 (Storm),Circle,Balance,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +10% (Balance),Circle,Balance,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +10% (Fire),Circle,Balance,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +10% (Myth),Circle,Balance,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +11% (Death),Circle,Balance,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +11% (Storm),Circle,Balance,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +9% (Ice),Circle,Balance,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Citrine +9% (Life),Circle,Balance,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Amazing Critical Onyx +21,Circle,Death,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Onyx +22,Circle,Death,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Onyx +31,Circle,Death,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Onyx +32,Circle,Death,145,Flat Damage,f,32.0,,,Bought; Dropped
+Ash Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Ash Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Ash Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Ash Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Ash Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Ash Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,yes,Crafted; Quest Reward
+Blemished Damage Onyx +11,Circle,Death,45,Flat Damage,f,11.0,,,Crafted; Dropped; Gardened
+Blemished Damage Onyx +12,Circle,Death,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Onyx +44 (Ice),Circle,Death,180,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +48 (Life),Circle,Death,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +52 (Death),Circle,Death,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +54 (Balance),Circle,Death,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +56 (Myth),Circle,Death,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +57 (Fire),Circle,Death,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Onyx +63 (Storm),Circle,Death,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Onyx +10% (Ice),Circle,Death,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Onyx +10% (Life),Circle,Death,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Chipped Damage Onyx +7,Circle,Death,25,Flat Damage,f,7.0,,,Crafted; Dropped; Gardened
+Chipped Damage Onyx +8,Circle,Death,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Onyx +10,Circle,Death,85,Critical,c,10.0,,,Dropped; Gardened
+Clear Critical Onyx +9,Circle,Death,85,Critical,c,9.0,,,Bought; Crafted; Dropped
+Clear Damage Onyx +19,Circle,Death,85,Flat Damage,f,19.0,,,Bought; Crafted; Dropped; Gardened
+Clear Damage Onyx +20,Circle,Death,85,Flat Damage,f,20.0,,,Bought; Crafted; Dropped; Gardened
+Clear Piercing Onyx +5%,Circle,Death,85,Armor Piercing,p,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Cracked Damage Onyx +1,Circle,Death,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Onyx +2,Circle,Death,15,Flat Damage,f,2.0,,,Crafted; Dropped; Item Granted
+Cracked Damage Onyx +3,Circle,Death,15,Flat Damage,f,3.0,,,Crafted; Dropped; Gardened
+Cracked Damage Onyx +4,Circle,Death,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Onyx +5,Circle,Death,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Onyx +6,Circle,Death,15,Flat Damage,f,6.0,,,Crafted; Dropped
+Dazzling Critical Onyx +19,Circle,Death,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Onyx +20,Circle,Death,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Onyx +29,Circle,Death,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Onyx +30,Circle,Death,135,Flat Damage,f,30.0,,,Bought; Dropped; Item Granted
+Drowned Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Drowned Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Drowned Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Drowned Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Drowned Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Drowned Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,yes,Crafted; Quest Reward
+Dull Critical Onyx +2,Circle,Death,55,Critical,c,2.0,,,Bought; Crafted; Dropped
+Dull Critical Onyx +3,Circle,Death,55,Critical,c,3.0,,,Crafted; Dropped; Gardened
+Dull Critical Onyx +4,Circle,Death,55,Critical,c,4.0,,,Bought; Crafted; Dropped
+Dull Damage Onyx +13,Circle,Death,55,Flat Damage,f,13.0,,,Crafted; Dropped
+Dull Damage Onyx +14,Circle,Death,55,Flat Damage,f,14.0,,,Crafted; Dropped; Gardened
+Dull Piercing Onyx +1%,Circle,Death,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped; Gardened
+Dull Piercing Onyx +2%,Circle,Death,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Extinction Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Extinction Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Extinction Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Extinction Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Extinction Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Extinction Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,yes,Crafted; Quest Reward
+Flawed Damage Onyx +10,Circle,Death,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Onyx +9,Circle,Death,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Onyx +23,Circle,Death,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Onyx +24,Circle,Death,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Onyx +33,Circle,Death,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Onyx +34,Circle,Death,155,Flat Damage,f,34.0,,,Dropped
+Ghost Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Ghost Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Ghost Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Ghost Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Ghost Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Ghost Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lustrous Critical Onyx +13,Circle,Death,105,Critical,c,13.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Critical Onyx +14,Circle,Death,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Onyx +23,Circle,Death,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Onyx +24,Circle,Death,105,Flat Damage,f,24.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Critical Onyx +7,Circle,Death,75,Critical,c,7.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Critical Onyx +8,Circle,Death,75,Critical,c,8.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Damage Onyx +17,Circle,Death,75,Flat Damage,f,17.0,,,Bought; Crafted; Dropped
+Opaque Damage Onyx +18,Circle,Death,75,Flat Damage,f,18.0,,,Crafted; Dropped; Gardened
+Opaque Piercing Onyx +4%,Circle,Death,75,Armor Piercing,p,4.0,yes,,Bought; Dropped; Gardened
+Permafrost Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Permafrost Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Permafrost Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Permafrost Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Permafrost Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Permafrost Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Plain Critical Onyx +5,Circle,Death,65,Critical,c,5.0,,,Crafted; Dropped
+Plain Critical Onyx +6,Circle,Death,65,Critical,c,6.0,,,Crafted; Dropped; Gardened
+Plain Damage Onyx +15,Circle,Death,65,Flat Damage,f,15.0,,,Crafted; Dropped; Gardened
+Plain Damage Onyx +16,Circle,Death,65,Flat Damage,f,16.0,,,Crafted; Dropped; Gardened
+Plain Piercing Onyx +3%,Circle,Death,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Onyx +11,Circle,Death,95,Critical,c,11.0,,,Bought; Crafted; Dropped
+Polished Critical Onyx +12,Circle,Death,95,Critical,c,12.0,,,Bought; Crafted; Dropped; Gardened
+Polished Damage Onyx +21,Circle,Death,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Onyx +22,Circle,Death,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped
+Polished Piercing Onyx +6%,Circle,Death,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Onyx +15,Circle,Death,115,Critical,c,15.0,,,Crafted; Dropped; Gardened
+Shiny Critical Onyx +16,Circle,Death,115,Critical,c,16.0,,,Dropped; Gardened; Item Granted
+Shiny Damage Onyx +25,Circle,Death,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped
+Shiny Damage Onyx +26,Circle,Death,115,Flat Damage,f,26.0,,,Dropped
+Sparkling Critical Onyx +17,Circle,Death,125,Critical,c,17.0,,,Bought; Dropped; Gardened
+Sparkling Critical Onyx +18,Circle,Death,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Onyx +27,Circle,Death,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Onyx +28,Circle,Death,125,Flat Damage,f,28.0,,,Dropped
+Tomb Piercing Jewel +1%,Circle,Death,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Tomb Piercing Jewel +2%,Circle,Death,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Tomb Piercing Jewel +3%,Circle,Death,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Tomb Piercing Jewel +4%,Circle,Death,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Tomb Piercing Jewel +5%,Circle,Death,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Tomb Piercing Jewel +6%,Circle,Death,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Unearthly Critical Onyx +42 (Ice),Circle,Death,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +44 (Life),Circle,Death,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +46 (Death),Circle,Death,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +48 (Balance),Circle,Death,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +50 (Fire),Circle,Death,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +51 (Myth),Circle,Death,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Onyx +54 (Storm),Circle,Death,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +10% (Balance),Circle,Death,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +10% (Fire),Circle,Death,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +10% (Myth),Circle,Death,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +11% (Death),Circle,Death,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +11% (Storm),Circle,Death,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +9% (Ice),Circle,Death,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Onyx +9% (Life),Circle,Death,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Amazing Critical Ruby +21,Circle,Fire,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Ruby +22,Circle,Fire,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Ruby +31,Circle,Fire,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Ruby +32,Circle,Fire,145,Flat Damage,f,32.0,,,Bought; Dropped
+Blemished Damage Ruby +11,Circle,Fire,45,Flat Damage,f,11.0,,,Crafted; Dropped
+Blemished Damage Ruby +12,Circle,Fire,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Ruby +44 (Ice),Circle,Fire,180,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +48 (Life),Circle,Fire,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +52 (Death),Circle,Fire,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +54 (Balance),Circle,Fire,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +56 (Myth),Circle,Fire,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +57 (Fire),Circle,Fire,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Ruby +63 (Storm),Circle,Fire,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Ruby +11% (Balance),Circle,Fire,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Ruby +11% (Death),Circle,Fire,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Ruby +11% (Fire),Circle,Fire,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Ruby +11% (Myth),Circle,Fire,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Ruby +11% (Storm),Circle,Fire,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Caldera Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Caldera Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Caldera Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Caldera Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Caldera Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Caldera Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Chipped Damage Ruby +7,Circle,Fire,25,Flat Damage,f,7.0,,,Crafted; Dropped
+Chipped Damage Ruby +8,Circle,Fire,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Ruby +10,Circle,Fire,85,Critical,c,10.0,,,Bought; Dropped; Gardened
+Clear Critical Ruby +9,Circle,Fire,85,Critical,c,9.0,,,Bought; Crafted; Dropped
+Clear Damage Ruby +19,Circle,Fire,85,Flat Damage,f,19.0,,,Bought; Crafted; Dropped
+Clear Damage Ruby +20,Circle,Fire,85,Flat Damage,f,20.0,,,Bought; Crafted; Dropped; Gardened
+Clear Piercing Ruby +5%,Circle,Fire,85,Armor Piercing,p,5.0,yes,,Bought; Dropped; Gardened
+Cracked Damage Ruby +1,Circle,Fire,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Ruby +2,Circle,Fire,15,Flat Damage,f,2.0,,,Crafted; Dropped; Item Granted
+Cracked Damage Ruby +3,Circle,Fire,15,Flat Damage,f,3.0,,,Crafted; Gardened
+Cracked Damage Ruby +4,Circle,Fire,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Ruby +5,Circle,Fire,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Ruby +6,Circle,Fire,15,Flat Damage,f,6.0,,,Crafted; Dropped; Item Granted
+Dazzling Critical Ruby +19,Circle,Fire,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Ruby +20,Circle,Fire,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Ruby +29,Circle,Fire,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Ruby +30,Circle,Fire,135,Flat Damage,f,30.0,,,Bought; Dropped; Item Granted
+Dull Critical Ruby +2,Circle,Fire,55,Critical,c,2.0,,,Bought; Crafted; Dropped
+Dull Critical Ruby +3,Circle,Fire,55,Critical,c,3.0,,,Crafted; Dropped; Gardened; Item Granted
+Dull Critical Ruby +4,Circle,Fire,55,Critical,c,4.0,,,Crafted; Dropped
+Dull Damage Ruby +13,Circle,Fire,55,Flat Damage,f,13.0,,,Crafted; Dropped
+Dull Damage Ruby +14,Circle,Fire,55,Flat Damage,f,14.0,,,Crafted; Dropped; Gardened
+Dull Piercing Ruby +1%,Circle,Fire,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped
+Dull Piercing Ruby +2%,Circle,Fire,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Dune Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Dune Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Dune Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Dune Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Dune Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Dune Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Ember Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Flawed Damage Ruby +10,Circle,Fire,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Ruby +9,Circle,Fire,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Ruby +23,Circle,Fire,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Ruby +24,Circle,Fire,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Ruby +33,Circle,Fire,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Ruby +34,Circle,Fire,155,Flat Damage,f,34.0,,,Dropped
+Inferno Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Inferno Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Inferno Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Inferno Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Inferno Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Inferno Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,yes,Crafted; Quest Reward
+Lustrous Critical Ruby +13,Circle,Fire,105,Critical,c,13.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Critical Ruby +14,Circle,Fire,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Ruby +23,Circle,Fire,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Ruby +24,Circle,Fire,105,Flat Damage,f,24.0,,,Bought; Crafted; Dropped; Gardened
+Mist Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Mist Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Mist Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Mist Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Mist Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Mist Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Opaque Critical Ruby +7,Circle,Fire,75,Critical,c,7.0,,,Bought; Dropped; Gardened
+Opaque Critical Ruby +8,Circle,Fire,75,Critical,c,8.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Damage Ruby +17,Circle,Fire,75,Flat Damage,f,17.0,,,Bought; Crafted
+Opaque Damage Ruby +18,Circle,Fire,75,Flat Damage,f,18.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Piercing Ruby +4%,Circle,Fire,75,Armor Piercing,p,4.0,yes,,Bought; Crafted; Dropped; Gardened
+Plain Critical Ruby +5,Circle,Fire,65,Critical,c,5.0,,,Crafted; Dropped
+Plain Critical Ruby +6,Circle,Fire,65,Critical,c,6.0,,,Crafted; Dropped; Gardened
+Plain Damage Ruby +15,Circle,Fire,65,Flat Damage,f,15.0,,,Crafted; Dropped; Gardened
+Plain Damage Ruby +16,Circle,Fire,65,Flat Damage,f,16.0,,,Crafted; Dropped; Gardened
+Plain Piercing Ruby +3%,Circle,Fire,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Ruby +11,Circle,Fire,95,Critical,c,11.0,,,Bought; Crafted; Dropped
+Polished Critical Ruby +12,Circle,Fire,95,Critical,c,12.0,,,Bought; Dropped; Gardened
+Polished Damage Ruby +21,Circle,Fire,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Ruby +22,Circle,Fire,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped; Gardened
+Polished Piercing Ruby +6%,Circle,Fire,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Ruby +15,Circle,Fire,115,Critical,c,15.0,,,Crafted; Dropped; Gardened
+Shiny Critical Ruby +16,Circle,Fire,115,Critical,c,16.0,,,Dropped; Gardened; Item Granted
+Shiny Damage Ruby +25,Circle,Fire,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped
+Shiny Damage Ruby +26,Circle,Fire,115,Flat Damage,f,26.0,,,Dropped; Item Granted
+Sparkling Critical Ruby +17,Circle,Fire,125,Critical,c,17.0,,,Bought; Dropped; Gardened
+Sparkling Critical Ruby +18,Circle,Fire,125,Critical,c,18.0,,,Bought; Dropped
+Sparkling Damage Ruby +27,Circle,Fire,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Ruby +28,Circle,Fire,125,Flat Damage,f,28.0,,,Dropped
+Unearthly Critical Ruby +42 (Ice),Circle,Fire,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +44 (Life),Circle,Fire,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +46 (Death),Circle,Fire,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +48 (Balance),Circle,Fire,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +50 (Fire),Circle,Fire,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +51 (Myth),Circle,Fire,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Ruby +54 (Storm),Circle,Fire,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +10% (Balance),Circle,Fire,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +10% (Fire),Circle,Fire,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +10% (Myth),Circle,Fire,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +11% (Death),Circle,Fire,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +11% (Storm),Circle,Fire,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +9% (Ice),Circle,Fire,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Ruby +9% (Life),Circle,Fire,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Wild Piercing Jewel +1%,Circle,Fire,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Wild Piercing Jewel +2%,Circle,Fire,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Wild Piercing Jewel +3%,Circle,Fire,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Wild Piercing Jewel +4%,Circle,Fire,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Wild Piercing Jewel +5%,Circle,Fire,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Wild Piercing Jewel +6%,Circle,Fire,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Amazing Critical Sapphire +21,Circle,Ice,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Sapphire +22,Circle,Ice,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Sapphire +31,Circle,Ice,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Sapphire +32,Circle,Ice,145,Flat Damage,f,32.0,,,Bought; Dropped
+Avalanche Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Avalanche Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Avalanche Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Avalanche Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Avalanche Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Avalanche Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Blemished Damage Sapphire +11,Circle,Ice,45,Flat Damage,f,11.0,,,Crafted; Dropped; Gardened
+Blemished Damage Sapphire +12,Circle,Ice,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Sapphire +44 (Ice),Circle,Ice,180,Critical,c,44.0,,yes,Crafted; Dropped
+Bright Critical Sapphire +48 (Life),Circle,Ice,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Sapphire +52 (Death),Circle,Ice,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Sapphire +54 (Balance),Circle,Ice,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Sapphire +56 (Myth),Circle,Ice,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Sapphire +57 (Fire),Circle,Ice,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Sapphire +63 (Storm),Circle,Ice,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +10% (Ice),Circle,Ice,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +10% (Life),Circle,Ice,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +11% (Balance),Circle,Ice,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +11% (Death),Circle,Ice,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +11% (Fire),Circle,Ice,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Sapphire +11% (Myth),Circle,Ice,180,Damage,d,11.0,yes,yes,Crafted; Dropped
+Bright Damage Sapphire +11% (Storm),Circle,Ice,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Burn Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Burn Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Burn Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Burn Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Burn Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Burn Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Chipped Damage Sapphire +7,Circle,Ice,25,Flat Damage,f,7.0,,,Crafted; Dropped; Gardened
+Chipped Damage Sapphire +8,Circle,Ice,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Sapphire +10,Circle,Ice,85,Critical,c,10.0,,,Crafted; Dropped; Gardened
+Clear Critical Sapphire +9,Circle,Ice,85,Critical,c,9.0,,,Dropped; Gardened
+Clear Damage Sapphire +19,Circle,Ice,85,Flat Damage,f,19.0,,,Dropped
+Clear Damage Sapphire +20,Circle,Ice,85,Flat Damage,f,20.0,,,Dropped; Gardened
+Clear Piercing Sapphire +5%,Circle,Ice,85,Armor Piercing,p,5.0,yes,,Dropped; Gardened
+Cracked Damage Sapphire +1,Circle,Ice,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Sapphire +2,Circle,Ice,15,Flat Damage,f,2.0,,,Crafted; Dropped; Item Granted
+Cracked Damage Sapphire +3,Circle,Ice,15,Flat Damage,f,3.0,,,Crafted; Gardened
+Cracked Damage Sapphire +4,Circle,Ice,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Sapphire +5,Circle,Ice,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Sapphire +6,Circle,Ice,15,Flat Damage,f,6.0,,,Crafted; Dropped
+Dazzling Critical Sapphire +19,Circle,Ice,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Sapphire +20,Circle,Ice,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Sapphire +29,Circle,Ice,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Sapphire +30,Circle,Ice,135,Flat Damage,f,30.0,,,Bought; Dropped; Item Granted
+Dull Critical Sapphire +2,Circle,Ice,55,Critical,c,2.0,,,Bought; Crafted; Dropped
+Dull Critical Sapphire +3,Circle,Ice,55,Critical,c,3.0,,,Crafted; Dropped; Gardened; Item Granted
+Dull Critical Sapphire +4,Circle,Ice,55,Critical,c,4.0,,,Crafted; Dropped
+Dull Damage Sapphire +13,Circle,Ice,55,Flat Damage,f,13.0,,,Crafted; Dropped
+Dull Damage Sapphire +14,Circle,Ice,55,Flat Damage,f,14.0,,,Crafted; Gardened
+Dull Piercing Sapphire +1%,Circle,Ice,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped; Gardened
+Dull Piercing Sapphire +2%,Circle,Ice,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Flawed Damage Sapphire +10,Circle,Ice,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Sapphire +9,Circle,Ice,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Sapphire +23,Circle,Ice,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Sapphire +24,Circle,Ice,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Sapphire +33,Circle,Ice,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Sapphire +34,Circle,Ice,155,Flat Damage,f,34.0,,,Dropped
+Frostblight Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Frostblight Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Frostblight Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Frostblight Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Frostblight Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Frostblight Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Glacier Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lustrous Critical Sapphire +13,Circle,Ice,105,Critical,c,13.0,,,Bought; Dropped; Gardened
+Lustrous Critical Sapphire +14,Circle,Ice,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Sapphire +23,Circle,Ice,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Sapphire +24,Circle,Ice,105,Flat Damage,f,24.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Critical Sapphire +7,Circle,Ice,75,Critical,c,7.0,,,Crafted; Dropped
+Opaque Critical Sapphire +8,Circle,Ice,75,Critical,c,8.0,,,Dropped; Gardened
+Opaque Damage Sapphire +17,Circle,Ice,75,Flat Damage,f,17.0,,,Crafted; Dropped; Gardened
+Opaque Damage Sapphire +18,Circle,Ice,75,Flat Damage,f,18.0,,,Crafted; Dropped; Gardened
+Opaque Piercing Sapphire +4%,Circle,Ice,75,Armor Piercing,p,4.0,yes,,Crafted; Dropped; Gardened
+Plain Critical Sapphire +5,Circle,Ice,65,Critical,c,5.0,,,Crafted; Dropped
+Plain Critical Sapphire +6,Circle,Ice,65,Critical,c,6.0,,,Crafted; Dropped; Gardened
+Plain Damage Sapphire +15,Circle,Ice,65,Flat Damage,f,15.0,,,Crafted; Dropped
+Plain Damage Sapphire +16,Circle,Ice,65,Flat Damage,f,16.0,,,Dropped; Gardened
+Plain Piercing Sapphire +3%,Circle,Ice,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Sapphire +11,Circle,Ice,95,Critical,c,11.0,,,Bought; Dropped
+Polished Critical Sapphire +12,Circle,Ice,95,Critical,c,12.0,,,Bought; Dropped; Gardened
+Polished Damage Sapphire +21,Circle,Ice,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped; Gardened
+Polished Damage Sapphire +22,Circle,Ice,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Polished Piercing Sapphire +6%,Circle,Ice,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Sapphire +15,Circle,Ice,115,Critical,c,15.0,,,Crafted; Dropped; Gardened
+Shiny Critical Sapphire +16,Circle,Ice,115,Critical,c,16.0,,,Dropped; Gardened; Item Granted
+Shiny Damage Sapphire +25,Circle,Ice,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Damage Sapphire +26,Circle,Ice,115,Flat Damage,f,26.0,,,Dropped; Gardened; Item Granted
+Sparkling Critical Sapphire +17,Circle,Ice,125,Critical,c,17.0,,,Dropped; Gardened
+Sparkling Critical Sapphire +18,Circle,Ice,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Sapphire +27,Circle,Ice,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Sapphire +28,Circle,Ice,125,Flat Damage,f,28.0,,,Dropped
+Squall Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Squall Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Squall Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Squall Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Squall Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Squall Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Unearthly Critical Sapphire +42 (Ice),Circle,Ice,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +44 (Life),Circle,Ice,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +46 (Death),Circle,Ice,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +48 (Balance),Circle,Ice,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +50 (Fire),Circle,Ice,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +51 (Myth),Circle,Ice,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Sapphire +54 (Storm),Circle,Ice,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +10% (Balance),Circle,Ice,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +10% (Fire),Circle,Ice,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +10% (Myth),Circle,Ice,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +11% (Death),Circle,Ice,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +11% (Storm),Circle,Ice,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +9% (Ice),Circle,Ice,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Sapphire +9% (Life),Circle,Ice,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Winter Piercing Jewel +1%,Circle,Ice,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Winter Piercing Jewel +2%,Circle,Ice,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Winter Piercing Jewel +3%,Circle,Ice,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Winter Piercing Jewel +4%,Circle,Ice,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Winter Piercing Jewel +5%,Circle,Ice,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Winter Piercing Jewel +6%,Circle,Ice,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Amazing Critical Jade +21,Circle,Life,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Jade +22,Circle,Life,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Jade +31,Circle,Life,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Jade +32,Circle,Life,145,Flat Damage,f,32.0,,,Bought; Dropped
+Blemished Damage Jade +11,Circle,Life,45,Flat Damage,f,11.0,,,Crafted; Dropped; Gardened
+Blemished Damage Jade +12,Circle,Life,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Jade +48 (Life),Circle,Life,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Jade +52 (Death),Circle,Life,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Jade +54 (Balance),Circle,Life,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Jade +56 (Myth),Circle,Life,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Jade +57 (Fire),Circle,Life,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Jade +63 (Storm),Circle,Life,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Jade +10% (Ice),Circle,Life,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +10% (Life),Circle,Life,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +11% (Balance),Circle,Life,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +11% (Death),Circle,Life,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +11% (Fire),Circle,Life,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +11% (Myth),Circle,Life,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Jade +11% (Storm),Circle,Life,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Chipped Damage Jade +7,Circle,Life,25,Flat Damage,f,7.0,,,Crafted; Dropped; Gardened
+Chipped Damage Jade +8,Circle,Life,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Jade +10,Circle,Life,85,Critical,c,10.0,,,Crafted; Dropped; Gardened
+Clear Critical Jade +9,Circle,Life,85,Critical,c,9.0,,,Crafted; Dropped
+Clear Damage Jade +19,Circle,Life,85,Flat Damage,f,19.0,,,Crafted; Dropped
+Clear Damage Jade +20,Circle,Life,85,Flat Damage,f,20.0,,,Crafted; Dropped; Gardened
+Clear Piercing Jade +5%,Circle,Life,85,Armor Piercing,p,5.0,yes,,Crafted; Dropped; Gardened
+Cracked Damage Jade +1,Circle,Life,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Jade +2,Circle,Life,15,Flat Damage,f,2.0,,,Crafted; Dropped
+Cracked Damage Jade +3,Circle,Life,15,Flat Damage,f,3.0,,,Crafted; Dropped; Gardened
+Cracked Damage Jade +4,Circle,Life,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Jade +5,Circle,Life,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Jade +6,Circle,Life,15,Flat Damage,f,6.0,,,Crafted; Dropped; Item Granted
+Dazzling Critical Jade +19,Circle,Life,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Jade +20,Circle,Life,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Jade +29,Circle,Life,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Jade +30,Circle,Life,135,Flat Damage,f,30.0,,,Bought; Dropped; Item Granted
+Dull Critical Jade +2,Circle,Life,55,Critical,c,2.0,,,Bought; Dropped
+Dull Critical Jade +3,Circle,Life,55,Critical,c,3.0,,,Crafted; Dropped; Gardened; Item Granted
+Dull Critical Jade +4,Circle,Life,55,Critical,c,4.0,,,Crafted; Dropped
+Dull Damage Jade +13,Circle,Life,55,Flat Damage,f,13.0,,,Crafted; Dropped; Gardened
+Dull Damage Jade +14,Circle,Life,55,Flat Damage,f,14.0,,,Crafted; Gardened
+Dull Piercing Jade +1%,Circle,Life,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped
+Dull Piercing Jade +2%,Circle,Life,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Energy Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Energy Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Energy Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Energy Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Energy Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Energy Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Flawed Damage Jade +10,Circle,Life,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Jade +9,Circle,Life,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Jade +23,Circle,Life,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Jade +24,Circle,Life,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Jade +33,Circle,Life,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Jade +34,Circle,Life,155,Flat Damage,f,34.0,,,Dropped
+Lustrous Critical Jade +13,Circle,Life,105,Critical,c,13.0,,,Bought; Dropped; Gardened
+Lustrous Critical Jade +14,Circle,Life,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Jade +23,Circle,Life,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Jade +24,Circle,Life,105,Flat Damage,f,24.0,,,Bought; Crafted; Dropped; Gardened
+Memory Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Memory Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Memory Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Memory Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Memory Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Memory Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Opaque Critical Jade +7,Circle,Life,75,Critical,c,7.0,,,Dropped; Gardened
+Opaque Critical Jade +8,Circle,Life,75,Critical,c,8.0,,,Crafted; Dropped; Gardened
+Opaque Damage Jade +17,Circle,Life,75,Flat Damage,f,17.0,,,Crafted; Dropped; Gardened
+Opaque Damage Jade +18,Circle,Life,75,Flat Damage,f,18.0,,,Crafted; Dropped; Gardened
+Opaque Piercing Jade +4%,Circle,Life,75,Armor Piercing,p,4.0,yes,,Bought; Crafted; Dropped; Gardened
+Patience Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Patience Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Patience Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Patience Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Patience Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Patience Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Plain Critical Jade +5,Circle,Life,65,Critical,c,5.0,,,Crafted; Dropped
+Plain Critical Jade +6,Circle,Life,65,Critical,c,6.0,,,Dropped; Gardened
+Plain Damage Jade +15,Circle,Life,65,Flat Damage,f,15.0,,,Crafted; Dropped
+Plain Damage Jade +16,Circle,Life,65,Flat Damage,f,16.0,,,Crafted; Dropped; Gardened
+Plain Piercing Jade +3%,Circle,Life,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Jade +11,Circle,Life,95,Critical,c,11.0,,,Bought; Crafted; Dropped
+Polished Critical Jade +12,Circle,Life,95,Critical,c,12.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Polished Damage Jade +21,Circle,Life,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Jade +22,Circle,Life,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Polished Piercing Jade +6%,Circle,Life,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Jade +15,Circle,Life,115,Critical,c,15.0,,,Crafted; Dropped; Gardened
+Shiny Critical Jade +16,Circle,Life,115,Critical,c,16.0,,,Dropped; Gardened
+Shiny Damage Jade +25,Circle,Life,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Damage Jade +26,Circle,Life,115,Flat Damage,f,26.0,,,Dropped; Gardened
+Soul Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Soul Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Soul Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Soul Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Soul Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Soul Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Sparkling Critical Jade +17,Circle,Life,125,Critical,c,17.0,,,Dropped; Gardened
+Sparkling Critical Jade +18,Circle,Life,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Jade +27,Circle,Life,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Jade +28,Circle,Life,125,Flat Damage,f,28.0,,,Dropped
+Strength Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Strength Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Strength Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Strength Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Strength Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Strength Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +1%,Circle,Life,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +2%,Circle,Life,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +3%,Circle,Life,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +4%,Circle,Life,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +5%,Circle,Life,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Temper Piercing Jewel +6%,Circle,Life,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Unearthly Critical Jade +42 (Ice),Circle,Life,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +44 (Life),Circle,Life,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +46 (Death),Circle,Life,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +48 (Balance),Circle,Life,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +50 (Fire),Circle,Life,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +51 (Myth),Circle,Life,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Jade +54 (Storm),Circle,Life,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +10% (Balance),Circle,Life,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +10% (Fire),Circle,Life,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +10% (Myth),Circle,Life,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +11% (Death),Circle,Life,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +11% (Storm),Circle,Life,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +9% (Ice),Circle,Life,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Jade +9% (Life),Circle,Life,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Amazing Critical Peridot +21,Circle,Myth,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Peridot +22,Circle,Myth,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Peridot +31,Circle,Myth,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Peridot +32,Circle,Myth,145,Flat Damage,f,32.0,,,Bought; Dropped
+Blemished Damage Peridot +11,Circle,Myth,45,Flat Damage,f,11.0,,,Crafted; Dropped
+Blemished Damage Peridot +12,Circle,Myth,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Peridot +44 (Ice),Circle,Myth,180,Critical,c,44.0,,yes,Bought; Dropped
+Bright Critical Peridot +48 (Life),Circle,Myth,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Peridot +52 (Death),Circle,Myth,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Peridot +54 (Balance),Circle,Myth,180,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Bright Critical Peridot +56 (Myth),Circle,Myth,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Peridot +57 (Fire),Circle,Myth,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Peridot +63 (Storm),Circle,Myth,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Peridot +11% (Balance),Circle,Myth,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Peridot +11% (Death),Circle,Myth,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Peridot +11% (Fire),Circle,Myth,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Peridot +11% (Myth),Circle,Myth,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Peridot +11% (Storm),Circle,Myth,180,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Chipped Damage Peridot +7,Circle,Myth,25,Flat Damage,f,7.0,,,Crafted; Dropped; Gardened
+Chipped Damage Peridot +8,Circle,Myth,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Peridot +10,Circle,Myth,85,Critical,c,10.0,,,Dropped; Gardened
+Clear Critical Peridot +9,Circle,Myth,85,Critical,c,9.0,,,Dropped
+Clear Damage Peridot +19,Circle,Myth,85,Flat Damage,f,19.0,,,Dropped; Gardened
+Clear Damage Peridot +20,Circle,Myth,85,Flat Damage,f,20.0,,,Crafted; Dropped; Gardened
+Clear Piercing Peridot +5%,Circle,Myth,85,Armor Piercing,p,5.0,yes,,Dropped; Gardened
+Cracked Damage Peridot +1,Circle,Myth,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Peridot +2,Circle,Myth,15,Flat Damage,f,2.0,,,Crafted; Dropped
+Cracked Damage Peridot +3,Circle,Myth,15,Flat Damage,f,3.0,,,Crafted; Dropped; Gardened
+Cracked Damage Peridot +4,Circle,Myth,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Peridot +5,Circle,Myth,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Peridot +6,Circle,Myth,15,Flat Damage,f,6.0,,,Crafted; Dropped
+Creation Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Creation Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Creation Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Creation Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Creation Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Creation Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Dazzling Critical Peridot +19,Circle,Myth,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Peridot +20,Circle,Myth,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Peridot +29,Circle,Myth,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Peridot +30,Circle,Myth,135,Flat Damage,f,30.0,,,Bought; Dropped; Item Granted
+Dull Critical Peridot +2,Circle,Myth,55,Critical,c,2.0,,,Bought; Crafted; Dropped; Gardened
+Dull Critical Peridot +3,Circle,Myth,55,Critical,c,3.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Dull Critical Peridot +4,Circle,Myth,55,Critical,c,4.0,,,Bought; Crafted; Dropped
+Dull Damage Peridot +13,Circle,Myth,55,Flat Damage,f,13.0,,,Bought; Crafted; Dropped; Gardened
+Dull Damage Peridot +14,Circle,Myth,55,Flat Damage,f,14.0,,,Bought; Crafted; Dropped; Gardened
+Dull Piercing Peridot +1%,Circle,Myth,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped
+Dull Piercing Peridot +2%,Circle,Myth,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Epiphany Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Epiphany Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Epiphany Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Epiphany Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Epiphany Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Epiphany Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Fable Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Finale Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Flawed Damage Peridot +10,Circle,Myth,35,Flat Damage,f,10.0,,,Dropped; Gardened
+Flawed Damage Peridot +9,Circle,Myth,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Peridot +23,Circle,Myth,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Peridot +24,Circle,Myth,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Peridot +33,Circle,Myth,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Peridot +34,Circle,Myth,155,Flat Damage,f,34.0,,,Dropped
+History Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+History Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+History Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+History Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+History Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+History Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +1%,Circle,Myth,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +2%,Circle,Myth,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +3%,Circle,Myth,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +4%,Circle,Myth,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +5%,Circle,Myth,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Inspiration Piercing Jewel +6%,Circle,Myth,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lustrous Critical Peridot +13,Circle,Myth,105,Critical,c,13.0,,,Bought; Dropped; Gardened
+Lustrous Critical Peridot +14,Circle,Myth,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Peridot +23,Circle,Myth,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Peridot +24,Circle,Myth,105,Flat Damage,f,24.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Critical Peridot +7,Circle,Myth,75,Critical,c,7.0,,,Crafted; Dropped
+Opaque Critical Peridot +8,Circle,Myth,75,Critical,c,8.0,,,Dropped; Gardened
+Opaque Damage Peridot +17,Circle,Myth,75,Flat Damage,f,17.0,,,Crafted; Gardened
+Opaque Damage Peridot +18,Circle,Myth,75,Flat Damage,f,18.0,,,Dropped; Gardened
+Opaque Piercing Peridot +4%,Circle,Myth,75,Armor Piercing,p,4.0,yes,,Dropped; Gardened
+Plain Critical Peridot +5,Circle,Myth,65,Critical,c,5.0,,,Bought; Crafted; Dropped
+Plain Critical Peridot +6,Circle,Myth,65,Critical,c,6.0,,,Bought; Dropped; Gardened
+Plain Damage Peridot +15,Circle,Myth,65,Flat Damage,f,15.0,,,Bought; Crafted; Dropped; Gardened
+Plain Damage Peridot +16,Circle,Myth,65,Flat Damage,f,16.0,,,Bought; Dropped; Gardened
+Plain Piercing Peridot +3%,Circle,Myth,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Peridot +11,Circle,Myth,95,Critical,c,11.0,,,Bought; Crafted; Dropped
+Polished Critical Peridot +12,Circle,Myth,95,Critical,c,12.0,,,Bought; Dropped; Gardened
+Polished Damage Peridot +21,Circle,Myth,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Peridot +22,Circle,Myth,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped
+Polished Piercing Peridot +6%,Circle,Myth,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Peridot +15,Circle,Myth,115,Critical,c,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Critical Peridot +16,Circle,Myth,115,Critical,c,16.0,,,Bought; Dropped; Gardened
+Shiny Damage Peridot +25,Circle,Myth,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Damage Peridot +26,Circle,Myth,115,Flat Damage,f,26.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Critical Peridot +17,Circle,Myth,125,Critical,c,17.0,,,Bought; Dropped; Gardened
+Sparkling Critical Peridot +18,Circle,Myth,125,Critical,c,18.0,,,Bought; Dropped
+Sparkling Damage Peridot +27,Circle,Myth,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Peridot +28,Circle,Myth,125,Flat Damage,f,28.0,,,Dropped
+Unearthly Critical Peridot +42 (Ice),Circle,Myth,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +44 (Life),Circle,Myth,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +46 (Death),Circle,Myth,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +48 (Balance),Circle,Myth,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +50 (Fire),Circle,Myth,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +51 (Myth),Circle,Myth,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Peridot +54 (Storm),Circle,Myth,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +10% (Balance),Circle,Myth,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +10% (Fire),Circle,Myth,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +10% (Myth),Circle,Myth,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +11% (Death),Circle,Myth,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +11% (Storm),Circle,Myth,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +9% (Ice),Circle,Myth,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Peridot +9% (Life),Circle,Myth,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Amazing Critical Hematite +21,Circle,Shadow,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Hematite +22,Circle,Shadow,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Hematite +62,Circle,Shadow,145,Flat Damage,f,62.0,,,Bought; Dropped
+Amazing Damage Hematite +64,Circle,Shadow,145,Flat Damage,f,64.0,,,Bought; Dropped
+Clear Critical Hematite +10,Circle,Shadow,85,Critical,c,10.0,,,Dropped
+Clear Critical Hematite +9,Circle,Shadow,85,Critical,c,9.0,,,Dropped
+Dazzling Critical Hematite +19,Circle,Shadow,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Hematite +20,Circle,Shadow,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Hematite +58,Circle,Shadow,135,Flat Damage,f,58.0,,,Bought; Dropped
+Dazzling Damage Hematite +60,Circle,Shadow,135,Flat Damage,f,60.0,,,Bought; Dropped
+Lustrous Critical Hematite +13,Circle,Shadow,105,Critical,c,13.0,,,Bought; Dropped
+Lustrous Critical Hematite +14,Circle,Shadow,105,Critical,c,14.0,,,Bought; Dropped
+Lustrous Damage Hematite +46,Circle,Shadow,105,Flat Damage,f,46.0,,,Bought
+Lustrous Damage Hematite +48,Circle,Shadow,105,Flat Damage,f,48.0,,,Bought; Dropped
+Polished Critical Hematite +11,Circle,Shadow,95,Critical,c,11.0,,,Dropped
+Polished Critical Hematite +12,Circle,Shadow,95,Critical,c,12.0,,,Dropped
+Polished Damage Hematite +42,Circle,Shadow,95,Flat Damage,f,42.0,,,Dropped
+Polished Damage Hematite +44,Circle,Shadow,95,Flat Damage,f,44.0,,,Dropped
+Polished Piercing Hematite +5%,Circle,Shadow,95,Armor Piercing,p,5.0,yes,,Dropped
+Polished Piercing Hematite +6%,Circle,Shadow,95,Armor Piercing,p,6.0,yes,,Dropped
+Shiny Critical Hematite +15,Circle,Shadow,115,Critical,c,15.0,,,Bought; Dropped
+Shiny Critical Hematite +16,Circle,Shadow,115,Critical,c,16.0,,,Dropped
+Shiny Damage Hematite +50,Circle,Shadow,115,Flat Damage,f,50.0,,,Dropped
+Shiny Damage Hematite +52,Circle,Shadow,115,Flat Damage,f,52.0,,,Dropped
+Sparkling Critical Hematite +17,Circle,Shadow,125,Critical,c,17.0,,,Dropped
+Sparkling Critical Hematite +18,Circle,Shadow,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Hematite +54,Circle,Shadow,125,Flat Damage,f,54.0,,,Dropped
+Sparkling Damage Hematite +56,Circle,Shadow,125,Flat Damage,f,56.0,,,Dropped
+Amazing Critical Amethyst +21,Circle,Storm,145,Critical,c,21.0,,,Bought; Dropped
+Amazing Critical Amethyst +22,Circle,Storm,145,Critical,c,22.0,,,Bought; Dropped
+Amazing Damage Amethyst +31,Circle,Storm,145,Flat Damage,f,31.0,,,Bought; Dropped
+Amazing Damage Amethyst +32,Circle,Storm,145,Flat Damage,f,32.0,,,Bought; Dropped
+Blemished Damage Amethyst +11,Circle,Storm,45,Flat Damage,f,11.0,,,Crafted; Dropped
+Blemished Damage Amethyst +12,Circle,Storm,45,Flat Damage,f,12.0,,,Bought; Crafted; Dropped; Gardened
+Bright Critical Amethyst +44 (Ice),Circle,Storm,180,Critical,c,44.0,,yes,Bought; Dropped
+Bright Critical Amethyst +48 (Life),Circle,Storm,180,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Bright Critical Amethyst +52 (Death),Circle,Storm,180,Critical,c,52.0,,yes,Bought; Crafted; Dropped
+Bright Critical Amethyst +56 (Myth),Circle,Storm,180,Critical,c,56.0,,yes,Bought; Crafted; Dropped
+Bright Critical Amethyst +57 (Fire),Circle,Storm,180,Critical,c,57.0,,yes,Bought; Crafted; Dropped
+Bright Critical Amethyst +63 (Storm),Circle,Storm,180,Critical,c,63.0,,yes,Bought; Crafted; Dropped
+Bright Damage Amethyst +10% (Ice),Circle,Storm,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Bright Damage Amethyst +10% (Life),Circle,Storm,180,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Calamity Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Calamity Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Calamity Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Calamity Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Calamity Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Calamity Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Chipped Damage Amethyst +7,Circle,Storm,25,Flat Damage,f,7.0,,,Crafted; Dropped; Gardened
+Chipped Damage Amethyst +8,Circle,Storm,25,Flat Damage,f,8.0,,,Crafted; Dropped; Gardened
+Clear Critical Amethyst +10,Circle,Storm,85,Critical,c,10.0,,,Crafted; Dropped; Gardened
+Clear Critical Amethyst +9,Circle,Storm,85,Critical,c,9.0,,,Dropped
+Clear Damage Amethyst +19,Circle,Storm,85,Flat Damage,f,19.0,,,Bought; Crafted; Dropped
+Clear Damage Amethyst +20,Circle,Storm,85,Flat Damage,f,20.0,,,Crafted; Dropped; Gardened
+Clear Piercing Amethyst +5%,Circle,Storm,85,Armor Piercing,p,5.0,yes,,Crafted; Dropped; Gardened
+Cracked Damage Amethyst +1,Circle,Storm,15,Flat Damage,f,1.0,,,Bought
+Cracked Damage Amethyst +2,Circle,Storm,15,Flat Damage,f,2.0,,,Crafted; Dropped; Item Granted
+Cracked Damage Amethyst +3,Circle,Storm,15,Flat Damage,f,3.0,,,Crafted; Gardened
+Cracked Damage Amethyst +4,Circle,Storm,15,Flat Damage,f,4.0,,,Crafted; Dropped
+Cracked Damage Amethyst +5,Circle,Storm,15,Flat Damage,f,5.0,,,Crafted; Dropped
+Cracked Damage Amethyst +6,Circle,Storm,15,Flat Damage,f,6.0,,,Crafted; Dropped; Item Granted
+Dazzling Critical Amethyst +19,Circle,Storm,135,Critical,c,19.0,,,Bought; Dropped
+Dazzling Critical Amethyst +20,Circle,Storm,135,Critical,c,20.0,,,Bought; Dropped
+Dazzling Damage Amethyst +29,Circle,Storm,135,Flat Damage,f,29.0,,,Bought; Dropped
+Dazzling Damage Amethyst +30,Circle,Storm,135,Flat Damage,f,30.0,,,Bought; Dropped
+Dull Critical Amethyst +2,Circle,Storm,55,Critical,c,2.0,,,Bought; Dropped
+Dull Critical Amethyst +3,Circle,Storm,55,Critical,c,3.0,,,Crafted; Dropped; Gardened; Item Granted
+Dull Critical Amethyst +4,Circle,Storm,55,Critical,c,4.0,,,Crafted; Dropped
+Dull Damage Amethyst +13,Circle,Storm,55,Flat Damage,f,13.0,,,Crafted; Dropped; Gardened
+Dull Damage Amethyst +14,Circle,Storm,55,Flat Damage,f,14.0,,,Crafted; Dropped; Gardened
+Dull Piercing Amethyst +1%,Circle,Storm,55,Armor Piercing,p,1.0,yes,,Bought; Crafted; Dropped
+Dull Piercing Amethyst +2%,Circle,Storm,55,Armor Piercing,p,2.0,yes,,Bought; Crafted; Dropped; Gardened
+Flawed Damage Amethyst +10,Circle,Storm,35,Flat Damage,f,10.0,,,Crafted; Dropped; Gardened
+Flawed Damage Amethyst +9,Circle,Storm,35,Flat Damage,f,9.0,,,Crafted; Dropped; Gardened
+Flawless Critical Amethyst +23,Circle,Storm,155,Critical,c,23.0,,,Bought; Dropped
+Flawless Critical Amethyst +24,Circle,Storm,155,Critical,c,24.0,,,Bought; Dropped
+Flawless Damage Amethyst +33,Circle,Storm,155,Flat Damage,f,33.0,,,Dropped
+Flawless Damage Amethyst +34,Circle,Storm,155,Flat Damage,f,34.0,,,Dropped
+Flood Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Flood Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Flood Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Flood Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Flood Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Flood Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,yes,Crafted; Quest Reward
+Hail Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Hail Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Hail Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Hail Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Hail Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Hail Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Lightning Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Lustrous Critical Amethyst +13,Circle,Storm,105,Critical,c,13.0,,,Bought; Dropped; Gardened
+Lustrous Critical Amethyst +14,Circle,Storm,105,Critical,c,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Amethyst +23,Circle,Storm,105,Flat Damage,f,23.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Damage Amethyst +24,Circle,Storm,105,Flat Damage,f,24.0,,,Crafted; Dropped; Gardened
+Opaque Critical Amethyst +7,Circle,Storm,75,Critical,c,7.0,,,Dropped
+Opaque Critical Amethyst +8,Circle,Storm,75,Critical,c,8.0,,,Dropped; Gardened
+Opaque Damage Amethyst +17,Circle,Storm,75,Flat Damage,f,17.0,,,Crafted; Dropped
+Opaque Damage Amethyst +18,Circle,Storm,75,Flat Damage,f,18.0,,,Crafted; Dropped; Gardened
+Opaque Piercing Amethyst +4%,Circle,Storm,75,Armor Piercing,p,4.0,yes,,Crafted; Dropped; Gardened
+Plain Critical Amethyst +5,Circle,Storm,65,Critical,c,5.0,,,Crafted; Dropped
+Plain Critical Amethyst +6,Circle,Storm,65,Critical,c,6.0,,,Crafted; Dropped; Gardened
+Plain Damage Amethyst +15,Circle,Storm,65,Flat Damage,f,15.0,,,Crafted; Dropped
+Plain Damage Amethyst +16,Circle,Storm,65,Flat Damage,f,16.0,,,Crafted; Dropped; Gardened
+Plain Piercing Amethyst +3%,Circle,Storm,65,Armor Piercing,p,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Critical Amethyst +11,Circle,Storm,95,Critical,c,11.0,,,Bought; Crafted; Dropped
+Polished Critical Amethyst +12,Circle,Storm,95,Critical,c,12.0,,,Bought; Dropped; Gardened
+Polished Damage Amethyst +21,Circle,Storm,95,Flat Damage,f,21.0,,,Bought; Crafted; Dropped
+Polished Damage Amethyst +22,Circle,Storm,95,Flat Damage,f,22.0,,,Bought; Crafted; Dropped; Gardened
+Polished Piercing Amethyst +6%,Circle,Storm,95,Armor Piercing,p,6.0,yes,yes,Bought; Crafted; Dropped; Gardened
+Shiny Critical Amethyst +15,Circle,Storm,115,Critical,c,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Critical Amethyst +16,Circle,Storm,115,Critical,c,16.0,,,Bought; Dropped; Gardened
+Shiny Damage Amethyst +25,Circle,Storm,115,Flat Damage,f,25.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Damage Amethyst +26,Circle,Storm,115,Flat Damage,f,26.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Critical Amethyst +17,Circle,Storm,125,Critical,c,17.0,,,Dropped; Gardened
+Sparkling Critical Amethyst +18,Circle,Storm,125,Critical,c,18.0,,,Dropped
+Sparkling Damage Amethyst +27,Circle,Storm,125,Flat Damage,f,27.0,,,Bought; Dropped; Gardened
+Sparkling Damage Amethyst +28,Circle,Storm,125,Flat Damage,f,28.0,,,Dropped
+Tornado Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Tornado Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Tornado Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Tornado Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Tornado Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Tornado Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +1%,Circle,Storm,50,Armor Piercing,p,1.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +2%,Circle,Storm,60,Armor Piercing,p,2.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +3%,Circle,Storm,70,Armor Piercing,p,3.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +4%,Circle,Storm,80,Armor Piercing,p,4.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +5%,Circle,Storm,90,Armor Piercing,p,5.0,yes,,Crafted; Quest Reward
+Typhoon Piercing Jewel +6%,Circle,Storm,100,Armor Piercing,p,6.0,yes,,Crafted; Quest Reward
+Unearthly Critical Amethyst +42 (Ice),Circle,Storm,170,Critical,c,42.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +44 (Life),Circle,Storm,170,Critical,c,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +46 (Death),Circle,Storm,170,Critical,c,46.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +48 (Balance),Circle,Storm,170,Critical,c,48.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +50 (Fire),Circle,Storm,170,Critical,c,50.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +51 (Myth),Circle,Storm,170,Critical,c,51.0,,yes,Bought; Crafted; Dropped
+Unearthly Critical Amethyst +54 (Storm),Circle,Storm,170,Critical,c,54.0,,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +10% (Balance),Circle,Storm,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +10% (Fire),Circle,Storm,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +10% (Myth),Circle,Storm,170,Damage,d,10.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +11% (Death),Circle,Storm,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +11% (Storm),Circle,Storm,170,Damage,d,11.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +9% (Ice),Circle,Storm,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Unearthly Damage Amethyst +9% (Life),Circle,Storm,170,Damage,d,9.0,yes,yes,Bought; Crafted; Dropped
+Amazing Archmastery Opal +14 (Square),Square,Any,145,Archmastery,am,14.0,,yes,Bought; Dropped
+Amazing Blocking Opal +11,Square,Any,145,Critical Block,b,11.0,,,Bought; Dropped
+Amazing Defense Opal +31,Square,Any,145,Flat Resistance,fr,31.0,,,Bought; Dropped
+Amazing Defense Opal +32,Square,Any,145,Flat Resistance,fr,32.0,,,Bought; Dropped
+Blemished Defense Opal +11,Square,Any,45,Flat Resistance,fr,11.0,,,Dropped
+Blemished Defense Opal +12,Square,Any,45,Flat Resistance,fr,12.0,,,Bought; Dropped
+Blemished Defense Opal +12 (PvP),Square,Any,45,Flat Resistance,fr,12.0,,yes,Bought
+Chipped Defense Opal +7,Square,Any,25,Flat Resistance,fr,7.0,,,Dropped
+Chipped Defense Opal +8,Square,Any,25,Flat Resistance,fr,8.0,,,Dropped
+Chipped Defense Opal +8 (PvP),Square,Any,25,Flat Resistance,fr,8.0,,yes,Bought
+Clear Blocking Opal +5,Square,Any,85,Critical Block,b,5.0,,,Bought; Dropped
+Clear Defense Opal +19,Square,Any,85,Flat Resistance,fr,19.0,,,Dropped
+Clear Defense Opal +20,Square,Any,85,Flat Resistance,fr,20.0,,,Dropped
+Clear Defense Opal +20 (PvP),Square,Any,85,Flat Resistance,fr,20.0,,yes,Bought
+Cracked Archmastery Opal +1 (Square),Square,Any,1,Archmastery,am,1.0,,yes,Bought
+Cracked Defense Opal +2,Square,Any,15,Flat Resistance,fr,2.0,,,Unknown
+Cracked Defense Opal +3,Square,Any,15,Flat Resistance,fr,3.0,,,Dropped
+Cracked Defense Opal +4,Square,Any,15,Flat Resistance,fr,4.0,,,Dropped
+Cracked Defense Opal +5,Square,Any,15,Flat Resistance,fr,5.0,,,Dropped
+Cracked Defense Opal +6,Square,Any,15,Flat Resistance,fr,6.0,,,Dropped
+Cracked Defense Opal +6 (PvP),Square,Any,15,Flat Resistance,fr,6.0,,yes,Bought
+Cracked Healing Opal +1%,Square,Any,15,Incoming Heal,hi,1.0,yes,,Dropped; Gardened
+Cracked Resilient Opal +1%,Square,Any,15,Stun Resistance,st,1.0,yes,,Bought; Dropped
+Dazzling Archmastery Opal +13 (Square),Square,Any,135,Archmastery,am,13.0,,yes,Bought; Dropped
+Dazzling Blocking Opal +10,Square,Any,135,Critical Block,b,10.0,,,Bought; Dropped
+Dazzling Defense Opal +29,Square,Any,135,Flat Resistance,fr,29.0,,,Bought; Dropped
+Dazzling Defense Opal +30,Square,Any,135,Flat Resistance,fr,30.0,,,Dropped
+Dazzling Defense Opal +30 (PvP),Square,Any,135,Flat Resistance,fr,30.0,,yes,Bought
+Dazzling Healing Opal +7%,Square,Any,135,Incoming Heal,hi,7.0,yes,,Bought; Dropped
+Dull Blocking Opal +1,Square,Any,55,Critical Block,b,1.0,,,Bought; Dropped
+Dull Blocking Opal +2,Square,Any,55,Critical Block,b,2.0,,,Bought; Dropped
+Dull Defense Opal +13,Square,Any,55,Flat Resistance,fr,13.0,,,Dropped
+Dull Defense Opal +14,Square,Any,55,Flat Resistance,fr,14.0,,,Dropped
+Dull Defense Opal +14 (PvP),Square,Any,55,Flat Resistance,fr,14.0,,yes,Bought
+Dull Healing Opal +3%,Square,Any,55,Incoming Heal,hi,3.0,yes,,Bought; Dropped
+Dull Resilient Opal +3%,Square,Any,55,Stun Resistance,st,3.0,yes,,Dropped
+Flawed Defense Opal +10,Square,Any,35,Flat Resistance,fr,10.0,,,Bought; Dropped
+Flawed Defense Opal +10 (PvP),Square,Any,35,Flat Resistance,fr,10.0,,yes,Bought
+Flawed Defense Opal +9,Square,Any,35,Flat Resistance,fr,9.0,,,Dropped
+Flawed Healing Opal +2%,Square,Any,35,Incoming Heal,hi,2.0,yes,,Dropped
+Flawed Resilient Opal +2%,Square,Any,35,Stun Resistance,st,2.0,yes,,Bought; Dropped
+Flawless Archmastery Opal +15 (Square),Square,Any,155,Archmastery,am,15.0,,,Dropped
+Flawless Blocking Opal +12,Square,Any,155,Critical Block,b,12.0,,,Bought; Dropped
+Flawless Defense Opal +33,Square,Any,155,Flat Resistance,fr,33.0,,,Dropped
+Flawless Defense Opal +34,Square,Any,155,Flat Resistance,fr,34.0,,yes,Dropped
+Lustrous Blocking Opal +7,Square,Any,105,Critical Block,b,7.0,,,Bought; Gardened
+Lustrous Defense Opal +24,Square,Any,105,Flat Resistance,fr,24.0,,,Unknown
+Lustrous Defense Opal +24 (PvP),Square,Any,105,Flat Resistance,fr,24.0,,yes,Bought
+Opaque Blocking Opal +4,Square,Any,75,Critical Block,b,4.0,,,Bought; Dropped
+Opaque Defense Opal +17,Square,Any,75,Flat Resistance,fr,17.0,,,Dropped
+Opaque Defense Opal +18,Square,Any,75,Flat Resistance,fr,18.0,,,Bought; Dropped
+Opaque Defense Opal +18 (PvP),Square,Any,75,Flat Resistance,fr,18.0,,yes,Bought
+Opaque Healing Opal +4%,Square,Any,75,Incoming Heal,hi,4.0,yes,,Bought; Dropped
+Opaque Resilient Opal +4%,Square,Any,75,Stun Resistance,st,4.0,yes,,Bought; Dropped
+Plain Blocking Opal +3,Square,Any,65,Critical Block,b,3.0,,,Dropped
+Plain Defense Opal +15,Square,Any,65,Flat Resistance,fr,15.0,,,Dropped
+Plain Defense Opal +16,Square,Any,65,Flat Resistance,fr,16.0,,,Dropped
+Plain Defense Opal +16 (PvP),Square,Any,65,Flat Resistance,fr,16.0,,yes,Bought
+Polished Blocking Opal +6,Square,Any,95,Critical Block,b,6.0,,,Bought; Dropped
+Polished Defense Opal +21,Square,Any,95,Flat Resistance,fr,21.0,,,Dropped
+Polished Defense Opal +22,Square,Any,95,Flat Resistance,fr,22.0,,,Bought; Dropped
+Polished Defense Opal +22 (PvP),Square,Any,95,Flat Resistance,fr,22.0,,yes,Bought
+Polished Healing Opal +5%,Square,Any,95,Incoming Heal,hi,5.0,yes,,Bought; Dropped
+Polished Resilient Opal +5%,Square,Any,95,Stun Resistance,st,5.0,yes,,Bought; Dropped
+Shiny Blocking Opal +8,Square,Any,115,Critical Block,b,8.0,,,Bought; Dropped
+Shiny Defense Opal +25,Square,Any,115,Flat Resistance,fr,25.0,,,Bought; Dropped
+Shiny Defense Opal +26,Square,Any,115,Flat Resistance,fr,26.0,,,Bought; Dropped
+Shiny Defense Opal +26 (PvP),Square,Any,115,Flat Resistance,fr,26.0,,yes,Bought
+Shiny Healing Opal +6%,Square,Any,115,Incoming Heal,hi,6.0,yes,,Bought; Dropped
+Sparkling Blocking Opal +9,Square,Any,125,Critical Block,b,9.0,,,Bought; Dropped
+Sparkling Defense Opal +27,Square,Any,125,Flat Resistance,fr,27.0,,,Bought; Dropped
+Sparkling Defense Opal +28,Square,Any,125,Flat Resistance,fr,28.0,,,Dropped
+Sparkling Defense Opal +28 (PvP),Square,Any,125,Flat Resistance,fr,28.0,,yes,Bought
+Unearthly Mending Opal +8%,Square,Any,170,Outgoing Heal,ho,8.0,yes,yes,Bought; Crafted; Dropped
+Amazing Blocking Citrine +21,Square,Balance,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Citrine +22,Square,Balance,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Citrine +61,Square,Balance,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Citrine +62,Square,Balance,145,Flat Resistance,fr,62.0,,,Bought
+Amazing Defense Citrine +63,Square,Balance,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Citrine +64,Square,Balance,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Citrine +21,Square,Balance,45,Flat Resistance,fr,21.0,,,Bought; Crafted; Dropped
+Blemished Defense Citrine +22,Square,Balance,45,Flat Resistance,fr,22.0,,,Dropped
+Blemished Defense Citrine +23,Square,Balance,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Citrine +24,Square,Balance,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped
+Bright Health Citrine +765,Square,Balance,180,Health,hp,765.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Citrine +13,Square,Balance,25,Flat Resistance,fr,13.0,,,Bought; Crafted; Dropped
+Chipped Defense Citrine +14,Square,Balance,25,Flat Resistance,fr,14.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Citrine +15,Square,Balance,25,Flat Resistance,fr,15.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Citrine +16,Square,Balance,25,Flat Resistance,fr,16.0,,,Bought; Gardened
+Clear Blocking Citrine +10,Square,Balance,85,Critical Block,b,10.0,,,Bought; Dropped; Gardened
+Clear Blocking Citrine +9,Square,Balance,85,Critical Block,b,9.0,,,Bought; Crafted; Dropped
+Clear Defense Citrine +37,Square,Balance,85,Flat Resistance,fr,37.0,,,Bought; Crafted; Dropped
+Clear Defense Citrine +38,Square,Balance,85,Flat Resistance,fr,38.0,,,Bought; Dropped
+Clear Defense Citrine +39,Square,Balance,85,Flat Resistance,fr,39.0,,,Bought; Dropped; Gardened
+Clear Defense Citrine +40,Square,Balance,85,Flat Resistance,fr,40.0,,,Bought; Dropped; Gardened
+Cracked Defense Citrine +10,Square,Balance,15,Flat Resistance,fr,10.0,,,Crafted; Dropped
+Cracked Defense Citrine +11,Square,Balance,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Citrine +12,Square,Balance,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Citrine +3,Square,Balance,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Citrine +4,Square,Balance,15,Flat Resistance,fr,4.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Citrine +5,Square,Balance,15,Flat Resistance,fr,5.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Citrine +6,Square,Balance,15,Flat Resistance,fr,6.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Citrine +7,Square,Balance,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Citrine +8,Square,Balance,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Citrine +9,Square,Balance,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Citrine +19,Square,Balance,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Citrine +20,Square,Balance,135,Critical Block,b,20.0,,,Bought; Dropped
+Dazzling Defense Citrine +57,Square,Balance,135,Flat Resistance,fr,57.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Citrine +58,Square,Balance,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Citrine +59,Square,Balance,135,Flat Resistance,fr,59.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Citrine +60,Square,Balance,135,Flat Resistance,fr,60.0,,,Bought; Dropped; Item Granted
+Dull Blocking Citrine +2,Square,Balance,55,Critical Block,b,2.0,,,Bought; Crafted; Dropped
+Dull Blocking Citrine +3,Square,Balance,55,Critical Block,b,3.0,,,Bought; Dropped; Gardened
+Dull Blocking Citrine +4,Square,Balance,55,Critical Block,b,4.0,,,Crafted; Dropped; Item Granted
+Dull Defense Citrine +25,Square,Balance,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Citrine +26,Square,Balance,55,Flat Resistance,fr,26.0,,,Bought; Crafted; Dropped
+Dull Defense Citrine +27,Square,Balance,55,Flat Resistance,fr,27.0,,,Crafted; Dropped; Gardened
+Dull Defense Citrine +28,Square,Balance,55,Flat Resistance,fr,28.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Citrine +17,Square,Balance,35,Flat Resistance,fr,17.0,,,Crafted; Dropped
+Flawed Defense Citrine +18,Square,Balance,35,Flat Resistance,fr,18.0,,,Crafted; Dropped; Gardened
+Flawed Defense Citrine +19,Square,Balance,35,Flat Resistance,fr,19.0,,,Crafted; Dropped; Gardened
+Flawed Defense Citrine +20,Square,Balance,35,Flat Resistance,fr,20.0,,,Bought; Crafted; Dropped; Gardened
+Flawless Blocking Citrine +23,Square,Balance,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Citrine +24,Square,Balance,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Citrine +67,Square,Balance,155,Flat Resistance,fr,67.0,,,Unknown
+Flawless Defense Citrine +68,Square,Balance,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Citrine +13,Square,Balance,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Citrine +14,Square,Balance,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Citrine +45,Square,Balance,105,Flat Resistance,fr,45.0,,,Bought; Dropped; Gardened; Item Granted
+Lustrous Defense Citrine +46,Square,Balance,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Citrine +47,Square,Balance,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Citrine +48,Square,Balance,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Blocking Citrine +7,Square,Balance,75,Critical Block,b,7.0,,,Dropped
+Opaque Blocking Citrine +8,Square,Balance,75,Critical Block,b,8.0,,,Bought; Gardened
+Opaque Defense Citrine +33,Square,Balance,75,Flat Resistance,fr,33.0,,,Bought; Dropped
+Opaque Defense Citrine +34,Square,Balance,75,Flat Resistance,fr,34.0,,,Bought; Crafted; Dropped
+Opaque Defense Citrine +35,Square,Balance,75,Flat Resistance,fr,35.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Defense Citrine +36,Square,Balance,75,Flat Resistance,fr,36.0,,,Bought; Crafted; Dropped; Gardened
+Plain Blocking Citrine +5,Square,Balance,65,Critical Block,b,5.0,,,Crafted; Dropped
+Plain Blocking Citrine +6,Square,Balance,65,Critical Block,b,6.0,,,Bought; Dropped; Gardened
+Plain Defense Citrine +29,Square,Balance,65,Flat Resistance,fr,29.0,,,Crafted; Dropped; Item Granted
+Plain Defense Citrine +30,Square,Balance,65,Flat Resistance,fr,30.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Citrine +31,Square,Balance,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Citrine +32,Square,Balance,65,Flat Resistance,fr,32.0,,,Bought; Crafted; Dropped; Gardened
+Polished Blocking Citrine +11,Square,Balance,95,Critical Block,b,11.0,,,Bought; Crafted; Dropped
+Polished Blocking Citrine +12,Square,Balance,95,Critical Block,b,12.0,,,Bought; Dropped; Gardened
+Polished Defense Citrine +41,Square,Balance,95,Flat Resistance,fr,41.0,,,Bought; Dropped; Gardened
+Polished Defense Citrine +42,Square,Balance,95,Flat Resistance,fr,42.0,,,Bought; Crafted; Dropped
+Polished Defense Citrine +43,Square,Balance,95,Flat Resistance,fr,43.0,,,Bought; Dropped; Gardened
+Polished Defense Citrine +44,Square,Balance,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Citrine +15,Square,Balance,115,Critical Block,b,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Citrine +16,Square,Balance,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened
+Shiny Defense Citrine +49,Square,Balance,115,Flat Resistance,fr,49.0,,,Crafted; Dropped; Gardened
+Shiny Defense Citrine +50,Square,Balance,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Citrine +51,Square,Balance,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped
+Shiny Defense Citrine +52,Square,Balance,115,Flat Resistance,fr,52.0,,,Bought; Dropped
+Sparkling Blocking Citrine +17,Square,Balance,125,Critical Block,b,17.0,,,Bought; Dropped
+Sparkling Blocking Citrine +18,Square,Balance,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Citrine +53,Square,Balance,125,Flat Resistance,fr,53.0,,,Bought; Dropped
+Sparkling Defense Citrine +54,Square,Balance,125,Flat Resistance,fr,54.0,,,Dropped; Gardened
+Sparkling Defense Citrine +55,Square,Balance,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Citrine +56,Square,Balance,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Citrine +53,Square,Balance,170,Critical Block,b,53.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Citrine +670,Square,Balance,170,Health,hp,670.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Onyx +21,Square,Death,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Onyx +22,Square,Death,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Onyx +61,Square,Death,145,Flat Resistance,fr,61.0,,,Bought; Dropped
+Amazing Defense Onyx +62,Square,Death,145,Flat Resistance,fr,62.0,,,Bought; Dropped
+Amazing Defense Onyx +63,Square,Death,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Onyx +64,Square,Death,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Onyx +21,Square,Death,45,Flat Resistance,fr,21.0,,,Crafted; Dropped
+Blemished Defense Onyx +22,Square,Death,45,Flat Resistance,fr,22.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Onyx +23,Square,Death,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Onyx +24,Square,Death,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped; Gardened
+Bright Health Onyx +700,Square,Death,180,Health,hp,700.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Onyx +13,Square,Death,25,Flat Resistance,fr,13.0,,,Crafted; Dropped; Item Granted
+Chipped Defense Onyx +14,Square,Death,25,Flat Resistance,fr,14.0,,,Crafted; Dropped; Item Granted
+Chipped Defense Onyx +15,Square,Death,25,Flat Resistance,fr,15.0,,,Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Onyx +16,Square,Death,25,Flat Resistance,fr,16.0,,,Bought; Crafted; Dropped; Gardened
+Clear Blocking Onyx +10,Square,Death,85,Critical Block,b,10.0,,,Dropped; Gardened
+Clear Blocking Onyx +7,Square,Death,85,Critical Block,b,7.0,,,Unknown
+Clear Blocking Onyx +9,Square,Death,85,Critical Block,b,9.0,,,Crafted; Dropped
+Clear Defense Onyx +37,Square,Death,85,Flat Resistance,fr,37.0,,,Bought; Crafted; Dropped
+Clear Defense Onyx +38,Square,Death,85,Flat Resistance,fr,38.0,,,Bought; Crafted; Dropped
+Clear Defense Onyx +39,Square,Death,85,Flat Resistance,fr,39.0,,,Bought; Dropped; Gardened
+Clear Defense Onyx +40,Square,Death,85,Flat Resistance,fr,40.0,,,Crafted; Dropped; Gardened
+Cracked Defense Onyx +10,Square,Death,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Onyx +11,Square,Death,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Onyx +12,Square,Death,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Onyx +3,Square,Death,15,Flat Resistance,fr,3.0,,,Bought; Dropped
+Cracked Defense Onyx +4,Square,Death,15,Flat Resistance,fr,4.0,,,Bought; Crafted; Dropped; Item Granted
+Cracked Defense Onyx +5,Square,Death,15,Flat Resistance,fr,5.0,,,Crafted
+Cracked Defense Onyx +6,Square,Death,15,Flat Resistance,fr,6.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Onyx +7,Square,Death,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Onyx +8,Square,Death,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Onyx +9,Square,Death,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Onyx +19,Square,Death,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Onyx +20,Square,Death,135,Critical Block,b,20.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Onyx +57,Square,Death,135,Flat Resistance,fr,57.0,,,Bought; Dropped
+Dazzling Defense Onyx +58,Square,Death,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Onyx +59,Square,Death,135,Flat Resistance,fr,59.0,,,Bought; Dropped
+Dazzling Defense Onyx +60,Square,Death,135,Flat Resistance,fr,60.0,,,Bought; Dropped; Item Granted
+Dull Blocking Onyx +2,Square,Death,55,Critical Block,b,2.0,,,Bought; Crafted; Dropped
+Dull Blocking Onyx +3,Square,Death,55,Critical Block,b,3.0,,,Dropped; Gardened
+Dull Blocking Onyx +4,Square,Death,55,Critical Block,b,4.0,,,Crafted; Dropped; Item Granted
+Dull Defense Onyx +25,Square,Death,55,Flat Resistance,fr,25.0,,,Crafted; Dropped
+Dull Defense Onyx +26,Square,Death,55,Flat Resistance,fr,26.0,,,Bought; Crafted; Dropped; Gardened
+Dull Defense Onyx +27,Square,Death,55,Flat Resistance,fr,27.0,,,Crafted; Dropped; Gardened
+Dull Defense Onyx +28,Square,Death,55,Flat Resistance,fr,28.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Onyx +17,Square,Death,35,Flat Resistance,fr,17.0,,,Bought; Crafted; Dropped
+Flawed Defense Onyx +18,Square,Death,35,Flat Resistance,fr,18.0,,,Crafted; Dropped
+Flawed Defense Onyx +19,Square,Death,35,Flat Resistance,fr,19.0,,,Bought; Crafted; Dropped; Gardened
+Flawed Defense Onyx +20,Square,Death,35,Flat Resistance,fr,20.0,,,Bought; Crafted; Dropped; Gardened
+Flawless Blocking Onyx +23,Square,Death,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Onyx +24,Square,Death,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Onyx +67,Square,Death,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Onyx +68,Square,Death,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Onyx +13,Square,Death,105,Critical Block,b,13.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Blocking Onyx +14,Square,Death,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Onyx +45,Square,Death,105,Flat Resistance,fr,45.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Onyx +46,Square,Death,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Gardened; Item Granted
+Lustrous Defense Onyx +47,Square,Death,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Onyx +48,Square,Death,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Blocking Onyx +7,Square,Death,75,Critical Block,b,7.0,,,Bought; Dropped
+Opaque Blocking Onyx +8,Square,Death,75,Critical Block,b,8.0,,,Crafted; Dropped; Gardened
+Opaque Defense Onyx +33,Square,Death,75,Flat Resistance,fr,33.0,,,Bought; Dropped; Gardened
+Opaque Defense Onyx +34,Square,Death,75,Flat Resistance,fr,34.0,,,Bought; Crafted; Dropped
+Opaque Defense Onyx +35,Square,Death,75,Flat Resistance,fr,35.0,,,Crafted; Dropped; Gardened
+Opaque Defense Onyx +36,Square,Death,75,Flat Resistance,fr,36.0,,,Crafted; Dropped; Gardened
+Plain Blocking Onyx +5,Square,Death,65,Critical Block,b,5.0,,,Bought; Crafted; Dropped
+Plain Blocking Onyx +6,Square,Death,65,Critical Block,b,6.0,,,Dropped; Gardened
+Plain Defense Onyx +29,Square,Death,65,Flat Resistance,fr,29.0,,,Crafted; Dropped; Item Granted
+Plain Defense Onyx +30,Square,Death,65,Flat Resistance,fr,30.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Plain Defense Onyx +31,Square,Death,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Onyx +32,Square,Death,65,Flat Resistance,fr,32.0,,,Bought; Crafted; Dropped; Gardened
+Polished Blocking Onyx +11,Square,Death,95,Critical Block,b,11.0,,,Bought; Crafted; Dropped
+Polished Blocking Onyx +12,Square,Death,95,Critical Block,b,12.0,,,Bought; Crafted; Dropped
+Polished Defense Onyx +41,Square,Death,95,Flat Resistance,fr,41.0,,,Bought; Crafted; Dropped
+Polished Defense Onyx +42,Square,Death,95,Flat Resistance,fr,42.0,,,Bought; Crafted; Dropped
+Polished Defense Onyx +43,Square,Death,95,Flat Resistance,fr,43.0,,,Bought; Dropped
+Polished Defense Onyx +44,Square,Death,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Onyx +15,Square,Death,115,Critical Block,b,15.0,,,Crafted; Dropped; Gardened
+Shiny Blocking Onyx +16,Square,Death,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Defense Onyx +49,Square,Death,115,Flat Resistance,fr,49.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Onyx +50,Square,Death,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Onyx +51,Square,Death,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped
+Shiny Defense Onyx +52,Square,Death,115,Flat Resistance,fr,52.0,,,Bought; Dropped; Item Granted
+Sparkling Blocking Onyx +17,Square,Death,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Onyx +18,Square,Death,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Onyx +53,Square,Death,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Defense Onyx +54,Square,Death,125,Flat Resistance,fr,54.0,,,Bought; Dropped; Gardened
+Sparkling Defense Onyx +55,Square,Death,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Onyx +56,Square,Death,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Onyx +56,Square,Death,170,Critical Block,b,56.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Onyx +650,Square,Death,170,Health,hp,650.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Ruby +21,Square,Fire,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Ruby +22,Square,Fire,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Ruby +61,Square,Fire,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Ruby +62,Square,Fire,145,Flat Resistance,fr,62.0,,,Bought
+Amazing Defense Ruby +63,Square,Fire,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Ruby +64,Square,Fire,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Ruby +21,Square,Fire,45,Flat Resistance,fr,21.0,,,Crafted; Dropped
+Blemished Defense Ruby +22,Square,Fire,45,Flat Resistance,fr,22.0,,,Dropped
+Blemished Defense Ruby +23,Square,Fire,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Ruby +24,Square,Fire,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped; Gardened
+Bright Health Ruby +625,Square,Fire,180,Health,hp,625.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Ruby +13,Square,Fire,25,Flat Resistance,fr,13.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Ruby +14,Square,Fire,25,Flat Resistance,fr,14.0,,,Crafted; Dropped; Item Granted
+Chipped Defense Ruby +15,Square,Fire,25,Flat Resistance,fr,15.0,,,Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Ruby +16,Square,Fire,25,Flat Resistance,fr,16.0,,,Bought; Crafted; Dropped; Gardened
+Clear Blocking Ruby +10,Square,Fire,85,Critical Block,b,10.0,,,Bought; Dropped; Gardened
+Clear Blocking Ruby +9,Square,Fire,85,Critical Block,b,9.0,,,Crafted; Dropped; Gardened
+Clear Defense Ruby +37,Square,Fire,85,Flat Resistance,fr,37.0,,,Bought; Crafted; Dropped; Gardened
+Clear Defense Ruby +38,Square,Fire,85,Flat Resistance,fr,38.0,,,Crafted; Dropped
+Clear Defense Ruby +39,Square,Fire,85,Flat Resistance,fr,39.0,,,Crafted; Dropped; Gardened
+Clear Defense Ruby +40,Square,Fire,85,Flat Resistance,fr,40.0,,,Dropped; Gardened
+Cracked Defense Ruby +10,Square,Fire,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Ruby +11,Square,Fire,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Ruby +12,Square,Fire,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Ruby +3,Square,Fire,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Ruby +4,Square,Fire,15,Flat Resistance,fr,4.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Ruby +5,Square,Fire,15,Flat Resistance,fr,5.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Ruby +6,Square,Fire,15,Flat Resistance,fr,6.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Ruby +7,Square,Fire,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Ruby +8,Square,Fire,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Ruby +9,Square,Fire,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Ruby +19,Square,Fire,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Ruby +20,Square,Fire,135,Critical Block,b,20.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Ruby +57,Square,Fire,135,Flat Resistance,fr,57.0,,,Bought; Dropped
+Dazzling Defense Ruby +58,Square,Fire,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Ruby +59,Square,Fire,135,Flat Resistance,fr,59.0,,,Bought; Dropped
+Dazzling Defense Ruby +60,Square,Fire,135,Flat Resistance,fr,60.0,,,Bought; Dropped; Item Granted
+Dull Blocking Ruby +2,Square,Fire,55,Critical Block,b,2.0,,,Bought; Dropped; Gardened
+Dull Blocking Ruby +3,Square,Fire,55,Critical Block,b,3.0,,,Bought; Dropped; Gardened
+Dull Blocking Ruby +4,Square,Fire,55,Critical Block,b,4.0,,,Bought; Crafted; Dropped; Item Granted
+Dull Defense Ruby +25,Square,Fire,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Ruby +26,Square,Fire,55,Flat Resistance,fr,26.0,,,Crafted; Dropped; Gardened
+Dull Defense Ruby +27,Square,Fire,55,Flat Resistance,fr,27.0,,,Bought; Crafted; Dropped; Gardened
+Dull Defense Ruby +28,Square,Fire,55,Flat Resistance,fr,28.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Ruby +17,Square,Fire,35,Flat Resistance,fr,17.0,,,Crafted; Dropped
+Flawed Defense Ruby +18,Square,Fire,35,Flat Resistance,fr,18.0,,,Bought; Crafted; Dropped
+Flawed Defense Ruby +19,Square,Fire,35,Flat Resistance,fr,19.0,,,Crafted; Dropped; Gardened
+Flawed Defense Ruby +20,Square,Fire,35,Flat Resistance,fr,20.0,,,Crafted; Dropped; Gardened
+Flawless Blocking Ruby +23,Square,Fire,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Ruby +24,Square,Fire,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Ruby +67,Square,Fire,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Ruby +68,Square,Fire,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Ruby +13,Square,Fire,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Ruby +14,Square,Fire,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Ruby +45,Square,Fire,105,Flat Resistance,fr,45.0,,,Bought; Dropped; Gardened
+Lustrous Defense Ruby +46,Square,Fire,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Ruby +47,Square,Fire,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Ruby +48,Square,Fire,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped
+Opaque Blocking Ruby +7,Square,Fire,75,Critical Block,b,7.0,,,Bought; Crafted; Dropped
+Opaque Blocking Ruby +8,Square,Fire,75,Critical Block,b,8.0,,,Bought; Crafted; Gardened
+Opaque Defense Ruby +33,Square,Fire,75,Flat Resistance,fr,33.0,,,Crafted; Dropped
+Opaque Defense Ruby +34,Square,Fire,75,Flat Resistance,fr,34.0,,,Bought; Crafted; Dropped
+Opaque Defense Ruby +35,Square,Fire,75,Flat Resistance,fr,35.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Defense Ruby +36,Square,Fire,75,Flat Resistance,fr,36.0,,,Bought; Crafted; Dropped; Gardened
+Plain Blocking Ruby +5,Square,Fire,65,Critical Block,b,5.0,,,Bought; Crafted; Dropped
+Plain Blocking Ruby +6,Square,Fire,65,Critical Block,b,6.0,,,Dropped; Gardened
+Plain Defense Ruby +29,Square,Fire,65,Flat Resistance,fr,29.0,,,Crafted; Dropped
+Plain Defense Ruby +30,Square,Fire,65,Flat Resistance,fr,30.0,,,Crafted; Dropped; Gardened
+Plain Defense Ruby +31,Square,Fire,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Ruby +32,Square,Fire,65,Flat Resistance,fr,32.0,,,Crafted; Dropped; Gardened
+Polished Blocking Ruby +11,Square,Fire,95,Critical Block,b,11.0,,,Bought; Crafted; Dropped; Gardened
+Polished Blocking Ruby +12,Square,Fire,95,Critical Block,b,12.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Polished Defense Ruby +41,Square,Fire,95,Flat Resistance,fr,41.0,,,Bought; Crafted; Dropped
+Polished Defense Ruby +42,Square,Fire,95,Flat Resistance,fr,42.0,,,Bought; Dropped
+Polished Defense Ruby +43,Square,Fire,95,Flat Resistance,fr,43.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Polished Defense Ruby +44,Square,Fire,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Ruby +15,Square,Fire,115,Critical Block,b,15.0,,,Crafted; Dropped; Gardened
+Shiny Blocking Ruby +16,Square,Fire,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Defense Ruby +49,Square,Fire,115,Flat Resistance,fr,49.0,,,Crafted; Dropped; Gardened
+Shiny Defense Ruby +50,Square,Fire,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Ruby +51,Square,Fire,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped; Item Granted
+Shiny Defense Ruby +52,Square,Fire,115,Flat Resistance,fr,52.0,,,Bought; Dropped
+Sparkling Blocking Ruby +17,Square,Fire,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Ruby +18,Square,Fire,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Ruby +53,Square,Fire,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Defense Ruby +54,Square,Fire,125,Flat Resistance,fr,54.0,,,Dropped; Gardened; Item Granted
+Sparkling Defense Ruby +55,Square,Fire,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Ruby +56,Square,Fire,125,Flat Resistance,fr,56.0,,,Bought; Dropped
+Unearthly Blocking Ruby +52,Square,Fire,170,Critical Block,b,52.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Ruby +595,Square,Fire,170,Health,hp,595.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Sapphire +21,Square,Ice,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Sapphire +22,Square,Ice,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Sapphire +61,Square,Ice,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Sapphire +62,Square,Ice,145,Flat Resistance,fr,62.0,,,Bought
+Amazing Defense Sapphire +63,Square,Ice,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Sapphire +64,Square,Ice,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Sapphire +21,Square,Ice,45,Flat Resistance,fr,21.0,,,Crafted; Dropped
+Blemished Defense Sapphire +22,Square,Ice,45,Flat Resistance,fr,22.0,,,Bought; Crafted; Dropped
+Blemished Defense Sapphire +23,Square,Ice,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Sapphire +24,Square,Ice,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped; Gardened
+Bright Health Sapphire +795,Square,Ice,180,Health,hp,795.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Sapphire +13,Square,Ice,25,Flat Resistance,fr,13.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Sapphire +14,Square,Ice,25,Flat Resistance,fr,14.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Sapphire +15,Square,Ice,25,Flat Resistance,fr,15.0,,,Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Sapphire +16,Square,Ice,25,Flat Resistance,fr,16.0,,,Crafted; Dropped; Gardened
+Clear Blocking Sapphire +10,Square,Ice,85,Critical Block,b,10.0,,,Bought; Dropped
+Clear Blocking Sapphire +9,Square,Ice,85,Critical Block,b,9.0,,,Bought; Dropped
+Clear Defense Sapphire +37,Square,Ice,85,Flat Resistance,fr,37.0,,,Bought; Dropped
+Clear Defense Sapphire +38,Square,Ice,85,Flat Resistance,fr,38.0,,,Bought; Dropped
+Clear Defense Sapphire +39,Square,Ice,85,Flat Resistance,fr,39.0,,,Crafted; Dropped; Gardened
+Clear Defense Sapphire +40,Square,Ice,85,Flat Resistance,fr,40.0,,,Crafted; Dropped; Gardened
+Cracked Defense Sapphire +10,Square,Ice,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Sapphire +11,Square,Ice,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Sapphire +12,Square,Ice,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Sapphire +3,Square,Ice,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Sapphire +4,Square,Ice,15,Flat Resistance,fr,4.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Sapphire +5,Square,Ice,15,Flat Resistance,fr,5.0,,,Crafted; Dropped; Gardened
+Cracked Defense Sapphire +6,Square,Ice,15,Flat Resistance,fr,6.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Sapphire +7,Square,Ice,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Sapphire +8,Square,Ice,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Sapphire +9,Square,Ice,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Sapphire +19,Square,Ice,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Sapphire +20,Square,Ice,135,Critical Block,b,20.0,,,Bought; Dropped
+Dazzling Defense Sapphire +57,Square,Ice,135,Flat Resistance,fr,57.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Sapphire +58,Square,Ice,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Sapphire +59,Square,Ice,135,Flat Resistance,fr,59.0,,,Bought; Dropped
+Dazzling Defense Sapphire +60,Square,Ice,135,Flat Resistance,fr,60.0,,,Bought; Dropped
+Dull Blocking Sapphire +2,Square,Ice,55,Critical Block,b,2.0,,,Bought; Dropped
+Dull Blocking Sapphire +3,Square,Ice,55,Critical Block,b,3.0,,,Dropped; Gardened
+Dull Blocking Sapphire +4,Square,Ice,55,Critical Block,b,4.0,,,Crafted; Dropped
+Dull Defense Sapphire +25,Square,Ice,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Sapphire +26,Square,Ice,55,Flat Resistance,fr,26.0,,,Crafted; Dropped; Gardened
+Dull Defense Sapphire +27,Square,Ice,55,Flat Resistance,fr,27.0,,,Crafted; Gardened
+Dull Defense Sapphire +28,Square,Ice,55,Flat Resistance,fr,28.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Sapphire +17,Square,Ice,35,Flat Resistance,fr,17.0,,,Crafted; Dropped
+Flawed Defense Sapphire +18,Square,Ice,35,Flat Resistance,fr,18.0,,,Crafted; Dropped
+Flawed Defense Sapphire +19,Square,Ice,35,Flat Resistance,fr,19.0,,,Bought; Dropped; Gardened
+Flawed Defense Sapphire +20,Square,Ice,35,Flat Resistance,fr,20.0,,,Crafted; Dropped
+Flawless Blocking Sapphire +23,Square,Ice,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Sapphire +24,Square,Ice,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Sapphire +67,Square,Ice,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Sapphire +68,Square,Ice,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Sapphire +13,Square,Ice,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Sapphire +14,Square,Ice,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Sapphire +45,Square,Ice,105,Flat Resistance,fr,45.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Sapphire +46,Square,Ice,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Sapphire +47,Square,Ice,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Sapphire +48,Square,Ice,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped
+Opaque Blocking Sapphire +7,Square,Ice,75,Critical Block,b,7.0,,,Bought; Crafted; Dropped
+Opaque Blocking Sapphire +8,Square,Ice,75,Critical Block,b,8.0,,,Bought; Dropped; Gardened
+Opaque Defense Sapphire +33,Square,Ice,75,Flat Resistance,fr,33.0,,,Crafted; Dropped; Gardened
+Opaque Defense Sapphire +34,Square,Ice,75,Flat Resistance,fr,34.0,,,Bought; Crafted; Dropped
+Opaque Defense Sapphire +35,Square,Ice,75,Flat Resistance,fr,35.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Defense Sapphire +36,Square,Ice,75,Flat Resistance,fr,36.0,,,Bought; Dropped; Gardened
+Plain Blocking Sapphire +5,Square,Ice,65,Critical Block,b,5.0,,,Crafted; Dropped
+Plain Blocking Sapphire +6,Square,Ice,65,Critical Block,b,6.0,,,Dropped; Gardened
+Plain Defense Sapphire +29,Square,Ice,65,Flat Resistance,fr,29.0,,,Bought; Crafted; Dropped; Item Granted
+Plain Defense Sapphire +30,Square,Ice,65,Flat Resistance,fr,30.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Plain Defense Sapphire +31,Square,Ice,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Sapphire +32,Square,Ice,65,Flat Resistance,fr,32.0,,,Dropped; Gardened
+Polished Blocking Sapphire +11,Square,Ice,95,Critical Block,b,11.0,,,Bought; Dropped
+Polished Blocking Sapphire +12,Square,Ice,95,Critical Block,b,12.0,,,Bought; Crafted; Dropped; Gardened
+Polished Defense Sapphire +41,Square,Ice,95,Flat Resistance,fr,41.0,,,Bought; Crafted; Dropped
+Polished Defense Sapphire +42,Square,Ice,95,Flat Resistance,fr,42.0,,,Bought; Dropped
+Polished Defense Sapphire +43,Square,Ice,95,Flat Resistance,fr,43.0,,,Bought; Crafted; Dropped; Gardened
+Polished Defense Sapphire +44,Square,Ice,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped
+Shiny Blocking Sapphire +15,Square,Ice,115,Critical Block,b,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Sapphire +16,Square,Ice,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened
+Shiny Defense Sapphire +49,Square,Ice,115,Flat Resistance,fr,49.0,,,Crafted; Dropped; Gardened
+Shiny Defense Sapphire +50,Square,Ice,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Sapphire +51,Square,Ice,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped
+Shiny Defense Sapphire +52,Square,Ice,115,Flat Resistance,fr,52.0,,,Bought; Dropped; Item Granted
+Sparkling Blocking Sapphire +17,Square,Ice,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Sapphire +18,Square,Ice,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Sapphire +53,Square,Ice,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened
+Sparkling Defense Sapphire +54,Square,Ice,125,Flat Resistance,fr,54.0,,,Dropped; Gardened; Item Granted
+Sparkling Defense Sapphire +55,Square,Ice,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Sapphire +56,Square,Ice,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Sapphire +61,Square,Ice,170,Critical Block,b,61.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Sapphire +735,Square,Ice,170,Health,hp,735.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Jade +21,Square,Life,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Jade +22,Square,Life,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Jade +61,Square,Life,145,Flat Resistance,fr,61.0,,,Bought; Dropped
+Amazing Defense Jade +62,Square,Life,145,Flat Resistance,fr,62.0,,,Unknown
+Amazing Defense Jade +63,Square,Life,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Jade +64,Square,Life,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Jade +21,Square,Life,45,Flat Resistance,fr,21.0,,,Bought; Crafted; Dropped
+Blemished Defense Jade +22,Square,Life,45,Flat Resistance,fr,22.0,,,Crafted; Dropped
+Blemished Defense Jade +23,Square,Life,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped
+Blemished Defense Jade +24,Square,Life,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped; Gardened
+Bright Health Jade +890,Square,Life,180,Health,hp,890.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Jade +13,Square,Life,25,Flat Resistance,fr,13.0,,,Crafted; Dropped; Item Granted
+Chipped Defense Jade +14,Square,Life,25,Flat Resistance,fr,14.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Jade +15,Square,Life,25,Flat Resistance,fr,15.0,,,Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Jade +16,Square,Life,25,Flat Resistance,fr,16.0,,,Bought; Crafted; Gardened
+Clear Blocking Jade +10,Square,Life,85,Critical Block,b,10.0,,,Crafted; Dropped
+Clear Blocking Jade +9,Square,Life,85,Critical Block,b,9.0,,,Bought; Dropped
+Clear Defense Jade +37,Square,Life,85,Flat Resistance,fr,37.0,,,Bought; Crafted; Dropped
+Clear Defense Jade +38,Square,Life,85,Flat Resistance,fr,38.0,,,Crafted; Dropped
+Clear Defense Jade +39,Square,Life,85,Flat Resistance,fr,39.0,,,Bought; Crafted; Dropped; Gardened
+Clear Defense Jade +40,Square,Life,85,Flat Resistance,fr,40.0,,,Crafted; Dropped
+Cracked Defense Jade +10,Square,Life,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Jade +11,Square,Life,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Jade +12,Square,Life,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Jade +3,Square,Life,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Jade +4,Square,Life,15,Flat Resistance,fr,4.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Jade +5,Square,Life,15,Flat Resistance,fr,5.0,,,Crafted; Gardened; Item Granted
+Cracked Defense Jade +6,Square,Life,15,Flat Resistance,fr,6.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Jade +7,Square,Life,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Jade +8,Square,Life,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Jade +9,Square,Life,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Jade +19,Square,Life,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Jade +20,Square,Life,135,Critical Block,b,20.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Jade +57,Square,Life,135,Flat Resistance,fr,57.0,,,Bought; Dropped
+Dazzling Defense Jade +58,Square,Life,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Jade +59,Square,Life,135,Flat Resistance,fr,59.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Jade +60,Square,Life,135,Flat Resistance,fr,60.0,,,Bought; Dropped
+Dull Blocking Jade +2,Square,Life,55,Critical Block,b,2.0,,,Bought; Dropped
+Dull Blocking Jade +3,Square,Life,55,Critical Block,b,3.0,,,Dropped; Gardened
+Dull Blocking Jade +4,Square,Life,55,Critical Block,b,4.0,,,Crafted; Dropped; Item Granted
+Dull Defense Jade +25,Square,Life,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Jade +26,Square,Life,55,Flat Resistance,fr,26.0,,,Crafted; Dropped; Gardened
+Dull Defense Jade +27,Square,Life,55,Flat Resistance,fr,27.0,,,Bought; Crafted; Dropped; Gardened
+Dull Defense Jade +28,Square,Life,55,Flat Resistance,fr,28.0,,,Crafted; Dropped; Gardened
+Flawed Defense Jade +17,Square,Life,35,Flat Resistance,fr,17.0,,,Bought; Crafted; Dropped
+Flawed Defense Jade +18,Square,Life,35,Flat Resistance,fr,18.0,,,Bought; Crafted; Dropped; Gardened
+Flawed Defense Jade +19,Square,Life,35,Flat Resistance,fr,19.0,,,Crafted; Dropped; Gardened
+Flawed Defense Jade +20,Square,Life,35,Flat Resistance,fr,20.0,,,Crafted; Dropped; Gardened
+Flawless Blocking Jade +23,Square,Life,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Jade +24,Square,Life,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Jade +67,Square,Life,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Jade +68,Square,Life,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Jade +13,Square,Life,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Jade +14,Square,Life,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Jade +45,Square,Life,105,Flat Resistance,fr,45.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Jade +46,Square,Life,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Jade +47,Square,Life,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Jade +48,Square,Life,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Blocking Jade +7,Square,Life,75,Critical Block,b,7.0,,,Bought; Dropped
+Opaque Blocking Jade +8,Square,Life,75,Critical Block,b,8.0,,,Bought; Crafted; Gardened
+Opaque Defense Jade +33,Square,Life,75,Flat Resistance,fr,33.0,,,Bought; Dropped; Gardened
+Opaque Defense Jade +34,Square,Life,75,Flat Resistance,fr,34.0,,,Bought; Crafted; Dropped
+Opaque Defense Jade +35,Square,Life,75,Flat Resistance,fr,35.0,,,Dropped; Gardened
+Opaque Defense Jade +36,Square,Life,75,Flat Resistance,fr,36.0,,,Bought; Crafted; Dropped; Gardened
+Plain Blocking Jade +5,Square,Life,65,Critical Block,b,5.0,,,Crafted; Dropped
+Plain Blocking Jade +6,Square,Life,65,Critical Block,b,6.0,,,Bought; Crafted; Dropped; Gardened
+Plain Defense Jade +29,Square,Life,65,Flat Resistance,fr,29.0,,,Bought; Crafted; Dropped; Item Granted
+Plain Defense Jade +30,Square,Life,65,Flat Resistance,fr,30.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Jade +31,Square,Life,65,Flat Resistance,fr,31.0,,,Bought; Crafted; Dropped; Gardened
+Plain Defense Jade +32,Square,Life,65,Flat Resistance,fr,32.0,,,Crafted; Dropped; Gardened
+Polished Blocking Jade +11,Square,Life,95,Critical Block,b,11.0,,,Bought; Dropped
+Polished Blocking Jade +12,Square,Life,95,Critical Block,b,12.0,,,Bought; Crafted; Dropped; Gardened
+Polished Defense Jade +41,Square,Life,95,Flat Resistance,fr,41.0,,,Bought; Crafted; Dropped
+Polished Defense Jade +42,Square,Life,95,Flat Resistance,fr,42.0,,,Bought; Crafted; Dropped
+Polished Defense Jade +43,Square,Life,95,Flat Resistance,fr,43.0,,,Bought; Dropped; Gardened; Item Granted
+Polished Defense Jade +44,Square,Life,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Jade +15,Square,Life,115,Critical Block,b,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Jade +16,Square,Life,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Defense Jade +49,Square,Life,115,Flat Resistance,fr,49.0,,,Crafted; Dropped; Gardened
+Shiny Defense Jade +50,Square,Life,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Jade +51,Square,Life,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped
+Shiny Defense Jade +52,Square,Life,115,Flat Resistance,fr,52.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Blocking Jade +17,Square,Life,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Jade +18,Square,Life,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Jade +53,Square,Life,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened
+Sparkling Defense Jade +54,Square,Life,125,Flat Resistance,fr,54.0,,,Dropped; Gardened
+Sparkling Defense Jade +55,Square,Life,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Jade +56,Square,Life,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Jade +57,Square,Life,170,Critical Block,b,57.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Jade +775,Square,Life,170,Health,hp,775.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Peridot +21,Square,Myth,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Peridot +22,Square,Myth,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Peridot +61,Square,Myth,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Peridot +62,Square,Myth,145,Flat Resistance,fr,62.0,,,Bought; Dropped
+Amazing Defense Peridot +63,Square,Myth,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Peridot +64,Square,Myth,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Peridot +21,Square,Myth,45,Flat Resistance,fr,21.0,,,Crafted; Dropped
+Blemished Defense Peridot +22,Square,Myth,45,Flat Resistance,fr,22.0,,,Dropped; Gardened
+Blemished Defense Peridot +23,Square,Myth,45,Flat Resistance,fr,23.0,,,Bought; Dropped; Gardened
+Blemished Defense Peridot +24,Square,Myth,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped; Gardened
+Bright Health Peridot +655,Square,Myth,180,Health,hp,655.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Peridot +13,Square,Myth,25,Flat Resistance,fr,13.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Peridot +14,Square,Myth,25,Flat Resistance,fr,14.0,,,Bought; Crafted; Dropped
+Chipped Defense Peridot +15,Square,Myth,25,Flat Resistance,fr,15.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Peridot +16,Square,Myth,25,Flat Resistance,fr,16.0,,,Bought; Crafted; Dropped; Gardened
+Clear Blocking Peridot +10,Square,Myth,85,Critical Block,b,10.0,,,Crafted; Dropped
+Clear Blocking Peridot +9,Square,Myth,85,Critical Block,b,9.0,,,Dropped
+Clear Defense Peridot +37,Square,Myth,85,Flat Resistance,fr,37.0,,,Bought; Crafted; Dropped
+Clear Defense Peridot +38,Square,Myth,85,Flat Resistance,fr,38.0,,,Bought; Dropped
+Clear Defense Peridot +39,Square,Myth,85,Flat Resistance,fr,39.0,,,Crafted; Dropped
+Clear Defense Peridot +40,Square,Myth,85,Flat Resistance,fr,40.0,,,Bought; Crafted; Dropped
+Cracked Defense Peridot +10,Square,Myth,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Peridot +11,Square,Myth,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Peridot +12,Square,Myth,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Peridot +3,Square,Myth,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Peridot +4,Square,Myth,15,Flat Resistance,fr,4.0,,,Crafted; Dropped
+Cracked Defense Peridot +5,Square,Myth,15,Flat Resistance,fr,5.0,,,Crafted; Dropped
+Cracked Defense Peridot +6,Square,Myth,15,Flat Resistance,fr,6.0,,,Crafted; Item Granted
+Cracked Defense Peridot +7,Square,Myth,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Peridot +8,Square,Myth,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Peridot +9,Square,Myth,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Peridot +19,Square,Myth,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Peridot +20,Square,Myth,135,Critical Block,b,20.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Peridot +57,Square,Myth,135,Flat Resistance,fr,57.0,,,Bought; Dropped
+Dazzling Defense Peridot +58,Square,Myth,135,Flat Resistance,fr,58.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Peridot +59,Square,Myth,135,Flat Resistance,fr,59.0,,,Bought; Dropped
+Dazzling Defense Peridot +60,Square,Myth,135,Flat Resistance,fr,60.0,,,Bought; Dropped
+Dull Blocking Peridot +2,Square,Myth,55,Critical Block,b,2.0,,,Bought; Crafted; Dropped; Gardened
+Dull Blocking Peridot +3,Square,Myth,55,Critical Block,b,3.0,,,Crafted; Dropped; Gardened
+Dull Blocking Peridot +4,Square,Myth,55,Critical Block,b,4.0,,,Bought; Crafted; Dropped
+Dull Defense Peridot +25,Square,Myth,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Peridot +26,Square,Myth,55,Flat Resistance,fr,26.0,,,Bought; Crafted; Dropped; Gardened
+Dull Defense Peridot +27,Square,Myth,55,Flat Resistance,fr,27.0,,,Bought; Crafted; Dropped; Gardened
+Dull Defense Peridot +28,Square,Myth,55,Flat Resistance,fr,28.0,,,Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Peridot +17,Square,Myth,35,Flat Resistance,fr,17.0,,,Bought; Crafted; Dropped
+Flawed Defense Peridot +18,Square,Myth,35,Flat Resistance,fr,18.0,,,Crafted; Dropped
+Flawed Defense Peridot +19,Square,Myth,35,Flat Resistance,fr,19.0,,,Bought; Dropped; Gardened
+Flawed Defense Peridot +20,Square,Myth,35,Flat Resistance,fr,20.0,,,Crafted; Dropped; Gardened
+Flawless Blocking Peridot +23,Square,Myth,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Peridot +24,Square,Myth,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Peridot +67,Square,Myth,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Peridot +68,Square,Myth,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Peridot +13,Square,Myth,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Peridot +14,Square,Myth,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Peridot +45,Square,Myth,105,Flat Resistance,fr,45.0,,,Bought; Dropped; Gardened
+Lustrous Defense Peridot +46,Square,Myth,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Peridot +47,Square,Myth,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped
+Lustrous Defense Peridot +48,Square,Myth,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Blocking Peridot +7,Square,Myth,75,Critical Block,b,7.0,,,Bought; Crafted; Dropped
+Opaque Blocking Peridot +8,Square,Myth,75,Critical Block,b,8.0,,,Bought; Dropped; Gardened
+Opaque Defense Peridot +33,Square,Myth,75,Flat Resistance,fr,33.0,,,Bought; Dropped
+Opaque Defense Peridot +34,Square,Myth,75,Flat Resistance,fr,34.0,,,Bought; Dropped
+Opaque Defense Peridot +35,Square,Myth,75,Flat Resistance,fr,35.0,,,Bought; Dropped; Gardened
+Opaque Defense Peridot +36,Square,Myth,75,Flat Resistance,fr,36.0,,,Bought; Crafted; Dropped; Gardened
+Plain Blocking Peridot +5,Square,Myth,65,Critical Block,b,5.0,,,Bought; Crafted; Dropped
+Plain Blocking Peridot +6,Square,Myth,65,Critical Block,b,6.0,,,Bought; Crafted; Dropped; Gardened
+Plain Defense Peridot +29,Square,Myth,65,Flat Resistance,fr,29.0,,,Crafted; Dropped; Item Granted
+Plain Defense Peridot +30,Square,Myth,65,Flat Resistance,fr,30.0,,,Bought; Crafted; Dropped
+Plain Defense Peridot +31,Square,Myth,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened; Item Granted
+Plain Defense Peridot +32,Square,Myth,65,Flat Resistance,fr,32.0,,,Crafted; Dropped; Gardened
+Polished Blocking Peridot +11,Square,Myth,95,Critical Block,b,11.0,,,Bought; Dropped
+Polished Blocking Peridot +12,Square,Myth,95,Critical Block,b,12.0,,,Bought; Dropped; Gardened
+Polished Defense Peridot +41,Square,Myth,95,Flat Resistance,fr,41.0,,,Bought; Dropped
+Polished Defense Peridot +42,Square,Myth,95,Flat Resistance,fr,42.0,,,Bought; Dropped
+Polished Defense Peridot +43,Square,Myth,95,Flat Resistance,fr,43.0,,,Bought; Dropped; Gardened
+Polished Defense Peridot +44,Square,Myth,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Shiny Blocking Peridot +15,Square,Myth,115,Critical Block,b,15.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Blocking Peridot +16,Square,Myth,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Defense Peridot +49,Square,Myth,115,Flat Resistance,fr,49.0,,,Crafted; Dropped; Gardened
+Shiny Defense Peridot +50,Square,Myth,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Peridot +51,Square,Myth,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped
+Shiny Defense Peridot +52,Square,Myth,115,Flat Resistance,fr,52.0,,,Bought; Dropped
+Sparkling Blocking Peridot +17,Square,Myth,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Peridot +18,Square,Myth,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Peridot +53,Square,Myth,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened
+Sparkling Defense Peridot +54,Square,Myth,125,Flat Resistance,fr,54.0,,,Dropped; Gardened
+Sparkling Defense Peridot +55,Square,Myth,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Peridot +56,Square,Myth,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Peridot +49,Square,Myth,170,Critical Block,b,49.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Peridot +595,Square,Myth,170,Health,hp,595.0,,yes,Bought; Crafted; Dropped
+Amazing Blocking Hematite +21,Square,Shadow,145,Critical Block,b,21.0,,,Bought
+Amazing Blocking Hematite +22,Square,Shadow,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Hematite +61,Square,Shadow,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Hematite +62,Square,Shadow,145,Flat Resistance,fr,62.0,,,Bought
+Amazing Defense Hematite +63,Square,Shadow,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Hematite +64,Square,Shadow,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Hematite +23,Square,Shadow,45,Flat Resistance,fr,23.0,,,Bought; Gardened
+Blemished Defense Hematite +24,Square,Shadow,45,Flat Resistance,fr,24.0,,,Bought
+Clear Blocking Hematite +10,Square,Shadow,85,Critical Block,b,10.0,,,Dropped
+Clear Blocking Hematite +9,Square,Shadow,85,Critical Block,b,9.0,,,Dropped
+Clear Defense Hematite +37,Square,Shadow,85,Flat Resistance,fr,37.0,,,Unknown
+Clear Defense Hematite +38,Square,Shadow,85,Flat Resistance,fr,38.0,,,Dropped
+Clear Defense Hematite +39,Square,Shadow,85,Flat Resistance,fr,39.0,,,Dropped
+Clear Defense Hematite +40,Square,Shadow,85,Flat Resistance,fr,40.0,,,Dropped
+Dazzling Blocking Hematite +19,Square,Shadow,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Hematite +20,Square,Shadow,135,Critical Block,b,20.0,,,Bought; Dropped
+Dazzling Defense Hematite +57,Square,Shadow,135,Flat Resistance,fr,57.0,,,Dropped
+Dazzling Defense Hematite +58,Square,Shadow,135,Flat Resistance,fr,58.0,,,Dropped
+Dazzling Defense Hematite +59,Square,Shadow,135,Flat Resistance,fr,59.0,,,Dropped
+Dazzling Defense Hematite +60,Square,Shadow,135,Flat Resistance,fr,60.0,,,Dropped
+Dull Blocking Hematite +2,Square,Shadow,55,Critical Block,b,2.0,,,Unknown
+Dull Blocking Hematite +3,Square,Shadow,55,Critical Block,b,3.0,,,Unknown
+Dull Blocking Hematite +4,Square,Shadow,55,Critical Block,b,4.0,,,Unknown
+Dull Defense Hematite +25,Square,Shadow,55,Flat Resistance,fr,25.0,,,Unknown
+Dull Defense Hematite +26,Square,Shadow,55,Flat Resistance,fr,26.0,,,Unknown
+Dull Defense Hematite +27,Square,Shadow,55,Flat Resistance,fr,27.0,,,Unknown
+Dull Defense Hematite +28,Square,Shadow,55,Flat Resistance,fr,28.0,,,Unknown
+Lustrous Blocking Hematite +13,Square,Shadow,105,Critical Block,b,13.0,,,Dropped
+Lustrous Blocking Hematite +14,Square,Shadow,105,Critical Block,b,14.0,,,Bought; Dropped
+Lustrous Defense Hematite +45,Square,Shadow,105,Flat Resistance,fr,45.0,,,Bought; Dropped
+Lustrous Defense Hematite +46,Square,Shadow,105,Flat Resistance,fr,46.0,,,Bought
+Lustrous Defense Hematite +47,Square,Shadow,105,Flat Resistance,fr,47.0,,,Bought; Dropped
+Lustrous Defense Hematite +48,Square,Shadow,105,Flat Resistance,fr,48.0,,,Bought; Dropped
+Opaque Defense Hematite +36,Square,Shadow,75,Flat Resistance,fr,36.0,,,Gardened
+Polished Blocking Hematite +11,Square,Shadow,95,Critical Block,b,11.0,,,Dropped
+Polished Blocking Hematite +12,Square,Shadow,95,Critical Block,b,12.0,,,Dropped
+Polished Defense Hematite +41,Square,Shadow,95,Flat Resistance,fr,41.0,,,Dropped
+Polished Defense Hematite +42,Square,Shadow,95,Flat Resistance,fr,42.0,,,Dropped
+Polished Defense Hematite +43,Square,Shadow,95,Flat Resistance,fr,43.0,,,Dropped
+Polished Defense Hematite +44,Square,Shadow,95,Flat Resistance,fr,44.0,,,Dropped
+Shiny Blocking Hematite +15,Square,Shadow,115,Critical Block,b,15.0,,,Dropped
+Shiny Blocking Hematite +16,Square,Shadow,115,Critical Block,b,16.0,,,Dropped
+Shiny Defense Hematite +49,Square,Shadow,115,Flat Resistance,fr,49.0,,,Bought; Dropped
+Shiny Defense Hematite +50,Square,Shadow,115,Flat Resistance,fr,50.0,,,Bought; Dropped
+Shiny Defense Hematite +51,Square,Shadow,115,Flat Resistance,fr,51.0,,,Dropped
+Shiny Defense Hematite +52,Square,Shadow,115,Flat Resistance,fr,52.0,,,Dropped
+Sparkling Blocking Hematite +17,Square,Shadow,125,Critical Block,b,17.0,,,Dropped
+Sparkling Blocking Hematite +18,Square,Shadow,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Hematite +53,Square,Shadow,125,Flat Resistance,fr,53.0,,,Dropped
+Sparkling Defense Hematite +54,Square,Shadow,125,Flat Resistance,fr,54.0,,,Dropped
+Sparkling Defense Hematite +55,Square,Shadow,125,Flat Resistance,fr,55.0,,,Dropped
+Sparkling Defense Hematite +56,Square,Shadow,125,Flat Resistance,fr,56.0,,,Dropped
+Amazing Blocking Amethyst +21,Square,Storm,145,Critical Block,b,21.0,,,Bought; Dropped
+Amazing Blocking Amethyst +22,Square,Storm,145,Critical Block,b,22.0,,,Bought; Dropped
+Amazing Defense Amethyst +61,Square,Storm,145,Flat Resistance,fr,61.0,,,Bought
+Amazing Defense Amethyst +62,Square,Storm,145,Flat Resistance,fr,62.0,,,Bought; Dropped
+Amazing Defense Amethyst +63,Square,Storm,145,Flat Resistance,fr,63.0,,,Bought; Dropped
+Amazing Defense Amethyst +64,Square,Storm,145,Flat Resistance,fr,64.0,,,Bought; Dropped
+Blemished Defense Amethyst +21,Square,Storm,45,Flat Resistance,fr,21.0,,,Crafted; Dropped
+Blemished Defense Amethyst +22,Square,Storm,45,Flat Resistance,fr,22.0,,,Crafted; Dropped
+Blemished Defense Amethyst +23,Square,Storm,45,Flat Resistance,fr,23.0,,,Bought; Crafted; Dropped; Gardened
+Blemished Defense Amethyst +24,Square,Storm,45,Flat Resistance,fr,24.0,,,Bought; Crafted; Dropped
+Bright Health Amethyst +560,Square,Storm,180,Health,hp,560.0,,yes,Bought; Crafted; Dropped
+Chipped Defense Amethyst +13,Square,Storm,25,Flat Resistance,fr,13.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Amethyst +14,Square,Storm,25,Flat Resistance,fr,14.0,,,Bought; Crafted; Dropped; Item Granted
+Chipped Defense Amethyst +15,Square,Storm,25,Flat Resistance,fr,15.0,,,Crafted; Dropped; Gardened; Item Granted
+Chipped Defense Amethyst +16,Square,Storm,25,Flat Resistance,fr,16.0,,,Bought; Crafted; Dropped; Gardened
+Clear Blocking Amethyst +10,Square,Storm,85,Critical Block,b,10.0,,,Bought; Crafted; Dropped; Gardened
+Clear Blocking Amethyst +9,Square,Storm,85,Critical Block,b,9.0,,,Dropped; Gardened
+Clear Defense Amethyst +37,Square,Storm,85,Flat Resistance,fr,37.0,,,Bought; Dropped
+Clear Defense Amethyst +38,Square,Storm,85,Flat Resistance,fr,38.0,,,Bought; Crafted; Dropped
+Clear Defense Amethyst +39,Square,Storm,85,Flat Resistance,fr,39.0,,,Crafted; Dropped; Gardened
+Clear Defense Amethyst +40,Square,Storm,85,Flat Resistance,fr,40.0,,,Crafted; Dropped; Gardened
+Cracked Defense Amethyst +10,Square,Storm,15,Flat Resistance,fr,10.0,,,Crafted; Dropped; Gardened
+Cracked Defense Amethyst +11,Square,Storm,15,Flat Resistance,fr,11.0,,,Crafted; Dropped
+Cracked Defense Amethyst +12,Square,Storm,15,Flat Resistance,fr,12.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Amethyst +3,Square,Storm,15,Flat Resistance,fr,3.0,,,Bought
+Cracked Defense Amethyst +4,Square,Storm,15,Flat Resistance,fr,4.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Amethyst +5,Square,Storm,15,Flat Resistance,fr,5.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Amethyst +6,Square,Storm,15,Flat Resistance,fr,6.0,,,Crafted; Dropped
+Cracked Defense Amethyst +7,Square,Storm,15,Flat Resistance,fr,7.0,,,Crafted; Dropped; Item Granted
+Cracked Defense Amethyst +8,Square,Storm,15,Flat Resistance,fr,8.0,,,Crafted; Dropped
+Cracked Defense Amethyst +9,Square,Storm,15,Flat Resistance,fr,9.0,,,Crafted; Dropped; Gardened
+Dazzling Blocking Amethyst +19,Square,Storm,135,Critical Block,b,19.0,,,Bought; Dropped
+Dazzling Blocking Amethyst +20,Square,Storm,135,Critical Block,b,20.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Amethyst +57,Square,Storm,135,Flat Resistance,fr,57.0,,,Bought; Dropped
+Dazzling Defense Amethyst +58,Square,Storm,135,Flat Resistance,fr,58.0,,,Bought; Dropped
+Dazzling Defense Amethyst +59,Square,Storm,135,Flat Resistance,fr,59.0,,,Bought; Dropped; Item Granted
+Dazzling Defense Amethyst +60,Square,Storm,135,Flat Resistance,fr,60.0,,,Bought; Dropped; Item Granted
+Dull Blocking Amethyst +2,Square,Storm,55,Critical Block,b,2.0,,,Bought; Dropped
+Dull Blocking Amethyst +3,Square,Storm,55,Critical Block,b,3.0,,,Dropped; Gardened
+Dull Blocking Amethyst +4,Square,Storm,55,Critical Block,b,4.0,,,Bought; Crafted; Dropped; Item Granted
+Dull Defense Amethyst +25,Square,Storm,55,Flat Resistance,fr,25.0,,,Bought; Crafted; Dropped
+Dull Defense Amethyst +26,Square,Storm,55,Flat Resistance,fr,26.0,,,Crafted; Dropped
+Dull Defense Amethyst +27,Square,Storm,55,Flat Resistance,fr,27.0,,,Crafted; Dropped; Gardened
+Dull Defense Amethyst +28,Square,Storm,55,Flat Resistance,fr,28.0,,,Crafted; Dropped; Gardened; Item Granted
+Flawed Defense Amethyst +17,Square,Storm,35,Flat Resistance,fr,17.0,,,Crafted; Dropped
+Flawed Defense Amethyst +18,Square,Storm,35,Flat Resistance,fr,18.0,,,Crafted; Dropped
+Flawed Defense Amethyst +19,Square,Storm,35,Flat Resistance,fr,19.0,,,Bought; Crafted; Dropped; Gardened
+Flawed Defense Amethyst +20,Square,Storm,35,Flat Resistance,fr,20.0,,,Crafted; Dropped; Gardened
+Flawless Blocking Amethyst +23,Square,Storm,155,Critical Block,b,23.0,,,Bought; Dropped
+Flawless Blocking Amethyst +24,Square,Storm,155,Critical Block,b,24.0,,,Bought; Dropped
+Flawless Defense Amethyst +67,Square,Storm,155,Flat Resistance,fr,67.0,,,Dropped
+Flawless Defense Amethyst +68,Square,Storm,155,Flat Resistance,fr,68.0,,yes,Dropped
+Lustrous Blocking Amethyst +13,Square,Storm,105,Critical Block,b,13.0,,,Bought; Dropped; Gardened
+Lustrous Blocking Amethyst +14,Square,Storm,105,Critical Block,b,14.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Amethyst +45,Square,Storm,105,Flat Resistance,fr,45.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Amethyst +46,Square,Storm,105,Flat Resistance,fr,46.0,,,Bought; Crafted; Dropped; Gardened; Item Granted
+Lustrous Defense Amethyst +47,Square,Storm,105,Flat Resistance,fr,47.0,,,Bought; Crafted; Dropped; Gardened
+Lustrous Defense Amethyst +48,Square,Storm,105,Flat Resistance,fr,48.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Blocking Amethyst +7,Square,Storm,75,Critical Block,b,7.0,,,Bought; Dropped
+Opaque Blocking Amethyst +8,Square,Storm,75,Critical Block,b,8.0,,,Bought; Crafted; Dropped; Gardened
+Opaque Defense Amethyst +33,Square,Storm,75,Flat Resistance,fr,33.0,,,Bought; Crafted; Dropped
+Opaque Defense Amethyst +34,Square,Storm,75,Flat Resistance,fr,34.0,,,Crafted; Dropped
+Opaque Defense Amethyst +35,Square,Storm,75,Flat Resistance,fr,35.0,,,Crafted; Dropped; Gardened
+Opaque Defense Amethyst +36,Square,Storm,75,Flat Resistance,fr,36.0,,,Bought; Crafted; Dropped; Gardened
+Plain Blocking Amethyst +5,Square,Storm,65,Critical Block,b,5.0,,,Crafted; Dropped
+Plain Blocking Amethyst +6,Square,Storm,65,Critical Block,b,6.0,,,Dropped; Gardened
+Plain Defense Amethyst +29,Square,Storm,65,Flat Resistance,fr,29.0,,,Crafted; Dropped; Item Granted
+Plain Defense Amethyst +30,Square,Storm,65,Flat Resistance,fr,30.0,,,Crafted; Dropped; Item Granted
+Plain Defense Amethyst +31,Square,Storm,65,Flat Resistance,fr,31.0,,,Crafted; Dropped; Gardened
+Plain Defense Amethyst +32,Square,Storm,65,Flat Resistance,fr,32.0,,,Dropped; Gardened
+Polished Blocking Amethyst +11,Square,Storm,95,Critical Block,b,11.0,,,Bought; Crafted; Dropped
+Polished Blocking Amethyst +12,Square,Storm,95,Critical Block,b,12.0,,,Bought; Dropped; Gardened
+Polished Defense Amethyst +41,Square,Storm,95,Flat Resistance,fr,41.0,,,Bought; Crafted; Dropped
+Polished Defense Amethyst +42,Square,Storm,95,Flat Resistance,fr,42.0,,,Bought; Crafted; Dropped
+Polished Defense Amethyst +43,Square,Storm,95,Flat Resistance,fr,43.0,,,Bought; Crafted; Dropped; Gardened
+Polished Defense Amethyst +44,Square,Storm,95,Flat Resistance,fr,44.0,,,Bought; Crafted; Dropped
+Shiny Blocking Amethyst +15,Square,Storm,115,Critical Block,b,15.0,,,Crafted; Dropped; Gardened
+Shiny Blocking Amethyst +16,Square,Storm,115,Critical Block,b,16.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Defense Amethyst +49,Square,Storm,115,Flat Resistance,fr,49.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Amethyst +50,Square,Storm,115,Flat Resistance,fr,50.0,,,Bought; Crafted; Dropped; Gardened
+Shiny Defense Amethyst +51,Square,Storm,115,Flat Resistance,fr,51.0,,,Bought; Crafted; Dropped; Item Granted
+Shiny Defense Amethyst +52,Square,Storm,115,Flat Resistance,fr,52.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Blocking Amethyst +17,Square,Storm,125,Critical Block,b,17.0,,,Bought; Dropped; Gardened
+Sparkling Blocking Amethyst +18,Square,Storm,125,Critical Block,b,18.0,,,Dropped
+Sparkling Defense Amethyst +53,Square,Storm,125,Flat Resistance,fr,53.0,,,Bought; Dropped; Gardened
+Sparkling Defense Amethyst +54,Square,Storm,125,Flat Resistance,fr,54.0,,,Bought; Dropped; Gardened
+Sparkling Defense Amethyst +55,Square,Storm,125,Flat Resistance,fr,55.0,,,Bought; Dropped
+Sparkling Defense Amethyst +56,Square,Storm,125,Flat Resistance,fr,56.0,,,Dropped
+Unearthly Blocking Amethyst +44,Square,Storm,170,Critical Block,b,44.0,,yes,Bought; Crafted; Dropped
+Unearthly Health Amethyst +525,Square,Storm,170,Health,hp,525.0,,yes,Bought; Crafted; Dropped
+Amazing Archmastery Opal +14 (Tear),Tear,Any,145,Archmastery,am,14.0,,yes,Bought; Dropped
+Amazing Health Opal +136,Tear,Any,145,Health,hp,136.0,,yes,Bought; Dropped
+Amazing Health Opal +137,Tear,Any,145,Health,hp,137.0,,yes,Bought; Dropped
+Amazing Health Opal +138,Tear,Any,145,Health,hp,138.0,,yes,Bought; Dropped
+Amazing Health Opal +139,Tear,Any,145,Health,hp,139.0,,yes,Bought; Dropped
+Amazing Health Opal +140,Tear,Any,145,Health,hp,140.0,,,Bought; Dropped
+Amazing Health Opal +141,Tear,Any,145,Health,hp,141.0,,yes,Bought; Dropped
+Amazing Health Opal +142,Tear,Any,145,Health,hp,142.0,,yes,Bought; Dropped
+Amazing Health Opal +143,Tear,Any,145,Health,hp,143.0,,yes,Bought; Dropped
+Amazing Health Opal +144,Tear,Any,145,Health,hp,144.0,,yes,Bought; Dropped
+Amazing Health Opal +145,Tear,Any,145,Health,hp,145.0,,yes,Bought; Dropped
+Amazing Mana Opal +57,Tear,Any,145,Mana,mn,57.0,,,Bought; Dropped
+Amazing Mana Opal +58,Tear,Any,145,Mana,mn,58.0,,,Bought; Dropped
+Amazing Mana Opal +59,Tear,Any,145,Mana,mn,59.0,,,Bought; Dropped
+Amazing Mana Opal +60,Tear,Any,145,Mana,mn,60.0,,,Bought; Dropped
+Blemished Health Opal +36,Tear,Any,45,Health,hp,36.0,,,Dropped
+Blemished Health Opal +37,Tear,Any,45,Health,hp,37.0,,,Dropped
+Blemished Health Opal +38,Tear,Any,45,Health,hp,38.0,,,Dropped
+Blemished Health Opal +39,Tear,Any,45,Health,hp,39.0,,,Bought; Dropped
+Blemished Health Opal +40,Tear,Any,45,Health,hp,40.0,,yes,Bought; Dropped
+Blemished Health Opal +41,Tear,Any,45,Health,hp,41.0,,,Bought; Dropped; Gardened
+Blemished Health Opal +42,Tear,Any,45,Health,hp,42.0,,yes,Dropped
+Blemished Health Opal +43,Tear,Any,45,Health,hp,43.0,,yes,Bought; Dropped; Gardened
+Blemished Health Opal +44,Tear,Any,45,Health,hp,44.0,,,Bought; Dropped; Gardened
+Blemished Health Opal +45,Tear,Any,45,Health,hp,45.0,,,Bought; Dropped
+Blemished Health Opal +45 (PvP),Tear,Any,45,Health,hp,45.0,,,Bought; Crafted
+Blemished Mana Opal +17,Tear,Any,45,Mana,mn,17.0,,,Bought; Dropped
+Blemished Mana Opal +18,Tear,Any,45,Mana,mn,18.0,,,Bought; Dropped; Gardened
+Blemished Mana Opal +19,Tear,Any,45,Mana,mn,19.0,,,Bought; Dropped
+Blemished Mana Opal +20,Tear,Any,45,Mana,mn,20.0,,,Bought; Dropped; Gardened
+Chipped Health Opal +16,Tear,Any,25,Health,hp,16.0,,yes,Bought; Dropped
+Chipped Health Opal +17,Tear,Any,25,Health,hp,17.0,,yes,Dropped
+Chipped Health Opal +18,Tear,Any,25,Health,hp,18.0,,yes,Bought; Dropped; Gardened
+Chipped Health Opal +19,Tear,Any,25,Health,hp,19.0,,,Dropped
+Chipped Health Opal +20,Tear,Any,25,Health,hp,20.0,,,Dropped; Fished
+Chipped Health Opal +21,Tear,Any,25,Health,hp,21.0,,,Bought; Dropped
+Chipped Health Opal +22,Tear,Any,25,Health,hp,22.0,,,Dropped
+Chipped Health Opal +23,Tear,Any,25,Health,hp,23.0,,,Dropped; Gardened
+Chipped Health Opal +24,Tear,Any,25,Health,hp,24.0,,,Bought; Dropped; Gardened
+Chipped Health Opal +25,Tear,Any,25,Health,hp,25.0,,,Dropped
+Chipped Health Opal +25 (PvP),Tear,Any,15,Health,hp,25.0,,,Bought
+Chipped Mana Opal +10,Tear,Any,25,Mana,mn,10.0,,,Dropped
+Chipped Mana Opal +11,Tear,Any,25,Mana,mn,11.0,,,Bought; Dropped; Gardened
+Chipped Mana Opal +12,Tear,Any,25,Mana,mn,12.0,,,Dropped; Gardened; Item Granted
+Chipped Mana Opal +9,Tear,Any,25,Mana,mn,9.0,,yes,Bought; Dropped
+Clear Health Opal +76,Tear,Any,85,Health,hp,76.0,,,Bought; Dropped
+Clear Health Opal +77,Tear,Any,85,Health,hp,77.0,,,Bought; Dropped
+Clear Health Opal +78,Tear,Any,85,Health,hp,78.0,,yes,Bought; Dropped
+Clear Health Opal +79,Tear,Any,85,Health,hp,79.0,,,Bought; Dropped
+Clear Health Opal +80,Tear,Any,85,Health,hp,80.0,,,Bought; Dropped
+Clear Health Opal +81,Tear,Any,85,Health,hp,81.0,,yes,Dropped; Gardened
+Clear Health Opal +82,Tear,Any,85,Health,hp,82.0,,,Bought; Dropped
+Clear Health Opal +83,Tear,Any,85,Health,hp,83.0,,,Dropped; Gardened
+Clear Health Opal +84,Tear,Any,85,Health,hp,84.0,,,Bought; Dropped; Gardened
+Clear Health Opal +85,Tear,Any,85,Health,hp,85.0,,yes,Dropped
+Clear Health Opal +85 (PvP),Tear,Any,85,Health,hp,85.0,,yes,Bought
+Clear Mana Opal +33,Tear,Any,85,Mana,mn,33.0,,,Bought; Dropped
+Clear Mana Opal +34,Tear,Any,85,Mana,mn,34.0,,,Bought; Dropped; Gardened
+Clear Mana Opal +35,Tear,Any,85,Mana,mn,35.0,,,Dropped
+Clear Mana Opal +36,Tear,Any,85,Mana,mn,36.0,,,Dropped; Gardened
+Cracked Archmastery Opal +1 (Tear),Tear,Any,1,Archmastery,am,1.0,,yes,Bought; Quest Reward
+Cracked Energy Opal +1,Tear,Any,15,Energy,en,1.0,,,Bought; Dropped; Gardened
+Cracked Energy Opal +2,Tear,Any,15,Energy,en,2.0,,,Bought
+Cracked Energy Opal +3,Tear,Any,15,Energy,en,3.0,,,Bought; Gardened
+Cracked Energy Opal +4,Tear,Any,15,Energy,en,4.0,,,Bought; Gardened
+Cracked Energy Opal +5,Tear,Any,15,Energy,en,5.0,,,Bought
+Cracked Health Opal +10,Tear,Any,15,Health,hp,10.0,,,Dropped; Item Granted
+Cracked Health Opal +11,Tear,Any,15,Health,hp,11.0,,yes,Dropped
+Cracked Health Opal +12,Tear,Any,15,Health,hp,12.0,,,Dropped
+Cracked Health Opal +13,Tear,Any,15,Health,hp,13.0,,,Dropped; Gardened
+Cracked Health Opal +14,Tear,Any,15,Health,hp,14.0,,,Dropped; Gardened
+Cracked Health Opal +15,Tear,Any,15,Health,hp,15.0,,,Dropped; Gardened
+Cracked Health Opal +15 (PvP),Tear,Any,15,Health,hp,15.0,,yes,Bought
+Cracked Health Opal +5,Tear,Any,15,Health,hp,5.0,,yes,Bought
+Cracked Health Opal +6,Tear,Any,15,Health,hp,6.0,,,Dropped; Gardened
+Cracked Health Opal +7,Tear,Any,15,Health,hp,7.0,,,Bought; Dropped; Gardened
+Cracked Health Opal +8,Tear,Any,15,Health,hp,8.0,,,Dropped; Gardened; Item Granted
+Cracked Health Opal +9,Tear,Any,15,Health,hp,9.0,,,Dropped; Item Granted
+Cracked Mana Opal +3,Tear,Any,15,Mana,mn,3.0,,,Bought
+Cracked Mana Opal +4,Tear,Any,15,Mana,mn,4.0,,,Dropped; Item Granted
+Cracked Mana Opal +5,Tear,Any,15,Mana,mn,5.0,,,Bought; Dropped; Gardened
+Cracked Mana Opal +6,Tear,Any,15,Mana,mn,6.0,,,Dropped; Gardened; Item Granted
+Cracked Mana Opal +7,Tear,Any,15,Mana,mn,7.0,,,Dropped; Gardened
+Cracked Mana Opal +8,Tear,Any,15,Mana,mn,8.0,,,Dropped; Gardened
+Dazzling Archmastery Opal +13 (Tear),Tear,Any,135,Archmastery,am,13.0,,,Bought; Dropped
+Dazzling Health Opal +126,Tear,Any,135,Health,hp,126.0,,yes,Bought; Dropped
+Dazzling Health Opal +127,Tear,Any,135,Health,hp,127.0,,,Bought; Dropped
+Dazzling Health Opal +128,Tear,Any,135,Health,hp,128.0,,yes,Bought; Dropped
+Dazzling Health Opal +129,Tear,Any,135,Health,hp,129.0,,,Bought; Dropped
+Dazzling Health Opal +130,Tear,Any,135,Health,hp,130.0,,yes,Bought; Dropped
+Dazzling Health Opal +131,Tear,Any,135,Health,hp,131.0,,,Bought; Dropped
+Dazzling Health Opal +132,Tear,Any,135,Health,hp,132.0,,,Bought; Dropped; Item Granted
+Dazzling Health Opal +133,Tear,Any,135,Health,hp,133.0,,yes,Bought; Dropped
+Dazzling Health Opal +134,Tear,Any,135,Health,hp,134.0,,,Bought; Dropped
+Dazzling Health Opal +135,Tear,Any,135,Health,hp,135.0,,,Bought; Dropped; Item Granted
+Dazzling Health Opal +135 (PvP),Tear,Any,135,Health,hp,135.0,,,Bought; Crafted
+Dazzling Mana Opal +53,Tear,Any,135,Mana,mn,53.0,,,Bought; Dropped
+Dazzling Mana Opal +54,Tear,Any,135,Mana,mn,54.0,,,Bought; Dropped
+Dazzling Mana Opal +55,Tear,Any,135,Mana,mn,55.0,,,Bought; Dropped
+Dazzling Mana Opal +56,Tear,Any,135,Mana,mn,56.0,,,Bought; Dropped
+Dull Health Opal +46,Tear,Any,55,Health,hp,46.0,,,Bought; Dropped
+Dull Health Opal +47,Tear,Any,55,Health,hp,47.0,,,Bought; Dropped
+Dull Health Opal +48,Tear,Any,55,Health,hp,48.0,,,Bought; Dropped
+Dull Health Opal +49,Tear,Any,55,Health,hp,49.0,,,Bought; Dropped
+Dull Health Opal +50,Tear,Any,55,Health,hp,50.0,,yes,Dropped; Gardened
+Dull Health Opal +51,Tear,Any,55,Health,hp,51.0,,yes,Dropped; Gardened
+Dull Health Opal +52,Tear,Any,55,Health,hp,52.0,,yes,Dropped
+Dull Health Opal +53,Tear,Any,55,Health,hp,53.0,,yes,Bought; Dropped; Gardened
+Dull Health Opal +54,Tear,Any,55,Health,hp,54.0,,,Bought; Dropped; Gardened
+Dull Health Opal +55,Tear,Any,55,Health,hp,55.0,,,Bought; Dropped
+Dull Health Opal +55 (PvP),Tear,Any,55,Health,hp,55.0,,,Bought
+Dull Mana Opal +21,Tear,Any,55,Mana,mn,21.0,,,Bought; Dropped
+Dull Mana Opal +22,Tear,Any,55,Mana,mn,22.0,,,Bought; Dropped; Gardened
+Dull Mana Opal +23,Tear,Any,55,Mana,mn,23.0,,,Dropped
+Dull Mana Opal +24,Tear,Any,55,Mana,mn,24.0,,,Bought; Crafted; Dropped; Gardened
+Flawed Health Opal +26,Tear,Any,35,Health,hp,26.0,,,Dropped
+Flawed Health Opal +27,Tear,Any,35,Health,hp,27.0,,,Dropped; Item Granted
+Flawed Health Opal +28,Tear,Any,35,Health,hp,28.0,,,Dropped; Item Granted
+Flawed Health Opal +29,Tear,Any,35,Health,hp,29.0,,,Bought; Dropped; Item Granted
+Flawed Health Opal +30,Tear,Any,35,Health,hp,30.0,,yes,Bought; Dropped; Item Granted
+Flawed Health Opal +31,Tear,Any,35,Health,hp,31.0,,,Dropped
+Flawed Health Opal +32,Tear,Any,35,Health,hp,32.0,,yes,Bought; Dropped
+Flawed Health Opal +33,Tear,Any,35,Health,hp,33.0,,,Bought; Dropped; Gardened
+Flawed Health Opal +34,Tear,Any,35,Health,hp,34.0,,,Dropped; Gardened
+Flawed Health Opal +35,Tear,Any,35,Health,hp,35.0,,,Dropped
+Flawed Health Opal +35 (PvP),Tear,Any,35,Health,hp,35.0,,,Bought
+Flawed Mana Opal +13,Tear,Any,35,Mana,mn,13.0,,,Bought; Dropped; Item Granted
+Flawed Mana Opal +14,Tear,Any,35,Mana,mn,14.0,,,Dropped; Item Granted
+Flawed Mana Opal +15,Tear,Any,35,Mana,mn,15.0,,,Bought; Dropped
+Flawed Mana Opal +16,Tear,Any,35,Mana,mn,16.0,,,Dropped; Gardened
+Flawless Archmastery Opal +15 (Tear),Tear,Any,155,Archmastery,am,15.0,,,Dropped
+Flawless Health Opal +146,Tear,Any,155,Health,hp,146.0,,yes,Dropped
+Flawless Health Opal +147,Tear,Any,155,Health,hp,147.0,,yes,Dropped
+Flawless Health Opal +148,Tear,Any,155,Health,hp,148.0,,yes,Dropped
+Flawless Health Opal +149,Tear,Any,155,Health,hp,149.0,,yes,Dropped
+Flawless Health Opal +150,Tear,Any,155,Health,hp,150.0,,yes,Bought; Dropped
+Flawless Health Opal +151,Tear,Any,155,Health,hp,151.0,,yes,Bought; Dropped
+Flawless Health Opal +152,Tear,Any,155,Health,hp,152.0,,yes,Bought; Dropped
+Flawless Health Opal +153,Tear,Any,155,Health,hp,153.0,,,Bought; Dropped
+Flawless Health Opal +154,Tear,Any,155,Health,hp,154.0,,yes,Bought; Dropped
+Flawless Health Opal +155,Tear,Any,155,Health,hp,155.0,,yes,Bought; Dropped
+Flawless Mana Opal +61,Tear,Any,155,Mana,mn,61.0,,,Bought; Dropped
+Flawless Mana Opal +62,Tear,Any,155,Mana,mn,62.0,,,Bought; Dropped
+Flawless Mana Opal +63,Tear,Any,155,Mana,mn,63.0,,,Bought; Dropped
+Flawless Mana Opal +64,Tear,Any,155,Mana,mn,64.0,,,Bought; Dropped
+Lustrous Health Opal +100,Tear,Any,105,Health,hp,100.0,,yes,Bought; Dropped; Gardened
+Lustrous Health Opal +101,Tear,Any,105,Health,hp,101.0,,,Bought; Gardened
+Lustrous Health Opal +102,Tear,Any,105,Health,hp,102.0,,,Bought
+Lustrous Health Opal +103,Tear,Any,105,Health,hp,103.0,,,Bought; Gardened
+Lustrous Health Opal +104,Tear,Any,105,Health,hp,104.0,,,Bought; Dropped; Gardened
+Lustrous Health Opal +105,Tear,Any,105,Health,hp,105.0,,,Bought
+Lustrous Health Opal +105 (PvP),Tear,Any,105,Health,hp,105.0,,,Bought; Crafted
+Lustrous Health Opal +96,Tear,Any,105,Health,hp,96.0,,,Bought; Dropped
+Lustrous Health Opal +97,Tear,Any,105,Health,hp,97.0,,,Bought; Dropped; Fished
+Lustrous Health Opal +98,Tear,Any,105,Health,hp,98.0,,,Bought; Dropped
+Lustrous Health Opal +99,Tear,Any,105,Health,hp,99.0,,,Bought; Dropped
+Lustrous Mana Opal +41,Tear,Any,105,Mana,mn,41.0,,,Bought; Dropped; Fished
+Lustrous Mana Opal +42,Tear,Any,105,Mana,mn,42.0,,,Bought; Dropped; Gardened
+Lustrous Mana Opal +43,Tear,Any,105,Mana,mn,43.0,,,Bought
+Lustrous Mana Opal +44,Tear,Any,105,Mana,mn,44.0,,,Bought; Gardened
+Opaque Health Opal +66,Tear,Any,75,Health,hp,66.0,,,Bought; Dropped
+Opaque Health Opal +67,Tear,Any,75,Health,hp,67.0,,,Bought; Dropped; Item Granted
+Opaque Health Opal +68,Tear,Any,75,Health,hp,68.0,,,Bought; Dropped; Item Granted
+Opaque Health Opal +69,Tear,Any,75,Health,hp,69.0,,,Bought; Item Granted
+Opaque Health Opal +70,Tear,Any,75,Health,hp,70.0,,,Bought; Dropped; Gardened; Item Granted
+Opaque Health Opal +71,Tear,Any,75,Health,hp,71.0,,yes,Bought; Dropped; Gardened
+Opaque Health Opal +72,Tear,Any,75,Health,hp,72.0,,,Bought; Dropped
+Opaque Health Opal +73,Tear,Any,75,Health,hp,73.0,,,Bought; Dropped; Fished; Gardened
+Opaque Health Opal +74,Tear,Any,75,Health,hp,74.0,,,Bought; Dropped; Gardened
+Opaque Health Opal +75,Tear,Any,75,Health,hp,75.0,,,Bought; Dropped
+Opaque Health Opal +75 (PvP),Tear,Any,75,Health,hp,75.0,,,Bought
+Opaque Mana Opal +29,Tear,Any,75,Mana,mn,29.0,,,Bought; Dropped; Item Granted
+Opaque Mana Opal +30,Tear,Any,75,Mana,mn,30.0,,,Bought; Dropped; Gardened
+Opaque Mana Opal +31,Tear,Any,75,Mana,mn,31.0,,,Bought; Dropped; Fished
+Opaque Mana Opal +32,Tear,Any,75,Mana,mn,32.0,,,Bought; Dropped; Gardened
+Plain Health Opal +56,Tear,Any,65,Health,hp,56.0,,,Dropped
+Plain Health Opal +57,Tear,Any,65,Health,hp,57.0,,,Dropped
+Plain Health Opal +58,Tear,Any,65,Health,hp,58.0,,,Dropped
+Plain Health Opal +59,Tear,Any,65,Health,hp,59.0,,yes,Dropped
+Plain Health Opal +60,Tear,Any,65,Health,hp,60.0,,yes,Dropped; Gardened
+Plain Health Opal +61,Tear,Any,65,Health,hp,61.0,,,Dropped; Gardened
+Plain Health Opal +62,Tear,Any,65,Health,hp,62.0,,yes,Dropped
+Plain Health Opal +63,Tear,Any,65,Health,hp,63.0,,,Dropped; Gardened
+Plain Health Opal +64,Tear,Any,65,Health,hp,64.0,,,Dropped; Gardened
+Plain Health Opal +65,Tear,Any,65,Health,hp,65.0,,,Dropped
+Plain Health Opal +65 (PvP),Tear,Any,65,Health,hp,65.0,,,Bought; Crafted
+Plain Mana Opal +25,Tear,Any,65,Mana,mn,25.0,,,Dropped
+Plain Mana Opal +26,Tear,Any,65,Mana,mn,26.0,,,Dropped; Gardened
+Plain Mana Opal +27,Tear,Any,65,Mana,mn,27.0,,,Unknown
+Plain Mana Opal +28,Tear,Any,65,Mana,mn,28.0,,,Dropped; Gardened; Item Granted
+Polished Health Opal +86,Tear,Any,95,Health,hp,86.0,,yes,Bought; Dropped
+Polished Health Opal +87,Tear,Any,95,Health,hp,87.0,,,Bought; Dropped
+Polished Health Opal +88,Tear,Any,95,Health,hp,88.0,,,Bought; Dropped
+Polished Health Opal +89,Tear,Any,95,Health,hp,89.0,,yes,Bought; Dropped
+Polished Health Opal +90,Tear,Any,95,Health,hp,90.0,,yes,Bought; Dropped
+Polished Health Opal +91,Tear,Any,95,Health,hp,91.0,,yes,Bought; Dropped; Item Granted
+Polished Health Opal +92,Tear,Any,95,Health,hp,92.0,,yes,Bought; Dropped
+Polished Health Opal +93,Tear,Any,95,Health,hp,93.0,,yes,Bought; Dropped; Gardened
+Polished Health Opal +94,Tear,Any,95,Health,hp,94.0,,yes,Bought; Dropped; Gardened
+Polished Health Opal +95,Tear,Any,95,Health,hp,95.0,,yes,Bought; Dropped
+Polished Health Opal +95 (PvP),Tear,Any,95,Health,hp,95.0,,,Bought
+Polished Mana Opal +37,Tear,Any,95,Mana,mn,37.0,,,Bought; Dropped
+Polished Mana Opal +38,Tear,Any,95,Mana,mn,38.0,,,Bought; Dropped; Gardened
+Polished Mana Opal +39,Tear,Any,95,Mana,mn,39.0,,,Bought; Dropped; Item Granted
+Polished Mana Opal +40,Tear,Any,95,Mana,mn,40.0,,,Bought; Dropped; Gardened; Item Granted
+Shiny Health Opal +106,Tear,Any,115,Health,hp,106.0,,yes,Bought; Dropped; Gardened
+Shiny Health Opal +107,Tear,Any,115,Health,hp,107.0,,yes,Bought; Dropped; Gardened
+Shiny Health Opal +108,Tear,Any,115,Health,hp,108.0,,yes,Bought; Dropped
+Shiny Health Opal +109,Tear,Any,115,Health,hp,109.0,,yes,Dropped
+Shiny Health Opal +110,Tear,Any,115,Health,hp,110.0,,,Bought; Dropped
+Shiny Health Opal +111,Tear,Any,115,Health,hp,111.0,,yes,Dropped; Item Granted
+Shiny Health Opal +112,Tear,Any,115,Health,hp,112.0,,yes,Dropped
+Shiny Health Opal +113,Tear,Any,115,Health,hp,113.0,,yes,Dropped; Item Granted
+Shiny Health Opal +114,Tear,Any,115,Health,hp,114.0,,yes,Dropped
+Shiny Health Opal +115,Tear,Any,115,Health,hp,115.0,,,Dropped
+Shiny Health Opal +115 (PvP),Tear,Any,115,Health,hp,115.0,,,Bought
+Shiny Mana Opal +45,Tear,Any,115,Mana,mn,45.0,,,Bought; Dropped; Gardened
+Shiny Mana Opal +46,Tear,Any,115,Mana,mn,46.0,,,Dropped
+Shiny Mana Opal +47,Tear,Any,115,Mana,mn,47.0,,,Bought; Dropped
+Shiny Mana Opal +48,Tear,Any,115,Mana,mn,48.0,,,Bought
+Sparkling Health Opal +116,Tear,Any,125,Health,hp,116.0,,yes,Bought; Dropped; Gardened
+Sparkling Health Opal +117,Tear,Any,125,Health,hp,117.0,,yes,Bought; Dropped; Gardened
+Sparkling Health Opal +118,Tear,Any,125,Health,hp,118.0,,yes,Bought; Dropped
+Sparkling Health Opal +119,Tear,Any,125,Health,hp,119.0,,yes,Bought; Dropped
+Sparkling Health Opal +120,Tear,Any,125,Health,hp,120.0,,,Bought; Dropped
+Sparkling Health Opal +121,Tear,Any,125,Health,hp,121.0,,,Bought; Dropped
+Sparkling Health Opal +122,Tear,Any,125,Health,hp,122.0,,,Bought; Dropped
+Sparkling Health Opal +123,Tear,Any,125,Health,hp,123.0,,,Bought; Dropped
+Sparkling Health Opal +124,Tear,Any,125,Health,hp,124.0,,,Bought; Dropped
+Sparkling Health Opal +125,Tear,Any,125,Health,hp,125.0,,,Dropped
+Sparkling Health Opal +125 (PvP),Tear,Any,125,Health,hp,125.0,,yes,Bought
+Sparkling Mana Opal +49,Tear,Any,125,Mana,mn,49.0,,,Bought; Dropped; Gardened; Item Granted
+Sparkling Mana Opal +50,Tear,Any,125,Mana,mn,50.0,,,Bought; Dropped
+Sparkling Mana Opal +51,Tear,Any,125,Mana,mn,51.0,,,Dropped
+Sparkling Mana Opal +52,Tear,Any,125,Mana,mn,52.0,,,Bought; Dropped
+Unearthly Mana Opal +68,Tear,Any,170,Mana,mn,68.0,,yes,Bought; Crafted; Dropped
+Blemished PIP Opal +4%,Triangle,Any,45,Power Pip,pp,4.0,yes,,Bought; Dropped
+Blemished PIP Opal +4% (PvP),Triangle,Any,45,Power Pip,pp,4.0,yes,yes,Bought; Crafted
+Bright Archmastery Opal +48,Triangle,Any,180,Archmastery,am,48.0,,yes,Bought; Crafted; Dropped
+Chipped PIP Opal +1%,Triangle,Any,25,Power Pip,pp,1.0,yes,,Bought; Dropped
+Chipped PIP Opal +2%,Triangle,Any,25,Power Pip,pp,2.0,yes,,Dropped
+Chipped PIP Opal +2% (PvP),Triangle,Any,25,Power Pip,pp,2.0,yes,yes,Bought
+Clear PIP Opal +8%,Triangle,Any,85,Power Pip,pp,8.0,yes,,Bought; Dropped; Item Granted
+Clear PIP Opal +8% (PvP),Triangle,Any,85,Power Pip,pp,8.0,yes,yes,Bought
+Cracked Accurate Opal +1%,Triangle,Any,15,Accuracy,a,1.0,yes,,Dropped; Gardened; Quest Reward
+Cracked Accurate Opal +1% (PvP),Triangle,Any,15,Accuracy,a,1.0,yes,,Bought
+Dazzling Accurate Opal +7%,Triangle,Any,135,Accuracy,a,7.0,yes,,Bought; Dropped
+Dazzling Accurate Opal +7% (PvP),Triangle,Any,135,Accuracy,a,7.0,yes,,Bought; Crafted
+Dull Accurate Opal +3%,Triangle,Any,55,Accuracy,a,3.0,yes,,Bought; Dropped
+Dull Accurate Opal +3% (PvP),Triangle,Any,55,Accuracy,a,3.0,yes,,Bought; Crafted
+Dull PIP Opal +5%,Triangle,Any,55,Power Pip,pp,5.0,yes,,Crafted; Dropped
+Dull PIP Opal +5% (PvP),Triangle,Any,55,Power Pip,pp,5.0,yes,yes,Bought
+Flawed Accurate Opal +2%,Triangle,Any,35,Accuracy,a,2.0,yes,,Bought; Dropped
+Flawed Accurate Opal +2% (PvP),Triangle,Any,35,Accuracy,a,2.0,yes,,Bought; Crafted
+Flawed PIP Opal +3%,Triangle,Any,35,Power Pip,pp,3.0,yes,,Dropped
+Flawed PIP Opal +3% (PvP),Triangle,Any,35,Power Pip,pp,3.0,yes,yes,Bought
+Lustrous PIP Opal +10%,Triangle,Any,105,Power Pip,pp,10.0,yes,yes,Bought; Crafted; Dropped; Fished
+Lustrous PIP Opal +10% (PvP),Triangle,Any,105,Power Pip,pp,10.0,yes,yes,Bought; Crafted
+Opaque Accurate Opal +4%,Triangle,Any,75,Accuracy,a,4.0,yes,yes,Dropped
+Opaque Accurate Opal +4% (PvP),Triangle,Any,75,Accuracy,a,4.0,yes,,Bought
+Opaque PIP Opal +7%,Triangle,Any,75,Power Pip,pp,7.0,yes,,Bought; Dropped
+Opaque PIP Opal +7% (PvP),Triangle,Any,75,Power Pip,pp,7.0,yes,yes,Bought
+Plain PIP Opal +6%,Triangle,Any,65,Power Pip,pp,6.0,yes,,Dropped
+Plain PIP Opal +6% (PvP),Triangle,Any,65,Power Pip,pp,6.0,yes,yes,Bought; Crafted
+Polished Accurate Opal +5%,Triangle,Any,95,Accuracy,a,5.0,yes,,Bought; Dropped
+Polished Accurate Opal +5% (PvP),Triangle,Any,95,Accuracy,a,5.0,yes,,Bought; Crafted
+Polished PIP Opal +9%,Triangle,Any,95,Power Pip,pp,9.0,yes,,Bought; Dropped; Item Granted
+Polished PIP Opal +9% (PvP),Triangle,Any,95,Power Pip,pp,9.0,yes,yes,Bought
+Shiny Accurate Opal +6%,Triangle,Any,115,Accuracy,a,6.0,yes,,Bought; Dropped; Gardened
+Shiny Accurate Opal +6% (PvP),Triangle,Any,115,Accuracy,a,6.0,yes,,Bought
+Unearthly Archmastery Opal +45,Triangle,Any,170,Archmastery,am,45.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Citrine +15%,Triangle,Balance,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Citrine +5%,Triangle,Balance,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Citrine +67,Triangle,Balance,180,Pip Conversion,pc,67.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Citrine +3%,Triangle,Balance,25,Accuracy,a,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Clear Accurate Citrine +9%,Triangle,Balance,85,Accuracy,a,9.0,yes,,Dropped; Gardened
+Cracked Accurate Citrine +1%,Triangle,Balance,15,Accuracy,a,1.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Citrine +2%,Triangle,Balance,15,Accuracy,a,2.0,yes,,Bought; Crafted; Dropped
+Dazzling Accurate Citrine +14%,Triangle,Balance,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Citrine +6%,Triangle,Balance,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Citrine +4%,Triangle,Balance,35,Accuracy,a,4.0,yes,,Bought; Dropped; Gardened
+Flawless Accurate Citrine +16%,Triangle,Balance,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Citrine +11%,Triangle,Balance,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Citrine +8%,Triangle,Balance,75,Accuracy,a,8.0,yes,,Bought; Crafted; Dropped; Gardened
+Plain Accurate Citrine +7%,Triangle,Balance,65,Accuracy,a,7.0,yes,,Crafted; Dropped; Gardened
+Polished Accurate Citrine +10%,Triangle,Balance,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Citrine +12%,Triangle,Balance,115,Accuracy,a,12.0,yes,,Dropped; Gardened
+Sparkling Accurate Citrine +13%,Triangle,Balance,125,Accuracy,a,13.0,yes,,Bought; Dropped
+Unearthly Conversion Citrine +62,Triangle,Balance,170,Pip Conversion,pc,62.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Onyx +15%,Triangle,Death,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Onyx +5%,Triangle,Death,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Onyx +67,Triangle,Death,180,Pip Conversion,pc,67.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Onyx +3%,Triangle,Death,25,Accuracy,a,3.0,yes,,Crafted; Dropped; Gardened
+Clear Accurate Onyx +9%,Triangle,Death,85,Accuracy,a,9.0,yes,,Bought; Crafted; Dropped; Gardened
+Cracked Accurate Onyx +1%,Triangle,Death,15,Accuracy,a,1.0,yes,,Crafted; Dropped
+Cracked Accurate Onyx +2%,Triangle,Death,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Onyx +14%,Triangle,Death,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Onyx +6%,Triangle,Death,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Onyx +4%,Triangle,Death,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Onyx +16%,Triangle,Death,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Onyx +11%,Triangle,Death,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Onyx +8%,Triangle,Death,75,Accuracy,a,8.0,yes,,Bought; Crafted; Dropped; Gardened
+Plain Accurate Onyx +7%,Triangle,Death,65,Accuracy,a,7.0,yes,,Crafted; Dropped; Gardened
+Polished Accurate Onyx +10%,Triangle,Death,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Onyx +12%,Triangle,Death,115,Accuracy,a,12.0,yes,,Bought; Dropped; Gardened
+Sparkling Accurate Onyx +13%,Triangle,Death,125,Accuracy,a,13.0,yes,,Dropped
+Unearthly Conversion Onyx +62,Triangle,Death,170,Pip Conversion,pc,62.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Ruby +15%,Triangle,Fire,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Ruby +5%,Triangle,Fire,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Ruby +65,Triangle,Fire,180,Pip Conversion,pc,65.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Ruby +3%,Triangle,Fire,25,Accuracy,a,3.0,yes,,Crafted; Dropped; Gardened
+Clear Accurate Ruby +9%,Triangle,Fire,85,Accuracy,a,9.0,yes,,Bought; Crafted; Dropped; Gardened
+Cracked Accurate Ruby +1%,Triangle,Fire,15,Accuracy,a,1.0,yes,,Crafted; Dropped
+Cracked Accurate Ruby +2%,Triangle,Fire,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Ruby +14%,Triangle,Fire,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Ruby +6%,Triangle,Fire,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Ruby +4%,Triangle,Fire,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Ruby +16%,Triangle,Fire,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Ruby +11%,Triangle,Fire,105,Accuracy,a,11.0,yes,,Crafted; Dropped; Gardened
+Opaque Accurate Ruby +8%,Triangle,Fire,75,Accuracy,a,8.0,yes,,Bought; Crafted; Dropped; Gardened
+Plain Accurate Ruby +7%,Triangle,Fire,65,Accuracy,a,7.0,yes,,Crafted; Dropped; Gardened
+Polished Accurate Ruby +10%,Triangle,Fire,95,Accuracy,a,10.0,yes,,Crafted; Dropped; Gardened
+Shiny Accurate Ruby +12%,Triangle,Fire,115,Accuracy,a,12.0,yes,,Bought; Dropped; Gardened
+Sparkling Accurate Ruby +13%,Triangle,Fire,125,Accuracy,a,13.0,yes,,Bought; Dropped
+Unearthly Conversion Ruby +60,Triangle,Fire,170,Pip Conversion,pc,60.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Sapphire +15%,Triangle,Ice,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Sapphire +5%,Triangle,Ice,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Sapphire +66,Triangle,Ice,180,Pip Conversion,pc,66.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Sapphire +3%,Triangle,Ice,25,Accuracy,a,3.0,yes,,Crafted; Dropped; Gardened
+Clear Accurate Sapphire +9%,Triangle,Ice,85,Accuracy,a,9.0,yes,,Dropped; Gardened
+Cracked Accurate Sapphire +1%,Triangle,Ice,15,Accuracy,a,1.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Sapphire +2%,Triangle,Ice,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Sapphire +14%,Triangle,Ice,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Sapphire +6%,Triangle,Ice,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Sapphire +4%,Triangle,Ice,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Sapphire +16%,Triangle,Ice,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Sapphire +11%,Triangle,Ice,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Sapphire +8%,Triangle,Ice,75,Accuracy,a,8.0,yes,,Crafted; Dropped; Gardened
+Plain Accurate Sapphire +7%,Triangle,Ice,65,Accuracy,a,7.0,yes,,Crafted; Dropped; Gardened
+Polished Accurate Sapphire +10%,Triangle,Ice,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Sapphire +12%,Triangle,Ice,115,Accuracy,a,12.0,yes,,Dropped; Gardened
+Sparkling Accurate Sapphire +13%,Triangle,Ice,125,Accuracy,a,13.0,yes,,Dropped
+Unearthly Conversion Sapphire +61,Triangle,Ice,170,Pip Conversion,pc,61.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Jade +15%,Triangle,Life,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Jade +5%,Triangle,Life,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Jade +67,Triangle,Life,180,Pip Conversion,pc,67.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Jade +3%,Triangle,Life,25,Accuracy,a,3.0,yes,,Crafted; Dropped; Gardened
+Clear Accurate Jade +9%,Triangle,Life,85,Accuracy,a,9.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Jade +1%,Triangle,Life,15,Accuracy,a,1.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Jade +2%,Triangle,Life,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Jade +14%,Triangle,Life,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Jade +6%,Triangle,Life,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Jade +4%,Triangle,Life,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Jade +16%,Triangle,Life,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Jade +11%,Triangle,Life,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Jade +8%,Triangle,Life,75,Accuracy,a,8.0,yes,,Crafted; Dropped; Gardened
+Plain Accurate Jade +7%,Triangle,Life,65,Accuracy,a,7.0,yes,,Dropped; Gardened
+Polished Accurate Jade +10%,Triangle,Life,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Jade +12%,Triangle,Life,115,Accuracy,a,12.0,yes,,Bought; Dropped; Gardened
+Sparkling Accurate Jade +13%,Triangle,Life,125,Accuracy,a,13.0,yes,,Bought; Dropped
+Unearthly Conversion Jade +62,Triangle,Life,170,Pip Conversion,pc,62.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Peridot +15%,Triangle,Myth,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Peridot +5%,Triangle,Myth,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Peridot +66,Triangle,Myth,180,Pip Conversion,pc,66.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Peridot +3%,Triangle,Myth,25,Accuracy,a,3.0,yes,,Bought; Crafted; Dropped; Gardened
+Clear Accurate Peridot +9%,Triangle,Myth,85,Accuracy,a,9.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Peridot +1%,Triangle,Myth,15,Accuracy,a,1.0,yes,,Crafted; Dropped
+Cracked Accurate Peridot +2%,Triangle,Myth,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Peridot +14%,Triangle,Myth,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Peridot +6%,Triangle,Myth,55,Accuracy,a,6.0,yes,,Bought; Crafted; Dropped; Gardened
+Flawed Accurate Peridot +4%,Triangle,Myth,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Peridot +16%,Triangle,Myth,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Peridot +11%,Triangle,Myth,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Peridot +8%,Triangle,Myth,75,Accuracy,a,8.0,yes,,Crafted; Dropped; Gardened
+Plain Accurate Peridot +7%,Triangle,Myth,65,Accuracy,a,7.0,yes,,Bought; Crafted; Dropped; Gardened
+Polished Accurate Peridot +10%,Triangle,Myth,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Peridot +12%,Triangle,Myth,115,Accuracy,a,12.0,yes,,Dropped; Gardened
+Sparkling Accurate Peridot +13%,Triangle,Myth,125,Accuracy,a,13.0,yes,,Dropped
+Unearthly Conversion Peridot +61,Triangle,Myth,170,Pip Conversion,pc,61.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Hematite +15%,Triangle,Shadow,145,Accuracy,a,15.0,yes,,Dropped
+Amazing PIP Hematite +3,Triangle,Shadow,145,Shadow Pip,sp,3.0,,,Dropped
+Dazzling Accurate Hematite +14%,Triangle,Shadow,135,Accuracy,a,14.0,yes,,Dropped
+Lustrous Accurate Hematite +11%,Triangle,Shadow,105,Accuracy,a,11.0,yes,,Dropped
+Lustrous PIP Hematite +1,Triangle,Shadow,105,Shadow Pip,sp,1.0,,,Bought; Dropped
+Polished Accurate Hematite +10%,Triangle,Shadow,95,Accuracy,a,10.0,yes,,Dropped
+Polished PIP Hematite +1,Triangle,Shadow,95,Shadow Pip,sp,1.0,,,Bought; Dropped; Item Granted
+Shiny Accurate Hematite +12%,Triangle,Shadow,115,Accuracy,a,12.0,yes,,Dropped
+Shiny PIP Hematite +2,Triangle,Shadow,115,Shadow Pip,sp,2.0,,,Bought; Dropped
+Sparkling Accurate Hematite +13%,Triangle,Shadow,125,Accuracy,a,13.0,yes,,Dropped
+Sparkling PIP Hematite +2,Triangle,Shadow,125,Shadow Pip,sp,2.0,,,Bought; Dropped
+Unearthly Shadow Hematite +10,Triangle,Shadow,170,Shadow Pip,sp,10.0,,yes,Bought; Crafted; Dropped
+Amazing Accurate Amethyst +15%,Triangle,Storm,145,Accuracy,a,15.0,yes,,Bought; Dropped; Special Events
+Blemished Accurate Amethyst +5%,Triangle,Storm,45,Accuracy,a,5.0,yes,,Bought; Crafted; Dropped; Gardened
+Bright Conversion Amethyst +65,Triangle,Storm,180,Pip Conversion,pc,65.0,,yes,Bought; Crafted; Dropped
+Chipped Accurate Amethyst +3%,Triangle,Storm,25,Accuracy,a,3.0,yes,,Crafted; Dropped; Gardened
+Clear Accurate Amethyst +9%,Triangle,Storm,85,Accuracy,a,9.0,yes,,Crafted; Dropped; Gardened
+Cracked Accurate Amethyst +1%,Triangle,Storm,15,Accuracy,a,1.0,yes,,Crafted; Dropped
+Cracked Accurate Amethyst +2%,Triangle,Storm,15,Accuracy,a,2.0,yes,,Crafted; Dropped
+Dazzling Accurate Amethyst +14%,Triangle,Storm,135,Accuracy,a,14.0,yes,,Bought; Dropped
+Dull Accurate Amethyst +6%,Triangle,Storm,55,Accuracy,a,6.0,yes,,Crafted; Dropped; Gardened
+Flawed Accurate Amethyst +4%,Triangle,Storm,35,Accuracy,a,4.0,yes,,Crafted; Dropped; Gardened
+Flawless Accurate Amethyst +16%,Triangle,Storm,155,Accuracy,a,16.0,yes,yes,Bought; Crafted; Dropped
+Lustrous Accurate Amethyst +11%,Triangle,Storm,105,Accuracy,a,11.0,yes,,Bought; Crafted; Dropped; Gardened
+Opaque Accurate Amethyst +8%,Triangle,Storm,75,Accuracy,a,8.0,yes,,Crafted; Dropped; Gardened
+Plain Accurate Amethyst +7%,Triangle,Storm,65,Accuracy,a,7.0,yes,,Crafted; Dropped; Gardened
+Polished Accurate Amethyst +10%,Triangle,Storm,95,Accuracy,a,10.0,yes,,Bought; Crafted; Dropped; Gardened
+Shiny Accurate Amethyst +12%,Triangle,Storm,115,Accuracy,a,12.0,yes,,Bought; Dropped; Gardened
+Sparkling Accurate Amethyst +13%,Triangle,Storm,125,Accuracy,a,13.0,yes,,Dropped
+Unearthly Conversion Amethyst +60,Triangle,Storm,170,Pip Conversion,pc,60.0,,yes,Bought; Crafted; Dropped
